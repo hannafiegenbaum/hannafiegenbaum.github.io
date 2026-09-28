@@ -3,10 +3,10 @@
 
 <head>
 
-    <title>Hanna Fiegenbaum | Sustainability strategist and ecological economist</title>
+    <title>Hanna Fiegenbaum | Ecological Economist</title>
 
     <meta name="description"
-          content="Hanna Fiegenbaum – ecological economist working on nature-related decision making, environmental economics and finance.">
+          content="Hanna Fiegenbaum – ecological economist working on nature-positive decision making, environmental economics and finance.">
 
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
@@ -39,29 +39,41 @@
         }
 
 
-        /* -------------------------
-           HEADER
-        ------------------------- */
+        /* =========================
+           MAIN PAGE
+        ========================= */
 
-        .banner {
-            width: 100%;
-        }
-
-        nav {
-            max-width: 1200px;
+        .home {
+            max-width: 1500px;
             margin: 0 auto;
-            padding: 45px 40px 25px;
-
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
+            padding: 55px 70px 100px;
         }
 
 
-        /* Hanna Fiegenbaum = Avenir */
+        /* =========================
+           MAIN GRID
 
-        nav h1 {
-            margin: 0;
+           Name | About | Research | Publications | Projects
+        ========================= */
+
+        .home-grid {
+            display: grid;
+
+            grid-template-columns:
+                2.8fr
+                repeat(4, 1fr);
+
+            gap: 28px;
+            align-items: start;
+        }
+
+
+        /* =========================
+           NAME
+        ========================= */
+
+        .name {
+            display: block;
 
             font-family:
                 "Avenir Next",
@@ -70,83 +82,23 @@
                 Arial,
                 sans-serif;
 
-            font-size: 25px;
-            font-weight: 500;
-            letter-spacing: 0.01em;
-        }
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
 
-        nav h1 a {
             color: var(--black);
             text-decoration: none;
         }
 
 
-        /* Navigation = Palatino */
+        /* =========================
+           SHORT DESCRIPTION
+        ========================= */
 
-        nav ul {
-            display: flex;
-            gap: 30px;
+        .short-bio {
+            max-width: 270px;
 
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav li {
-            font-size: 18px;
-        }
-
-        nav a {
-            color: var(--anthracite);
-            text-decoration: none;
-        }
-
-        nav ul a:hover {
-            color: var(--blue);
-        }
-
-
-        /* -------------------------
-           HOME IMAGE GRID
-        ------------------------- */
-
-        .main-home {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 60px 40px 80px;
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-        }
-
-        .single-img a {
-            text-decoration: none;
-            color: var(--anthracite);
-        }
-
-
-        /* PHOTOS */
-
-        .single-img img {
-            width: 100%;
-            aspect-ratio: 4 / 5;
-
-            object-fit: cover;
-            display: block;
-
-            /* thin black frame */
-            border: 1px solid var(--black);
-        }
-
-
-        /* TEXT BELOW PHOTOS */
-
-        .text-below-images {
-            display: block;
-            margin-top: 14px;
+            margin: 28px 0 0;
 
             font-family:
                 Palatino,
@@ -155,67 +107,169 @@
                 Georgia,
                 serif;
 
-            font-size: 19px;
-            font-weight: normal;
+            font-size: 16px;
+            line-height: 1.55;
+            font-weight: 400;
+
+            color: var(--anthracite);
         }
 
-        .single-img a:hover .text-below-images {
+
+        /* =========================
+           SECTION LINKS
+        ========================= */
+
+        .section-link {
+            display: block;
+
+            margin-bottom: 35px;
+
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+
+            font-size: 18px;
+            font-weight: 400;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .section-link:hover {
             color: var(--blue);
         }
 
 
-        /* -------------------------
+        /* =========================
+           PHOTOS
+        ========================= */
+
+        .section-card img {
+            display: block;
+
+            width: 100%;
+            aspect-ratio: 4 / 5;
+
+            object-fit: cover;
+
+            border: 1px solid var(--black);
+        }
+
+
+        /* subtle hover */
+
+        .section-card img {
+            transition: opacity 0.2s ease;
+        }
+
+        .section-card a:hover img {
+            opacity: 0.88;
+        }
+
+
+        /* =========================
            FOOTER
-        ------------------------- */
+        ========================= */
 
         footer {
-            max-width: 1200px;
+            max-width: 1500px;
             margin: 0 auto;
-            padding: 10px 40px 45px;
 
-            font-size: 15px;
+            padding: 20px 70px 50px;
         }
 
         footer a {
-            color: var(--anthracite);
+            margin-right: 25px;
+
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+
+            font-size: 15px;
+
+            color: var(--blue);
             text-decoration: none;
-            margin-right: 22px;
         }
 
         footer a:hover {
-            color: var(--blue);
+            text-decoration: underline;
         }
 
 
-        /* -------------------------
-           MOBILE
-        ------------------------- */
+        /* =========================
+           TABLET
+        ========================= */
 
-        @media (max-width: 750px) {
+        @media (max-width: 1000px) {
 
-            nav {
-                display: block;
-                padding: 30px 25px 20px;
+            .home {
+                padding: 40px 35px 70px;
             }
 
-            nav ul {
-                margin-top: 18px;
-                gap: 18px;
-                flex-wrap: wrap;
-            }
-
-            .main-home {
-                padding: 40px 25px 60px;
-            }
-
-            .container {
+            .home-grid {
                 grid-template-columns: repeat(2, 1fr);
-                gap: 35px 20px;
+                gap: 50px 25px;
+            }
+
+            .name-area {
+                grid-column: 1 / -1;
+                margin-bottom: 20px;
+            }
+
+            .short-bio {
+                max-width: 450px;
             }
 
             footer {
-                padding: 10px 25px 35px;
+                padding: 20px 35px 40px;
             }
+
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 600px) {
+
+            .home {
+                padding: 30px 25px 60px;
+            }
+
+            .home-grid {
+                grid-template-columns: 1fr;
+                gap: 45px;
+            }
+
+            .name-area {
+                grid-column: auto;
+                margin-bottom: 20px;
+            }
+
+            .section-link {
+                margin-bottom: 20px;
+            }
+
+            .section-card img {
+                aspect-ratio: 4 / 5;
+            }
+
+            footer {
+                padding: 10px 25px 40px;
+            }
+
+            footer a {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
         }
 
     </style>
@@ -226,54 +280,40 @@
 <body>
 
 
-    <!-- HEADER -->
+    <main class="home">
 
-    <div class="banner">
+        <div class="home-grid">
 
-        <nav>
 
-            <h1>
-                <a href="index.html">
+            <!-- =====================
+                 NAME + DESCRIPTION
+            ====================== -->
+
+            <div class="name-area">
+
+                <a class="name" href="index.html">
                     Hanna Fiegenbaum
                 </a>
-            </h1>
 
-            <ul>
+                <p class="short-bio">
+                    Ecological economist working on nature-positive
+                    decision making, environmental economics and finance.
+                </p>
 
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-
-                <li>
-                    <a href="research.html">Research</a>
-                </li>
-
-                <li>
-                    <a href="publications.html">Publications</a>
-                </li>
-
-                <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </div>
+            </div>
 
 
 
-    <!-- HOME -->
+            <!-- =====================
+                 ABOUT
+            ====================== -->
 
-    <main class="main-home">
+            <div class="section-card">
 
-        <div class="container">
-
-
-            <!-- ABOUT -->
-
-            <div class="single-img">
+                <a href="about.html"
+                   class="section-link">
+                    About
+                </a>
 
                 <a href="about.html">
 
@@ -281,19 +321,22 @@
                         src="img/about.jpg"
                         alt="About Hanna Fiegenbaum">
 
-                    <span class="text-below-images">
-                        About
-                    </span>
-
                 </a>
 
             </div>
 
 
 
-            <!-- RESEARCH -->
+            <!-- =====================
+                 RESEARCH
+            ====================== -->
 
-            <div class="single-img">
+            <div class="section-card">
+
+                <a href="research.html"
+                   class="section-link">
+                    Research
+                </a>
 
                 <a href="research.html">
 
@@ -301,19 +344,22 @@
                         src="img/research.jpg"
                         alt="Research">
 
-                    <span class="text-below-images">
-                        Research
-                    </span>
-
                 </a>
 
             </div>
 
 
 
-            <!-- PUBLICATIONS -->
+            <!-- =====================
+                 PUBLICATIONS
+            ====================== -->
 
-            <div class="single-img">
+            <div class="section-card">
+
+                <a href="publications.html"
+                   class="section-link">
+                    Publications
+                </a>
 
                 <a href="publications.html">
 
@@ -321,29 +367,28 @@
                         src="img/publications.jpg"
                         alt="Publications">
 
-                    <span class="text-below-images">
-                        Publications
-                    </span>
-
                 </a>
 
             </div>
 
 
 
-            <!-- PROJECTS -->
+            <!-- =====================
+                 PROJECTS
+            ====================== -->
 
-            <div class="single-img">
+            <div class="section-card">
+
+                <a href="projects.html"
+                   class="section-link">
+                    Projects
+                </a>
 
                 <a href="projects.html">
 
                     <img
                         src="img/projects.jpg"
                         alt="Projects">
-
-                    <span class="text-below-images">
-                        Projects
-                    </span>
 
                 </a>
 
@@ -356,35 +401,33 @@
 
 
 
-    <!-- FOOTER -->
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
-   <footer>
+    <footer>
 
-    <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
-        Email
-    </a>
+        <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
+            Email
+        </a>
 
-    <a href="https://hannafiegenbaum.github.io/"
-       target="_blank">
-        GitHub
-    </a>
+        <a href="https://www.linkedin.com/in/hannafiegenbaum/"
+           target="_blank">
+            LinkedIn
+        </a>
 
-    <a href="https://www.linkedin.com/in/hannafiegenbaum/"
-       target="_blank">
-        LinkedIn
-    </a>
+        <a href="https://www.instagram.com/hannafiegenbaum/"
+           target="_blank">
+            Instagram
+        </a>
 
-    <a href="https://www.instagram.com/hannafiegenbaum/"
-       target="_blank">
-        Instagram
-    </a>
+        <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
+           target="_blank">
+            Bluesky
+        </a>
 
-    <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
-       target="_blank">
-        Bluesky
-    </a>
+    </footer>
 
-</footer>
 
 </body>
 
