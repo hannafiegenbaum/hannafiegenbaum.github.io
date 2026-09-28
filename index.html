@@ -1,205 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Hanna Fiegenbaum</title>
+    <title>Hanna Fiegenbaum | Sustainability strategist and ecological economist</title>
 
-  <style>
-    :root {
-      --background: #f5f2ec;
-      --text: #292929;
-      --black: #111111;
-      --blue: #17375e;
-    }
+    <meta name="description"
+          content="Hanna Fiegenbaum – ecological economist working on nature-related decision making, environmental economics and finance.">
 
-    * {
-      box-sizing: border-box;
-    }
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    body {
-      margin: 0;
-      background: var(--background);
-      color: var(--text);
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.55;
-    }
+    <style>
 
-    .page {
-      width: min(1120px, calc(100% - 80px));
-      margin: 0 auto;
-    }
+        :root {
+            --background: #f6f3ed;
+            --anthracite: #333333;
+            --black: #000000;
+            --blue: #17365d;
+        }
 
-    /* HEADER */
+        * {
+            box-sizing: border-box;
+        }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      padding: 48px 0 32px;
-    }
+        body {
+            margin: 0;
+            background-color: var(--background);
+            color: var(--anthracite);
 
-    .name {
-      color: var(--black);
-      font-size: 20px;
-      font-weight: 600;
-      text-decoration: none;
-    }
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+        }
 
-    nav {
-      display: flex;
-      gap: 28px;
-    }
 
-    nav a {
-      color: var(--text);
-      text-decoration: none;
-      font-size: 15px;
-    }
+        /* -------------------------
+           HEADER
+        ------------------------- */
 
-    nav a:hover {
-      color: var(--blue);
-    }
+        .banner {
+            width: 100%;
+        }
 
-    /* MAIN */
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 45px 40px 25px;
 
-    main {
-      padding: 100px 0 120px;
-    }
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
 
-    .intro {
-      max-width: 780px;
-    }
 
-    h1 {
-      margin: 0 0 28px;
-      color: var(--black);
-      font-size: clamp(42px, 6vw, 72px);
-      line-height: 1.05;
-      font-weight: 500;
-      letter-spacing: -0.035em;
-    }
+        /* Hanna Fiegenbaum = Avenir */
 
-    .intro p {
-      max-width: 650px;
-      margin: 0;
-      font-size: 21px;
-      line-height: 1.6;
-    }
+        nav h1 {
+            margin: 0;
 
-    .intro a {
-      color: var(--blue);
-    }
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
 
-    /* PHOTO */
+            font-size: 25px;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+        }
 
-    .hero-photo {
-      width: 100%;
-      margin-top: 90px;
-    }
+        nav h1 a {
+            color: var(--black);
+            text-decoration: none;
+        }
 
-    .hero-photo img {
-      display: block;
-      width: 100%;
-      max-height: 620px;
-      object-fit: cover;
-    }
 
-    /* FOOTER */
+        /* Navigation = Palatino */
 
-    footer {
-      padding: 35px 0 50px;
-      font-size: 14px;
-    }
+        nav ul {
+            display: flex;
+            gap: 30px;
 
-    footer a {
-      color: var(--blue);
-      text-decoration: none;
-      margin-right: 20px;
-    }
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
 
-    footer a:hover {
-      text-decoration: underline;
-    }
+        nav li {
+            font-size: 18px;
+        }
 
-    /* MOBILE */
+        nav a {
+            color: var(--anthracite);
+            text-decoration: none;
+        }
 
-    @media (max-width: 700px) {
-      .page {
-        width: min(100% - 40px, 1120px);
-      }
+        nav ul a:hover {
+            color: var(--blue);
+        }
 
-      header {
-        display: block;
-        padding-top: 30px;
-      }
 
-      nav {
-        margin-top: 18px;
-        gap: 16px;
-        flex-wrap: wrap;
-      }
+        /* -------------------------
+           HOME IMAGE GRID
+        ------------------------- */
 
-      main {
-        padding-top: 65px;
-      }
+        .main-home {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 40px 80px;
+        }
 
-      .intro p {
-        font-size: 18px;
-      }
-    }
-  </style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .single-img a {
+            text-decoration: none;
+            color: var(--anthracite);
+        }
+
+
+        /* PHOTOS */
+
+        .single-img img {
+            width: 100%;
+            aspect-ratio: 4 / 5;
+
+            object-fit: cover;
+            display: block;
+
+            /* thin black frame */
+            border: 1px solid var(--black);
+        }
+
+
+        /* TEXT BELOW PHOTOS */
+
+        .text-below-images {
+            display: block;
+            margin-top: 14px;
+
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+
+            font-size: 19px;
+            font-weight: normal;
+        }
+
+        .single-img a:hover .text-below-images {
+            color: var(--blue);
+        }
+
+
+        /* -------------------------
+           FOOTER
+        ------------------------- */
+
+        footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px 40px 45px;
+
+            font-size: 15px;
+        }
+
+        footer a {
+            color: var(--anthracite);
+            text-decoration: none;
+            margin-right: 22px;
+        }
+
+        footer a:hover {
+            color: var(--blue);
+        }
+
+
+        /* -------------------------
+           MOBILE
+        ------------------------- */
+
+        @media (max-width: 750px) {
+
+            nav {
+                display: block;
+                padding: 30px 25px 20px;
+            }
+
+            nav ul {
+                margin-top: 18px;
+                gap: 18px;
+                flex-wrap: wrap;
+            }
+
+            .main-home {
+                padding: 40px 25px 60px;
+            }
+
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 35px 20px;
+            }
+
+            footer {
+                padding: 10px 25px 35px;
+            }
+        }
+
+    </style>
+
 </head>
+
 
 <body>
 
-  <div class="page">
 
-    <header>
-      <a class="name" href="index.html">Hanna Fiegenbaum</a>
+    <!-- HEADER -->
 
-      <nav>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="projects.html">Projects</a>
-      </nav>
-    </header>
+    <div class="banner">
+
+        <nav>
+
+            <h1>
+                <a href="index.html">
+                    Hanna Fiegenbaum
+                </a>
+            </h1>
+
+            <ul>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="research.html">Research</a>
+                </li>
+
+                <li>
+                    <a href="publications.html">Publications</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
 
 
-    <main>
 
-      <section class="intro">
+    <!-- HOME -->
 
-        <h1>Hanna Fiegenbaum</h1>
+    <main class="main-home">
 
-        <p>
-          Ecological economist working at the intersection of
-          decision science, environmental economics and finance,
-          and nature-positive decision making.
-        </p>
-
-      </section>
+        <div class="container">
 
 
-      <!-- We will add your photograph here later.
+            <!-- ABOUT -->
 
-      <section class="hero-photo">
-        <img src="images/photo.jpg" alt="">
-      </section>
+            <div class="single-img">
 
-      -->
+                <a href="about.html">
+
+                    <img
+                        src="img/about.jpg"
+                        alt="About Hanna Fiegenbaum">
+
+                    <span class="text-below-images">
+                        About
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- RESEARCH -->
+
+            <div class="single-img">
+
+                <a href="research.html">
+
+                    <img
+                        src="img/research.jpg"
+                        alt="Research">
+
+                    <span class="text-below-images">
+                        Research
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- PUBLICATIONS -->
+
+            <div class="single-img">
+
+                <a href="publications.html">
+
+                    <img
+                        src="img/publications.jpg"
+                        alt="Publications">
+
+                    <span class="text-below-images">
+                        Publications
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- PROJECTS -->
+
+            <div class="single-img">
+
+                <a href="projects.html">
+
+                    <img
+                        src="img/projects.jpg"
+                        alt="Projects">
+
+                    <span class="text-below-images">
+                        Projects
+                    </span>
+
+                </a>
+
+            </div>
+
+
+        </div>
 
     </main>
 
 
-    <footer>
-      <a href="https://www.linkedin.com/">LinkedIn</a>
-      <a href="https://github.com/hannafiegenbaum">GitHub</a>
-    </footer>
 
-  </div>
+    <!-- FOOTER -->
+
+   <footer>
+
+    <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
+        Email
+    </a>
+
+    <a href="https://hannafiegenbaum.github.io/"
+       target="_blank">
+        GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/hannafiegenbaum/"
+       target="_blank">
+        LinkedIn
+    </a>
+
+    <a href="https://www.instagram.com/hannafiegenbaum/"
+       target="_blank">
+        Instagram
+    </a>
+
+    <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
+       target="_blank">
+        Bluesky
+    </a>
+
+</footer>
 
 </body>
+
 </html>
