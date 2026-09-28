@@ -40,37 +40,28 @@
 
 
         /* =========================
-           MAIN PAGE
+           PAGE
         ========================= */
 
-        .home {
+        .page {
             max-width: 1500px;
             margin: 0 auto;
-            padding: 55px 70px 100px;
+            padding: 55px 70px 0;
         }
 
 
         /* =========================
-           MAIN GRID
-
-           Name | About | Research | Publications | Projects
+           HEADER
         ========================= */
 
-        .home-grid {
-            display: grid;
-
-            grid-template-columns:
-                2.8fr
-                repeat(4, 1fr);
-
-            gap: 28px;
-            align-items: start;
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
         }
 
 
-        /* =========================
-           NAME
-        ========================= */
+        /* NAME */
 
         .name {
             display: block;
@@ -91,14 +82,11 @@
         }
 
 
-        /* =========================
-           SHORT DESCRIPTION
-        ========================= */
+        /* SHORT BIO */
 
         .short-bio {
-            max-width: 270px;
-
-            margin: 28px 0 0;
+            max-width: 280px;
+            margin: 25px 0 0;
 
             font-family:
                 Palatino,
@@ -109,20 +97,58 @@
 
             font-size: 16px;
             line-height: 1.55;
-            font-weight: 400;
 
             color: var(--anthracite);
         }
 
 
+        /* CONTACT + IMPRESSUM */
+
+        .small-nav {
+            display: flex;
+            gap: 22px;
+            padding-top: 4px;
+        }
+
+        .small-nav a {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+
+            color: var(--anthracite);
+            text-decoration: none;
+        }
+
+        .small-nav a:hover {
+            color: var(--blue);
+        }
+
+
         /* =========================
-           SECTION LINKS
+           FOUR SECTIONS
         ========================= */
+
+        .sections {
+            margin-top: 90px;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+
+        /* SECTION TITLE */
 
         .section-link {
             display: block;
-
-            margin-bottom: 35px;
+            margin-bottom: 18px;
 
             font-family:
                 Palatino,
@@ -131,7 +157,7 @@
                 Georgia,
                 serif;
 
-            font-size: 18px;
+            font-size: 19px;
             font-weight: 400;
 
             color: var(--black);
@@ -143,9 +169,7 @@
         }
 
 
-        /* =========================
-           PHOTOS
-        ========================= */
+        /* PHOTO */
 
         .section-card img {
             display: block;
@@ -156,12 +180,7 @@
             object-fit: cover;
 
             border: 1px solid var(--black);
-        }
 
-
-        /* subtle hover */
-
-        .section-card img {
             transition: opacity 0.2s ease;
         }
 
@@ -178,7 +197,7 @@
             max-width: 1500px;
             margin: 0 auto;
 
-            padding: 20px 70px 50px;
+            padding: 55px 70px 50px;
         }
 
         footer a {
@@ -191,7 +210,7 @@
                 Georgia,
                 serif;
 
-            font-size: 15px;
+            font-size: 14px;
 
             color: var(--blue);
             text-decoration: none;
@@ -206,28 +225,19 @@
            TABLET
         ========================= */
 
-        @media (max-width: 1000px) {
+        @media (max-width: 900px) {
 
-            .home {
-                padding: 40px 35px 70px;
+            .page {
+                padding: 40px 35px 0;
             }
 
-            .home-grid {
+            .sections {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 50px 25px;
             }
 
-            .name-area {
-                grid-column: 1 / -1;
-                margin-bottom: 20px;
-            }
-
-            .short-bio {
-                max-width: 450px;
-            }
-
             footer {
-                padding: 20px 35px 40px;
+                padding: 45px 35px 40px;
             }
 
         }
@@ -237,24 +247,24 @@
            MOBILE
         ========================= */
 
-        @media (max-width: 600px) {
+        @media (max-width: 550px) {
 
-            .home {
-                padding: 30px 25px 60px;
+            .page {
+                padding: 30px 25px 0;
             }
 
-            .home-grid {
+            header {
+                display: block;
+            }
+
+            .small-nav {
+                margin-top: 30px;
+            }
+
+            .sections {
+                margin-top: 60px;
                 grid-template-columns: 1fr;
                 gap: 45px;
-            }
-
-            .name-area {
-                grid-column: auto;
-                margin-bottom: 20px;
-            }
-
-            .section-link {
-                margin-bottom: 20px;
             }
 
             .section-card img {
@@ -262,7 +272,7 @@
             }
 
             footer {
-                padding: 10px 25px 40px;
+                padding: 40px 25px;
             }
 
             footer a {
@@ -280,16 +290,14 @@
 <body>
 
 
-    <main class="home">
-
-        <div class="home-grid">
+    <div class="page">
 
 
-            <!-- =====================
-                 NAME + DESCRIPTION
-            ====================== -->
+        <!-- HEADER -->
 
-            <div class="name-area">
+        <header>
+
+            <div>
 
                 <a class="name" href="index.html">
                     Hanna Fiegenbaum
@@ -303,10 +311,28 @@
             </div>
 
 
+            <nav class="small-nav">
 
-            <!-- =====================
-                 ABOUT
-            ====================== -->
+                <a href="contact.html">
+                    Contact
+                </a>
+
+                <a href="impressum.html">
+                    Impressum
+                </a>
+
+            </nav>
+
+        </header>
+
+
+
+        <!-- MAIN SECTIONS -->
+
+        <main class="sections">
+
+
+            <!-- ABOUT -->
 
             <div class="section-card">
 
@@ -327,9 +353,7 @@
 
 
 
-            <!-- =====================
-                 RESEARCH
-            ====================== -->
+            <!-- RESEARCH -->
 
             <div class="section-card">
 
@@ -350,9 +374,7 @@
 
 
 
-            <!-- =====================
-                 PUBLICATIONS
-            ====================== -->
+            <!-- PUBLICATIONS -->
 
             <div class="section-card">
 
@@ -373,9 +395,7 @@
 
 
 
-            <!-- =====================
-                 PROJECTS
-            ====================== -->
+            <!-- PROJECTS -->
 
             <div class="section-card">
 
@@ -395,15 +415,13 @@
             </div>
 
 
-        </div>
+        </main>
 
-    </main>
+    </div>
 
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- FOOTER -->
 
     <footer>
 
