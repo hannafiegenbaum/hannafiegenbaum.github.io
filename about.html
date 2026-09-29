@@ -16,9 +16,7 @@
 
         :root {
             --background: #f6f3ed;
-            --anthracite: #333333;
             --black: #000000;
-            --blue: #17365d;
         }
 
         * {
@@ -33,7 +31,7 @@
 
         body {
             background-color: var(--background);
-            color: var(--anthracite);
+            color: var(--black);
         }
 
 
@@ -84,12 +82,12 @@
             font-weight: 400;
             letter-spacing: 0.05em;
 
-            color: var(--anthracite);
+            color: var(--black);
             text-decoration: none;
         }
 
         .top-nav a:hover {
-            color: var(--blue);
+            text-decoration: underline;
         }
 
 
@@ -99,7 +97,7 @@
 
         main {
             max-width: 1500px;
-            margin: 60px auto 0;
+            margin: 55px auto 0;
             padding: 0 45px;
         }
 
@@ -111,7 +109,7 @@
                 Times,
                 serif;
 
-            font-size: 30px;
+            font-size: 25px;
             line-height: 1.1;
             font-weight: 400;
 
@@ -122,51 +120,51 @@
             width: 100%;
             height: 1px;
 
-            margin: 16px 0 38px;
+            margin: 14px 0 38px;
 
             background-color: var(--black);
         }
 
 
         /* =====================================
-           ABOUT GRID
+           THREE-COLUMN ABOUT LAYOUT
         ===================================== */
 
-        .about-grid {
+        .about-layout {
             display: grid;
 
             grid-template-columns:
-                minmax(210px, 285px)
-                minmax(450px, 720px);
+                210px
+                minmax(400px, 610px)
+                240px;
 
-            gap: 65px;
+            gap: 55px;
 
+            justify-content: center;
             align-items: start;
         }
 
 
         /* =====================================
-           PROFILE PHOTO
+           LEFT PORTRAIT
         ===================================== */
 
         .portrait {
-            max-width: 285px;
+            width: 190px;
         }
 
         .portrait img {
             display: block;
 
             width: 100%;
-
-            aspect-ratio: 4 / 5;
-            object-fit: cover;
+            height: auto;
 
             border: 1px solid var(--black);
         }
 
 
         /* =====================================
-           ABOUT TEXT
+           CENTRAL TEXT
         ===================================== */
 
         .about-text {
@@ -181,7 +179,7 @@
             line-height: 1.6;
             font-weight: 400;
 
-            color: var(--anthracite);
+            color: var(--black);
         }
 
         .about-text p {
@@ -214,15 +212,20 @@
 
 
         /* =====================================
-           FOREST PHOTO
+           RIGHT FOREST PHOTO
         ===================================== */
 
-        .forest-photo {
-            width: 55%;
-            margin: 28px 0 32px auto;
+        .forest-column {
+            width: 220px;
+
+            /*
+               Pushes the forest image down the page
+               while keeping it outside the text.
+            */
+            padding-top: 520px;
         }
 
-        .forest-photo img {
+        .forest-column img {
             display: block;
 
             width: 100%;
@@ -255,7 +258,7 @@
             font-size: 13px;
             font-weight: 400;
 
-            color: var(--blue);
+            color: var(--black);
             text-decoration: none;
         }
 
@@ -268,34 +271,24 @@
            TABLET
         ===================================== */
 
-        @media (max-width: 900px) {
+        @media (max-width: 1050px) {
 
-            header {
-                padding: 30px 35px 0;
-            }
-
-            main {
-                padding: 0 35px;
-            }
-
-            .about-grid {
+            .about-layout {
                 grid-template-columns:
-                    minmax(190px, 240px)
-                    1fr;
+                    160px
+                    minmax(380px, 560px)
+                    180px;
 
-                gap: 45px;
+                gap: 35px;
             }
 
             .portrait {
-                max-width: 240px;
+                width: 150px;
             }
 
-            .forest-photo {
-                width: 65%;
-            }
-
-            footer {
-                padding: 0 35px 40px;
+            .forest-column {
+                width: 170px;
+                padding-top: 500px;
             }
         }
 
@@ -304,7 +297,7 @@
            MOBILE
         ===================================== */
 
-        @media (max-width: 650px) {
+        @media (max-width: 760px) {
 
             header {
                 padding: 27px 25px 0;
@@ -319,25 +312,25 @@
             }
 
             main {
-                margin-top: 50px;
+                margin-top: 48px;
                 padding: 0 25px;
             }
 
             h1 {
-                font-size: 27px;
+                font-size: 23px;
             }
 
             .title-line {
                 margin-bottom: 30px;
             }
 
-            .about-grid {
-                grid-template-columns: 1fr;
-                gap: 32px;
+            .about-layout {
+                display: block;
             }
 
             .portrait {
-                max-width: 260px;
+                width: 160px;
+                margin: 0 0 35px;
             }
 
             .about-text {
@@ -348,9 +341,10 @@
                 font-size: 19px;
             }
 
-            .forest-photo {
-                width: 75%;
-                margin: 25px 0 30px auto;
+            .forest-column {
+                width: 65%;
+                padding-top: 0;
+                margin: 35px 0 0 auto;
             }
 
             footer {
@@ -410,11 +404,11 @@
         <div class="title-line"></div>
 
 
-        <div class="about-grid">
+        <div class="about-layout">
 
 
             <!-- =====================================
-                 PROFILE PHOTO
+                 LEFT: PORTRAIT
             ====================================== -->
 
             <div class="portrait">
@@ -428,7 +422,7 @@
 
 
             <!-- =====================================
-                 ABOUT TEXT
+                 CENTRE: ABOUT TEXT
             ====================================== -->
 
             <div class="about-text">
@@ -463,7 +457,6 @@
                     time, and how different mechanisms fit stakeholder preferences
                     and contributions.
                 </p>
-
 
 
                 <!-- HOW DID I GET THERE? -->
@@ -516,19 +509,6 @@
                 </p>
 
 
-
-                <!-- FOREST PHOTO -->
-
-                <div class="forest-photo">
-
-                    <img
-                        src="img/Bildschirmfoto 2026-06-02 um 14.51.33.png"
-                        alt="meadow landscape in Germany">
-
-                </div>
-
-
-
                 <!-- WHAT ELSE AM I INTERESTED IN? -->
 
                 <h2>What else am I interested in?</h2>
@@ -544,8 +524,22 @@
                     food and ecosystems.
                 </p>
 
+            </div>
+
+
+
+            <!-- =====================================
+                 RIGHT: FOREST PHOTO
+            ====================================== -->
+
+            <div class="forest-column">
+
+                <img
+                    src="img/Bildschirmfoto 2026-06-02 um 14.51.33.png"
+                    alt="Meadow landscape in Germany">
 
             </div>
+
 
         </div>
 
