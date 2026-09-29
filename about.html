@@ -1,1 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <title>About | Hanna Fiegenbaum</title>
+
+    <meta name="description"
+          content="A....">
+
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        :root {
+            --background: #f6f3ed;
+            --anthracite: #333333;
+            --black: #000000;
+            --blue: #17365d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            min-height: 100%;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--anthracite);
+        }
+
+
+        /* =====================================
+           HEADER
+        ===================================== */
+
+        header {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 35px 45px 0;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .name {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .top-nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .top-nav a {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+
+            color: var(--anthracite);
+            text-decoration: none;
+        }
+
+        .top-nav a:hover {
+            color: var(--blue);
+        }
+
+
+        /* =====================================
+           MAIN
+        ===================================== */
+
+        main {
+            max-width: 1500px;
+            margin: 75px auto 0;
+            padding: 0 45px;
+        }
+
+        h1 {
+            margin: 0;
+
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .title-line {
+            width: 100%;
+            height: 1px;
+
+            margin: 20px 0 50px;
+
+            background-color: var(--black);
+        }
+
+
+        /* =====================================
+           ABOUT CONTENT
+        ===================================== */
+
+        .about-grid {
+            display: grid;
+
+            grid-template-columns:
+                minmax(250px, 360px)
+                minmax(450px, 720px);
+
+            gap: 85px;
+            align-items: start;
+        }
+
+
+        /* =====================================
+           PHOTO
+        ===================================== */
+
+        .portrait img {
+            display: block;
+
+            width: 100%;
+
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+
+            border: 1px solid var(--black);
+        }
+
+
+        /* =====================================
+           ABOUT TEXT
+        ===================================== */
+
+        .about-text {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 16px;
+            line-height: 1.7;
+            font-weight: 400;
+
+            color: var(--anthracite);
+        }
+
+        .about-text p {
+            margin: 0 0 25px;
+        }
+
+        .about-text .intro {
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+
+            font-size: 23px;
+            line-height: 1.5;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+
+        /* =====================================
+           SUBSECTIONS
+        ===================================== */
+
+        .about-text h2 {
+            margin: 50px 0 17px;
+
+            font-family:
+                Palatino,
+                "Palatino Linotype",
+                "Book Antiqua",
+                Georgia,
+                serif;
+
+            font-size: 21px;
+            line-height: 1.2;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .about-text ul {
+            margin: 0;
+            padding: 0;
+
+            list-style: none;
+        }
+
+        .about-text li {
+            margin: 0 0 9px;
+        }
+
+        .about-text a {
+            color: var(--blue);
+            text-decoration: none;
+        }
+
+        .about-text a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =====================================
+           FOOTER
+        ===================================== */
+
+        footer {
+            max-width: 1500px;
+            margin: 100px auto 0;
+            padding: 0 45px 45px;
+        }
+
+        footer a {
+            margin-right: 30px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            font-weight: 400;
+
+            color: var(--blue);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =====================================
+           TABLET
+        ===================================== */
+
+        @media (max-width: 900px) {
+
+            header {
+                padding: 35px 35px 0;
+            }
+
+            main {
+                padding: 0 35px;
+            }
+
+            .about-grid {
+                grid-template-columns:
+                    minmax(220px, 0.8fr)
+                    1.4fr;
+
+                gap: 50px;
+            }
+
+            footer {
+                padding: 0 35px 40px;
+            }
+
+        }
+
+
+        /* =====================================
+           MOBILE
+        ===================================== */
+
+        @media (max-width: 650px) {
+
+            header {
+                padding: 30px 25px 0;
+            }
+
+            .top-nav {
+                gap: 12px;
+            }
+
+            main {
+                margin-top: 60px;
+                padding: 0 25px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            .title-line {
+                margin-bottom: 35px;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .portrait {
+                max-width: 400px;
+            }
+
+            .about-text {
+                font-size: 15px;
+            }
+
+            .about-text .intro {
+                font-size: 21px;
+            }
+
+            footer {
+                margin-top: 70px;
+                padding: 0 25px 35px;
+            }
+
+            footer a {
+                display: inline-block;
+                margin-right: 20px;
+                margin-bottom: 10px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         HEADER
+    ====================================== -->
+
+    <header>
+
+        <a class="name" href="index.html">
+            Hanna Fiegenbaum
+        </a>
+
+        <nav class="top-nav">
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="impressum.html">
+                Impressum
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================
+         MAIN CONTENT
+    ====================================== -->
+
+    <main>
+
+        <h1>About</h1>
+
+        <div class="title-line"></div>
+
+
+        <div class="about-grid">
+
+
+            <!-- PHOTO -->
+
+            <div class="portrait">
+
+                <img
+                    src="img/about.jpg"
+                    alt="Hanna Fiegenbaum">
+
+            </div>
+
+
+
+            <!-- ABOUT TEXT -->
+
+            <div class="about-text">
+
+
+                <p class="intro">
+                    Hanna Fiegenbaum is an ecological economist
+                    working on nature-positive decision making,
+                    environmental economics and finance.
+                </p>
+
+
+                <p>
+                    Your main about text goes here. This can briefly
+                    describe your interdisciplinary background,
+                    the questions you work on, and how your research
+                    and applied work connect.
+                </p>
+
+
+                <p>
+                    A second paragraph can provide some more context
+                    on your work across research, policy and practice.
+                </p>
+
+
+
+                <!-- CURRENT AFFILIATIONS -->
+
+                <h2>Current affiliations</h2>
+
+                <ul>
+
+                    <li>
+                        Guest Researcher — IMISE, Leipzig University
+                    </li>
+
+                    <li>
+                        External Expert — European Commission Joint Research Centre
+                    </li>
+
+                </ul>
+
+
+
+                <!-- SELECTED EXPERT ROLES -->
+
+                <h2>Selected expert roles</h2>
+
+                <ul>
+
+                    <li>
+                        IPBES — Contributing Author
+                    </li>
+
+                    <li>
+                        IUCN Commission on Ecosystem Management
+                    </li>
+
+                    <li>
+                        German TNFD Consultation Group
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer>
+
+        <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
+            Email
+        </a>
+
+        <a href="https://github.com/hannafiegenbaum"
+           target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/hannafiegenbaum/"
+           target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/hannafiegenbaum/"
+           target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
+           target="_blank">
+            Bluesky
+        </a>
+
+    </footer>
+
+
+</body>
+
+</html>
