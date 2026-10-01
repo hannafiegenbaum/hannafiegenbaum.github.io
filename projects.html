@@ -1,1 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <title>Projects | Hanna Fiegenbaum</title>
+
+    <meta name="description"
+          content="Projects by Hanna Fiegenbaum.">
+
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        :root {
+            --background: #f3f6ee;
+            --anthracite: #333333;
+            --black: #000000;
+            --blue: #17365d;
+            --green: #87FAB1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            min-height: 100%;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--black);
+        }
+
+
+        /* =====================================
+           HEADER
+        ===================================== */
+
+        header {
+            max-width: 1650px;
+            margin: 0 auto;
+            padding: 35px 45px 0;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+
+        /* =====================================
+           NAME
+        ===================================== */
+
+        .name {
+            display: block;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 0;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .name:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           CONTACT + IMPRESSUM
+        ===================================== */
+
+        .top-nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .top-nav a {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .top-nav a:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           MAIN
+        ===================================== */
+
+        main {
+            max-width: 1120px;
+            margin: 65px auto 0;
+            padding: 0 45px;
+            min-height: 450px;
+        }
+
+        h1 {
+            margin: 0;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 20px;
+            line-height: 1.1;
+            font-weight: 700;
+
+            color: var(--black);
+        }
+
+
+        /* =====================================
+           FOOTER
+        ===================================== */
+
+        footer {
+            max-width: 1650px;
+            margin: 70px auto 0;
+            padding: 0 45px 45px;
+        }
+
+        footer a {
+            margin-right: 30px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            font-weight: 400;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           MOBILE
+        ===================================== */
+
+        @media (max-width: 760px) {
+
+            header {
+                padding: 30px 25px 0;
+            }
+
+            .name {
+                font-size: 24px;
+            }
+
+            .top-nav {
+                gap: 12px;
+            }
+
+            main {
+                margin-top: 50px;
+                padding: 0 25px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            footer {
+                margin-top: 60px;
+                padding: 0 25px 35px;
+            }
+
+            footer a {
+                display: inline-block;
+                margin-right: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <a class="name" href="index.html">
+            Hanna Fiegenbaum
+        </a>
+
+        <nav class="top-nav">
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="impressum.html">
+                Impressum
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main>
+
+        <h1>Projects</h1>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
+            Email
+        </a>
+
+        <a href="https://orcid.org/0000-0002-2462-5924"
+           target="_blank">
+            ORCID
+        </a>
+
+        <a href="https://github.com/hannafiegenbaum"
+           target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/hannafiegenbaum/"
+           target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/hannafiegenbaum/"
+           target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
+           target="_blank">
+            Bluesky
+        </a>
+
+    </footer>
+
+
+</body>
+
+</html>
