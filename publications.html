@@ -1,1 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <title>Publications | Hanna Fiegenbaum</title>
+
+    <meta name="description"
+          content="Publications, preprints and work in progress by Hanna Fiegenbaum.">
+
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        :root {
+            --background: #f3f6ee;
+            --anthracite: #333333;
+            --black: #000000;
+            --blue: #17365d;
+            --green: #87FAB1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            min-height: 100%;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--black);
+        }
+
+
+        /* =====================================
+           HEADER
+        ===================================== */
+
+        header {
+            max-width: 1650px;
+            margin: 0 auto;
+            padding: 35px 45px 0;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+
+        /* =====================================
+           NAME
+        ===================================== */
+
+        .name {
+            display: block;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 0;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .name:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           CONTACT + IMPRESSUM
+        ===================================== */
+
+        .top-nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .top-nav a {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .top-nav a:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           MAIN
+        ===================================== */
+
+        main {
+            max-width: 1120px;
+            margin: 65px auto 0;
+            padding: 0 45px;
+        }
+
+        h1 {
+            margin: 0 0 45px;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 20px;
+            line-height: 1.1;
+            font-weight: 700;
+
+            color: var(--black);
+        }
+
+
+        /* =====================================
+           PUBLICATION SECTIONS
+        ===================================== */
+
+        .publication-section {
+            margin-bottom: 65px;
+        }
+
+        .publication-section h2 {
+            margin: 0 0 30px;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+
+            color: var(--black);
+        }
+
+
+        /* =====================================
+           PUBLICATION ENTRY
+        ===================================== */
+
+        .publication {
+            display: grid;
+            grid-template-columns: 65px minmax(0, 1fr);
+            column-gap: 30px;
+
+            margin-bottom: 30px;
+        }
+
+        .year {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 12px;
+            line-height: 1.6;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .publication-content {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .publication-content p {
+            margin: 0;
+        }
+
+        .publication-content a {
+            color: var(--black);
+            font: inherit;
+            text-decoration: underline;
+        }
+
+        .publication-content a:hover {
+            color: var(--black);
+        }
+
+        .publication-title {
+            font-weight: 500;
+        }
+
+        .publication-note {
+            font-style: italic;
+        }
+
+
+        /* =====================================
+           FOOTER
+        ===================================== */
+
+        footer {
+            max-width: 1650px;
+            margin: 70px auto 0;
+            padding: 0 45px 45px;
+        }
+
+        footer a {
+            margin-right: 30px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            font-weight: 400;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           MOBILE
+        ===================================== */
+
+        @media (max-width: 760px) {
+
+            header {
+                padding: 30px 25px 0;
+            }
+
+            .name {
+                font-size: 24px;
+            }
+
+            .top-nav {
+                gap: 12px;
+            }
+
+            main {
+                margin-top: 50px;
+                padding: 0 25px;
+            }
+
+            h1 {
+                font-size: 20px;
+                margin-bottom: 35px;
+            }
+
+            .publication-section h2 {
+                font-size: 18px;
+            }
+
+            .publication {
+                display: block;
+                margin-bottom: 32px;
+            }
+
+            .year {
+                margin-bottom: 4px;
+            }
+
+            .publication-content {
+                font-size: 14px;
+            }
+
+            footer {
+                margin-top: 60px;
+                padding: 0 25px 35px;
+            }
+
+            footer a {
+                display: inline-block;
+                margin-right: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <a class="name" href="index.html">
+            Hanna Fiegenbaum
+        </a>
+
+        <nav class="top-nav">
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="impressum.html">
+                Impressum
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- MAIN -->
+
+    <main>
+
+        <h1>Publications</h1>
+
+
+        <!-- PUBLICATIONS -->
+
+        <section class="publication-section">
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-note">Forthcoming in Sustainable Cities and Society: Advances.</span>
+                        <span class="publication-title">Life Cycle Assessment and Circularity in Practice: A Level(s) 2 Case Study of the GEFION Timber-Based Small Campus Building.</span>
+                        Foerster, Fiegenbaum, et al. (2026).
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Decentralized Internet of Things-Networks in Environmental Data Pipelines - opportunities and challenges in a community-based urban green space restoration project in Nairobi, Kenya.</span>
+                        Fiegenbaum, H., Azegele, B. &amp; Seider, S.
+                        <span class="publication-note">Frontiers in Blockchain: Blockchain for Good.</span>
+                        (2026)
+                        <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full"
+                           target="_blank">Full article</a>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Contributing Author to Chapter 3 of the
+                        <span class="publication-title">IPBES Business &amp; Biodiversity Assessment report:</span>
+                        IPBES (2026). Methodological assessment of the impact and dependence of business on biodiversity and nature’s contributions to people of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services.
+                        Rueda X., Jones M., Polasky S., (eds.). IPBES secretariat, Bonn, Germany.
+                        DOI:
+                        <a href="https://doi.org/10.5281/zenodo.17185116"
+                           target="_blank">10.5281/zenodo.17185116</a>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2025
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">European Level(s) Framework Report:</span>
+                        Foerster et al., 2025:
+                        <span class="publication-title">Life Cycle Assessment and Circularity in Practice: A European Level(s) 2 Case Study of the GEFION Timber-Based Small Campus Building.</span>
+                        DOI:
+                        <a href="https://doi.org/10.5281/zenodo.17130468"
+                           target="_blank">10.5281/zenodo.17130468</a>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2024
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">EuropaBON Essential Biodiversity Variables workflow templates.</span>
+                        <a href="https://zenodo.org/records/10971094"
+                           target="_blank">Zenodo record</a>,
+                        2024.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2016
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Hooks. Tools made by New Caledonian Crows.</span>
+                        +ULTRA. WISSEN SCHAFFT GESTALTUNG, 2016. -
+                        BERLIN, MARTIN-GROPIUS-BAU -
+                        Katalog hrsg. von Nikola Doll et al., Berlin 2016.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2016
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Jacob Berend Bakemas »Pendrecht-Alexanderpolder Grid, a selection of the grid presented at CIAM X«.</span>
+                        +ULTRA. WISSEN SCHAFFT GESTALTUNG, 2016. -
+                        BERLIN, MARTIN-GROPIUS-BAU -
+                        Katalog hrsg. von Nikola Doll et al., Berlin 2016.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- PREPRINTS & WORK IN PROGRESS -->
+
+        <section class="publication-section">
+
+            <h2>Preprints &amp; Work in progress</h2>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum (2026).
+                        <span class="publication-title">Nature credits as co-allocation and co-financing Instruments in environmental policy and nature positive business and finance.</span>
+                        <span class="publication-note">
+                            Preprint available under
+                            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6782218"
+                               target="_blank">SSRN</a>.
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum, H. &amp; Dimitrijevic, J. et al. (2026).
+                        <span class="publication-title">Aligning ecological constraints with corporate planning: biodiversity impact avoidance in businesses site-related decision-making.</span>
+                        <span class="publication-note">Under review.</span>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2025
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum (2025).
+                        <span class="publication-title">Classifying climate benefits from timber use in the building sector, integrating environmental and social safeguards with a focus on biodiversity.</span>
+                        <a href="https://eartharxiv.org/repository/view/9791/"
+                           target="_blank">Preprint</a>,
+                        <span class="publication-note">update forthcoming.</span>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2024
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum (2024).
+                        <span class="publication-title">Complementing Carbon Credits from Forestry with Biodiversity Insurance and Resilience Value.</span>
+                        <a href="https://ideas.repec.org/p/osf/osfxxx/buvzy.html"
+                           target="_blank">Preprint</a>,
+                        <span class="publication-note">Preprint 2024.</span>
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
+            Email
+        </a>
+
+        <a href="https://github.com/hannafiegenbaum"
+           target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/hannafiegenbaum/"
+           target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/hannafiegenbaum/"
+           target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
+           target="_blank">
+            Bluesky
+        </a>
+
+    </footer>
+
+
+</body>
+
+</html>
