@@ -135,16 +135,16 @@
 
 
         /* =====================================
-           THREE-COLUMN ABOUT LAYOUT
+           ABOUT LAYOUT
         ===================================== */
 
         .about-layout {
             display: grid;
 
             grid-template-columns:
-                210px
+                260px
                 minmax(400px, 610px)
-                240px;
+                300px;
 
             gap: 55px;
 
@@ -154,16 +154,32 @@
 
 
         /* =====================================
-           LEFT PORTRAIT
+           LEFT IMAGE COLUMN
         ===================================== */
 
+        .left-images {
+            width: 250px;
+        }
+
         .portrait {
-            width: 190px;
+            width: 230px;
         }
 
         .portrait img {
             display: block;
+            width: 100%;
+            height: auto;
 
+            border: 1px solid var(--black);
+        }
+
+        .forest {
+            width: 230px;
+            margin-top: 760px;
+        }
+
+        .forest img {
+            display: block;
             width: 100%;
             height: auto;
 
@@ -183,7 +199,7 @@
                 Arial,
                 sans-serif;
 
-            font-size: 12px;
+            font-size: 14px;
             line-height: 1.6;
             font-weight: 400;
 
@@ -217,7 +233,7 @@
                 Times,
                 serif;
 
-            font-size: 16px;
+            font-size: 18px;
             line-height: 1.2;
             font-weight: 700;
 
@@ -230,15 +246,19 @@
 
 
         /* =====================================
-           RIGHT FOREST PHOTO
+           RIGHT IMAGE COLUMN
         ===================================== */
 
-        .forest-column {
-            width: 220px;
-            padding-top: 520px;
+        .right-images {
+            width: 290px;
         }
 
-        .forest-column img {
+        .agriculture {
+            width: 290px;
+            margin-top: 330px;
+        }
+
+        .agriculture img {
             display: block;
 
             width: 100%;
@@ -285,7 +305,7 @@
            TABLET
         ===================================== */
 
-        @media (max-width: 1050px) {
+        @media (max-width: 1100px) {
 
             header {
                 padding: 35px 35px 0;
@@ -297,20 +317,33 @@
 
             .about-layout {
                 grid-template-columns:
-                    160px
+                    190px
                     minmax(380px, 560px)
-                    180px;
+                    210px;
 
-                gap: 35px;
+                gap: 30px;
             }
 
-            .portrait {
-                width: 150px;
+            .left-images {
+                width: 180px;
             }
 
-            .forest-column {
-                width: 170px;
-                padding-top: 500px;
+            .portrait,
+            .forest {
+                width: 175px;
+            }
+
+            .forest {
+                margin-top: 720px;
+            }
+
+            .right-images {
+                width: 205px;
+            }
+
+            .agriculture {
+                width: 205px;
+                margin-top: 330px;
             }
 
             footer {
@@ -347,26 +380,40 @@
             }
 
             .about-layout {
-                display: block;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .left-images,
+            .right-images {
+                width: 100%;
             }
 
             .portrait {
-                width: 160px;
-                margin: 0 0 35px;
+                width: 190px;
+                margin: 0 0 30px;
+            }
+
+            .forest {
+                width: 190px;
+                margin: 35px 0 0;
             }
 
             .about-text {
-                font-size: 12px;
+                font-size: 14px;
             }
 
             .about-text h2 {
-                font-size: 16px;
+                font-size: 18px;
             }
 
-            .forest-column {
-                width: 65%;
-                padding-top: 0;
-                margin: 35px 0 0 auto;
+            .right-images {
+                order: 3;
+            }
+
+            .agriculture {
+                width: 75%;
+                margin: 0 0 0 auto;
             }
 
             footer {
@@ -423,13 +470,30 @@
         <div class="about-layout">
 
 
-            <!-- LEFT: PORTRAIT -->
+            <!-- LEFT IMAGES -->
 
-            <div class="portrait">
+            <div class="left-images">
 
-                <img
-                    src="img/IMG_5593.jpg"
-                    alt="Hanna Fiegenbaum">
+                <!-- PORTRAIT -->
+
+                <div class="portrait">
+
+                    <img
+                        src="img/IMG_5593.jpg"
+                        alt="Hanna Fiegenbaum">
+
+                </div>
+
+
+                <!-- FOREST -->
+
+                <div class="forest">
+
+                    <img
+                        src="img/IMG_5762.jpg"
+                        alt="Forest landscape">
+
+                </div>
 
             </div>
 
@@ -498,26 +562,32 @@
                 <h2>How did I get there?</h2>
 
                 <p>
-                   There is a biographical and an educational path to it. I grew up in rural Germany in the federal state of Hesse in an area 
-                    which consists of a lot of small-scale farming and close-to-nature forest management. The region is even famous for its agroecological
-                    practices which are taught at the agroecological institute at the University of Kassel. My grandmother still holds farmland
-                    and agricultural life was part of my everyday childhood life. Nature-related decisions, in this context, were always primarily 
-                    economic decisions, but conservation of natural resources was part of economic security, while living with animals mainly involves a lot of care-taking work.
+                    There is a biographical and an educational path to it. I grew up
+                    in rural Germany in the federal state of Hesse in an area which
+                    consists of a lot of small-scale farming and close-to-nature forest
+                    management. The region is even famous for its agroecological
+                    practices which are taught at the agroecological institute at the
+                    University of Kassel. My grandmother still holds farmland and
+                    agricultural life was part of my everyday childhood life.
+                    Nature-related decisions, in this context, were always primarily
+                    economic decisions, but conservation of natural resources was part
+                    of economic security, while living with animals mainly involves a
+                    lot of care-taking work.
 
-                    As a student, while being a huge sampler across subjects and topics across economics, psychology, applied computer science, 
-                    philosophy, social sciences, embodied cognition and cultural and art history initially, my interests converged toward methodological range.
-                    
-                    The topic of how domain kinds, individuals, processes and their dynamics and interactions condition methodological choices
-                    has always been a priority. Where do methodological choices reflect
-                    domain features, and where are they mostly driven by epistemic conditions and constraints? What types of inference exist or are used to research 
-                    different domains, how may they interdepend and, if so, how are they learned or how do they materialize? What conditions
-                    make different epistemic types of inference internally or externally valid? 
+                    As a student, while being a huge sampler across subjects and topics
+                    across economics, psychology, applied computer science, philosophy,
+                    social sciences, embodied cognition and cultural and art history
+                    initially, my interests converged toward methodological range.
 
-                    
-                </p>
-
-                <p>
-                    
+                    The topic of how domain kinds, individuals, processes and their
+                    dynamics and interactions condition methodological choices has
+                    always been a priority. Where do methodological choices reflect
+                    domain features, and where are they mostly driven by epistemic
+                    conditions and constraints? What types of inference exist or are
+                    used to research different domains, how may they interdepend and,
+                    if so, how are they learned or how do they materialize? What
+                    conditions make different epistemic types of inference internally
+                    or externally valid?
                 </p>
 
                 <p>
@@ -531,31 +601,59 @@
 
 
 
-                <!-- Professional affiliations and expert roles -->
+                <!-- PROFESSIONAL AFFILIATIONS AND EXPERT ROLES -->
 
                 <h2>Professional affiliations and expert roles</h2>
 
                 <ul>
-                   <li>IUCN Impact Mitigation and Ecological Compensation Thematic Group member</li> 
-                       <li>Member of the IUCN Commission on Ecosystem Management</li>  
-                <li>Ecosystem Services Partnership member</li>  
-                  <li>IPBES Contributing Author to the Business & Biodiversity Assessment 11/23 – 02/26</li>
- <li>EC JRC External expert on Nature Credit Price Formation and Sustainable Market Development 01/26 – 08/26</li>
-<li>SBTi Expert Working Group on Timber and Wood Fibre Pathways 05/2025 – 04/2026</li>
-<li>Leipzig University, IMISE, Affiliated Researcher</li>
+
+                    <li>
+                        IUCN Impact Mitigation and Ecological Compensation Thematic Group member
+                    </li>
+
+                    <li>
+                        Member of the IUCN Commission on Ecosystem Management
+                    </li>
+
+                    <li>
+                        Ecosystem Services Partnership member
+                    </li>
+
+                    <li>
+                        IPBES Contributing Author to the Business &amp; Biodiversity Assessment 11/23 – 02/26
+                    </li>
+
+                    <li>
+                        EC JRC External expert on Nature Credit Price Formation and Sustainable Market Development 01/26 – 08/26
+                    </li>
+
+                    <li>
+                        SBTi Expert Working Group on Timber and Wood Fibre Pathways 05/2025 – 04/2026
+                    </li>
+
+                    <li>
+                        Leipzig University, IMISE, Affiliated Researcher
+                    </li>
+
                 </ul>
 
             </div>
 
 
 
-            <!-- RIGHT: FOREST PHOTO -->
+            <!-- RIGHT IMAGE -->
 
-            <div class="forest-column">
+            <div class="right-images">
 
-                <img
-                    src="img/IMG_5762.jpg"
-                    alt="Meadow landscape in Germany">
+                <!-- AGRICULTURE -->
+
+                <div class="agriculture">
+
+                    <img
+                        src="img/agriculture.jpg"
+                        alt="Agricultural landscape">
+
+                </div>
 
             </div>
 
