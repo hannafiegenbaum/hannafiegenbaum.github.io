@@ -3,10 +3,10 @@
 
 <head>
 
-    <title>Publications | Hanna Fiegenbaum</title>
+    <title>Hanna Fiegenbaum | Greening finance & financing green </title>
 
     <meta name="description"
-          content="Publications, preprints and work in progress by Hanna Fiegenbaum.">
+          content="Hanna Fiegenbaum – ecological economist and sustainability practitioner working on nature-related decision making, environmental economics and finance.">
 
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
@@ -34,15 +34,15 @@
 
         body {
             background-color: var(--background);
-            color: var(--black);
+            color: var(--anthracite);
         }
 
 
         /* =====================================
-           HEADER
+           TOP AREA
         ===================================== */
 
-        header {
+        .top-area {
             max-width: 1650px;
             margin: 0 auto;
             padding: 35px 45px 0;
@@ -72,9 +72,31 @@
             color: var(--black);
             text-decoration: none;
         }
-
         .name:hover {
-            color: var(--green);
+    color: var(--green);
+}
+
+
+        /* =====================================
+           SHORT BIO
+        ===================================== */
+
+        .short-bio {
+            max-width: 290px;
+            margin: 38px 0 0;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 15px;
+            line-height: 1.55;
+            font-weight: 400;
+
+            color: var(--black);
         }
 
 
@@ -109,117 +131,72 @@
 
 
         /* =====================================
-           MAIN
+           CENTRAL IMAGE NAVIGATION
         ===================================== */
 
-        main {
-            max-width: 1120px;
+        .visual-navigation {
+            max-width: 1380px;
+
+            /* complete block slightly above centre */
             margin: 65px auto 0;
+
             padding: 0 45px;
-        }
 
-        h1 {
-            margin: 0 0 45px;
-
-            font-family:
-                "Times New Roman",
-                Times,
-                serif;
-
-            font-size: 20px;
-            line-height: 1.1;
-            font-weight: 700;
-
-            color: var(--black);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 38px;
         }
 
 
         /* =====================================
-           PUBLICATION SECTIONS
+           SECTION HEADINGS
         ===================================== */
 
-        .publication-section {
-            margin-bottom: 65px;
-        }
-
-        .publication-section h2 {
-            margin: 0 0 30px;
+        .section-link {
+            display: block;
+            margin-bottom: 18px;
 
             font-family:
                 "Times New Roman",
                 Times,
                 serif;
 
-            font-size: 18px;
+            font-size: 16px;
             line-height: 1.2;
             font-weight: 700;
 
             color: var(--black);
+            text-decoration: none;
+        }
+
+        .section-link:hover {
+            color: var(--green);
         }
 
 
         /* =====================================
-           PUBLICATION ENTRY
+           PHOTOS
         ===================================== */
 
-        .publication {
-            display: grid;
-            grid-template-columns: 65px minmax(0, 1fr);
-            column-gap: 30px;
-
-            margin-bottom: 30px;
+        .photo-link {
+            display: block;
         }
 
-        .year {
-            font-family:
-                "Avenir Next",
-                Avenir,
-                "Helvetica Neue",
-                Arial,
-                sans-serif;
+        .section-card img {
+            display: block;
 
-            font-size: 12px;
-            line-height: 1.6;
-            font-weight: 400;
+            width: 100%;
+            aspect-ratio: 4 / 5;
 
-            color: var(--black);
+            object-fit: cover;
+
+            border: 1px solid var(--black);
+
+            transition: opacity 0.2s ease;
         }
 
-        .publication-content {
-            font-family:
-                "Avenir Next",
-                Avenir,
-                "Helvetica Neue",
-                Arial,
-                sans-serif;
-
-            font-size: 14px;
-            line-height: 1.6;
-            font-weight: 400;
-
-            color: var(--black);
-        }
-
-        .publication-content p {
-            margin: 0;
-        }
-
-        .publication-content a {
-            color: var(--black);
-            font: inherit;
-            text-decoration: underline;
-        }
-
-        .publication-content a:hover {
-            color: var(--black);
-        }
-
-        .publication-title {
-            font-weight: 500;
-        }
-
-        .publication-note {
-            font-style: italic;
+        .photo-link:hover img {
+            opacity: 0.88;
         }
 
 
@@ -229,7 +206,8 @@
 
         footer {
             max-width: 1650px;
-            margin: 70px auto 0;
+            margin: 75px auto 0;
+
             padding: 0 45px 45px;
         }
 
@@ -251,7 +229,32 @@
         }
 
         footer a:hover {
-            color: var(--green);
+            color:var(--green);
+        }
+
+
+        /* =====================================
+           TABLET
+        ===================================== */
+
+        @media (max-width: 1000px) {
+
+            .top-area {
+                padding: 35px 35px 0;
+            }
+
+            .visual-navigation {
+                margin-top: 60px;
+                padding: 0 35px;
+
+                grid-template-columns: repeat(2, 1fr);
+                gap: 55px 25px;
+            }
+
+            footer {
+                padding: 0 35px 40px;
+            }
+
         }
 
 
@@ -259,45 +262,27 @@
            MOBILE
         ===================================== */
 
-        @media (max-width: 760px) {
+        @media (max-width: 600px) {
 
-            header {
+            .top-area {
                 padding: 30px 25px 0;
             }
 
-            .name {
-                font-size: 24px;
+            .short-bio {
+                max-width: 240px;
+                margin-top: 25px;
             }
 
             .top-nav {
                 gap: 12px;
             }
 
-            main {
+            .visual-navigation {
                 margin-top: 50px;
                 padding: 0 25px;
-            }
 
-            h1 {
-                font-size: 20px;
-                margin-bottom: 35px;
-            }
-
-            .publication-section h2 {
-                font-size: 18px;
-            }
-
-            .publication {
-                display: block;
-                margin-bottom: 32px;
-            }
-
-            .year {
-                margin-bottom: 4px;
-            }
-
-            .publication-content {
-                font-size: 14px;
+                grid-template-columns: 1fr;
+                gap: 50px;
             }
 
             footer {
@@ -310,6 +295,7 @@
                 margin-right: 20px;
                 margin-bottom: 10px;
             }
+
         }
 
     </style>
@@ -320,13 +306,23 @@
 <body>
 
 
-    <!-- HEADER -->
+    <!-- TOP -->
 
-    <header>
+    <header class="top-area">
 
-        <a class="name" href="index.html">
-            Hanna Fiegenbaum
-        </a>
+        <div class="identity">
+
+            <a class="name" href="index.html">
+                Hanna Fiegenbaum
+            </a>
+
+            <p class="short-bio">
+                Ecological economist and sustainability practitioner working on
+                nature-related decision making, environmental economics and finance.
+            </p>
+
+        </div>
+
 
         <nav class="top-nav">
 
@@ -344,273 +340,97 @@
 
 
 
-    <!-- MAIN -->
+    <!-- FOUR MAIN IMAGES -->
 
-    <main>
+    <main class="visual-navigation">
 
-        <h1>Publications</h1>
+
+        <!-- ABOUT -->
+
+        <div class="section-card">
+
+            <a href="about.html"
+               class="section-link">
+                ABOUT
+            </a>
+
+            <a href="about.html"
+               class="photo-link">
+
+                <img
+                    src="img/IMG_5593.jpg"
+                    alt="About Hanna Fiegenbaum">
+
+            </a>
+
+        </div>
+
+
+
+        <!-- RESEARCH -->
+
+        <div class="section-card">
+
+            <a href="research.html"
+               class="section-link">
+                RESEARCH
+            </a>
+
+            <a href="research.html"
+               class="photo-link">
+
+                <img
+                    src="img/IMG_6230.jpg"
+                    alt="Research">
+
+            </a>
+
+        </div>
+
 
 
         <!-- PUBLICATIONS -->
 
-        <section class="publication-section">
+        <div class="section-card">
 
+            <a href="publications.html"
+               class="section-link">
+                PUBLICATIONS &amp; PRESENTATIONS
+            </a>
 
-            <div class="publication">
+            <a href="publications.html"
+               class="photo-link">
 
-                <div class="year">
-                    2026
-                </div>
+                <img
+                    src="img/thompson_sampling_standard_vs_contextual.png"
+                    alt="Publications">
 
-                <div class="publication-content">
-                    <p>
-                        <span class="publication-note">Forthcoming in Sustainable Cities and Society: Advances.</span>
-                        <span class="publication-title">Life Cycle Assessment and Circularity in Practice: A Level(s) 2 Case Study of the GEFION Timber-Based Small Campus Building.</span>
-                        Foerster, Fiegenbaum, et al. (2026).
-                    </p>
-                </div>
+            </a>
 
-            </div>
+        </div>
 
 
-            <div class="publication">
 
-                <div class="year">
-                    2026
-                </div>
+        <!-- PROJECTS -->
 
-                <div class="publication-content">
-                    <p>
-                        <span class="publication-title">Decentralized Internet of Things-Networks in Environmental Data Pipelines - opportunities and challenges in a community-based urban green space restoration project in Nairobi, Kenya.</span>
-                        Fiegenbaum, H., Azegele, B. &amp; Seider, S.
-                        <span class="publication-note">Frontiers in Blockchain: Blockchain for Good.</span>
-                        (2026)
-                        <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full"
-                           target="_blank">Full article</a>
-                    </p>
-                </div>
+        <div class="section-card">
 
-            </div>
+            <a href="projects.html"
+               class="section-link">
+                PROJECTS
+            </a>
 
+            <a href="projects.html"
+               class="photo-link">
 
-            <div class="publication">
+                <img
+                    src="img/IMG_5036.jpg"
+                    alt="Projects">
 
-                <div class="year">
-                    2026
-                </div>
+            </a>
 
-                <div class="publication-content">
-                    <p>
-                        Contributing Author to Chapter 3 of the
-                        <span class="publication-title">IPBES Business &amp; Biodiversity Assessment report:</span>
-                        IPBES (2026). Methodological assessment of the impact and dependence of business on biodiversity and nature’s contributions to people of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services.
-                        Rueda X., Jones M., Polasky S., (eds.). IPBES secretariat, Bonn, Germany.
-                        DOI:
-                        <a href="https://doi.org/10.5281/zenodo.17185116"
-                           target="_blank">10.5281/zenodo.17185116</a>
-                    </p>
-                </div>
+        </div>
 
-            </div>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2024
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        <span class="publication-title">EuropaBON Essential Biodiversity Variables workflow templates.</span>
-                        <a href="https://zenodo.org/records/10971094"
-                           target="_blank">Zenodo record</a>,
-                        2024.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2016
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        <span class="publication-title">Hooks. Tools made by New Caledonian Crows.</span>
-                        +ULTRA. WISSEN SCHAFFT GESTALTUNG, 2016. -
-                        BERLIN, MARTIN-GROPIUS-BAU -
-                        Katalog hrsg. von Nikola Doll et al., Berlin 2016.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2016
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        <span class="publication-title">Jacob Berend Bakemas »Pendrecht-Alexanderpolder Grid, a selection of the grid presented at CIAM X«.</span>
-                        +ULTRA. WISSEN SCHAFFT GESTALTUNG, 2016. -
-                        BERLIN, MARTIN-GROPIUS-BAU -
-                        Katalog hrsg. von Nikola Doll et al., Berlin 2016.
-                    </p>
-                </div>
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- PREPRINTS & WORK IN PROGRESS -->
-
-        <section class="publication-section">
-
-            <h2>Preprints &amp; Work in progress</h2>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2026
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        Fiegenbaum (2026).
-                        <span class="publication-title">Nature credits as co-allocation and co-financing Instruments in environmental policy and nature positive business and finance.</span>
-                        <span class="publication-note">
-                            Preprint available under
-                            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6782218"
-                               target="_blank">SSRN</a>.
-                        </span>
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2026
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        Fiegenbaum, H. &amp; Dimitrijevic, J. et al. (2026).
-                        <span class="publication-title">Integrating ecological and business values: Biodiversity impact avoidance in site- and project-related corporate decision making.</span>
-                        <span class="publication-note">Under review.</span>
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2025
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        Fiegenbaum (2025).
-                        <span class="publication-title">Classifying climate benefits from timber use in the building sector, integrating environmental and social safeguards with a focus on biodiversity.</span>
-                        <a href="https://eartharxiv.org/repository/view/9791/"
-                           target="_blank">Preprint</a>,
-                        <span class="publication-note">update forthcoming.</span>
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2024
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        Fiegenbaum (2024).
-                        <span class="publication-title">Complementing Carbon Credits from Forestry with Biodiversity Insurance and Resilience Value.</span>
-                        <a href="https://ideas.repec.org/p/osf/osfxxx/buvzy.html"
-                           target="_blank">Preprint</a>,
-                        <span class="publication-note">Preprint 2024.</span>
-                    </p>
-                </div>
-
-            </div>
-
-
-        </section>
-
-
-
-        <!-- MEDIA & INTERVIEWS -->
-
-        <section class="publication-section">
-
-            <h2>Media & Interviews</h2>
-
-
-            <div class="publication">
-
-                <div class="year">
-                    2026
-                </div>
-
-                <div class="publication-content">
-                    <p>
-                        <span class="publication-title">
-                            EU expert sets priorities for bloc-wide nature market regulation.
-                        </span>
-                        Interview with <span class="publication-note">Carbon Pulse / Nature &amp; Biodiversity Pulse</span>
-                        on nature credit market development and market policy in the EU.
-                        <a href="https://carbon-pulse.com/493890/"
-                           target="_blank">Read interview</a>
-                    </p>
-                </div>
-
-            </div>
-
-
-          <div class="publication">
-
-    <div class="year">
-        2026
-    </div>
-
-    <div class="publication-content">
-        <p>
-            <span class="publication-title">
-                NGFS widens nature risk research as central banks grapple with biodiversity threats.
-            </span>
-            Claudia De Meulemeester (2026),
-            <span class="publication-note">Green Central Banking</span>.
-            Commentary contribution on the NGFS expansion of its work on nature-related financial risks
-            and the modelling of interactions between climate and nature risks.
-            <a href="https://greencentralbanking.com/2026/09/10/ngfs-widens-nature-risk-research-as-central-banks-grapple-with-biodiversity-threats/"
-               target="_blank">Read article</a>
-        </p>
-    </div>
-
-</div>
-
-
-        </section>
 
     </main>
 
