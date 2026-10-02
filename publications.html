@@ -3,10 +3,10 @@
 
 <head>
 
-    <title>Hanna Fiegenbaum | Greening finance & financing green </title>
+    <title>Publications &amp; Presentations | Hanna Fiegenbaum</title>
 
     <meta name="description"
-          content="Hanna Fiegenbaum – ecological economist and sustainability practitioner working on nature-related decision making, environmental economics and finance.">
+          content="Publications, preprints, media contributions and presentations by Hanna Fiegenbaum.">
 
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
@@ -34,15 +34,15 @@
 
         body {
             background-color: var(--background);
-            color: var(--anthracite);
+            color: var(--black);
         }
 
 
         /* =====================================
-           TOP AREA
+           HEADER
         ===================================== */
 
-        .top-area {
+        header {
             max-width: 1650px;
             margin: 0 auto;
             padding: 35px 45px 0;
@@ -72,31 +72,9 @@
             color: var(--black);
             text-decoration: none;
         }
+
         .name:hover {
-    color: var(--green);
-}
-
-
-        /* =====================================
-           SHORT BIO
-        ===================================== */
-
-        .short-bio {
-            max-width: 290px;
-            margin: 38px 0 0;
-
-            font-family:
-                "Avenir Next",
-                Avenir,
-                "Helvetica Neue",
-                Arial,
-                sans-serif;
-
-            font-size: 15px;
-            line-height: 1.55;
-            font-weight: 400;
-
-            color: var(--black);
+            color: var(--green);
         }
 
 
@@ -131,72 +109,117 @@
 
 
         /* =====================================
-           CENTRAL IMAGE NAVIGATION
+           MAIN
         ===================================== */
 
-        .visual-navigation {
-            max-width: 1380px;
-
-            /* complete block slightly above centre */
+        main {
+            max-width: 1120px;
             margin: 65px auto 0;
-
             padding: 0 45px;
-
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 38px;
         }
 
-
-        /* =====================================
-           SECTION HEADINGS
-        ===================================== */
-
-        .section-link {
-            display: block;
-            margin-bottom: 18px;
+        h1 {
+            margin: 0 0 45px;
 
             font-family:
                 "Times New Roman",
                 Times,
                 serif;
 
-            font-size: 16px;
-            line-height: 1.2;
+            font-size: 20px;
+            line-height: 1.1;
             font-weight: 700;
 
             color: var(--black);
-            text-decoration: none;
-        }
-
-        .section-link:hover {
-            color: var(--green);
         }
 
 
         /* =====================================
-           PHOTOS
+           PUBLICATION SECTIONS
         ===================================== */
 
-        .photo-link {
-            display: block;
+        .publication-section {
+            margin-bottom: 65px;
         }
 
-        .section-card img {
-            display: block;
+        .publication-section h2 {
+            margin: 0 0 30px;
 
-            width: 100%;
-            aspect-ratio: 4 / 5;
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
 
-            object-fit: cover;
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
 
-            border: 1px solid var(--black);
-
-            transition: opacity 0.2s ease;
+            color: var(--black);
         }
 
-        .photo-link:hover img {
-            opacity: 0.88;
+
+        /* =====================================
+           PUBLICATION ENTRY
+        ===================================== */
+
+        .publication {
+            display: grid;
+            grid-template-columns: 65px minmax(0, 1fr);
+            column-gap: 30px;
+
+            margin-bottom: 30px;
+        }
+
+        .year {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 12px;
+            line-height: 1.6;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .publication-content {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .publication-content p {
+            margin: 0;
+        }
+
+        .publication-content a {
+            color: var(--black);
+            font: inherit;
+            text-decoration: underline;
+        }
+
+        .publication-content a:hover {
+            color: var(--black);
+        }
+
+        .publication-title {
+            font-weight: 500;
+        }
+
+        .publication-note {
+            font-style: italic;
         }
 
 
@@ -206,8 +229,7 @@
 
         footer {
             max-width: 1650px;
-            margin: 75px auto 0;
-
+            margin: 70px auto 0;
             padding: 0 45px 45px;
         }
 
@@ -229,32 +251,7 @@
         }
 
         footer a:hover {
-            color:var(--green);
-        }
-
-
-        /* =====================================
-           TABLET
-        ===================================== */
-
-        @media (max-width: 1000px) {
-
-            .top-area {
-                padding: 35px 35px 0;
-            }
-
-            .visual-navigation {
-                margin-top: 60px;
-                padding: 0 35px;
-
-                grid-template-columns: repeat(2, 1fr);
-                gap: 55px 25px;
-            }
-
-            footer {
-                padding: 0 35px 40px;
-            }
-
+            color: var(--green);
         }
 
 
@@ -262,27 +259,45 @@
            MOBILE
         ===================================== */
 
-        @media (max-width: 600px) {
+        @media (max-width: 760px) {
 
-            .top-area {
+            header {
                 padding: 30px 25px 0;
             }
 
-            .short-bio {
-                max-width: 240px;
-                margin-top: 25px;
+            .name {
+                font-size: 24px;
             }
 
             .top-nav {
                 gap: 12px;
             }
 
-            .visual-navigation {
+            main {
                 margin-top: 50px;
                 padding: 0 25px;
+            }
 
-                grid-template-columns: 1fr;
-                gap: 50px;
+            h1 {
+                font-size: 20px;
+                margin-bottom: 35px;
+            }
+
+            .publication-section h2 {
+                font-size: 18px;
+            }
+
+            .publication {
+                display: block;
+                margin-bottom: 32px;
+            }
+
+            .year {
+                margin-bottom: 4px;
+            }
+
+            .publication-content {
+                font-size: 14px;
             }
 
             footer {
@@ -295,7 +310,6 @@
                 margin-right: 20px;
                 margin-bottom: 10px;
             }
-
         }
 
     </style>
@@ -306,23 +320,13 @@
 <body>
 
 
-    <!-- TOP -->
+    <!-- HEADER -->
 
-    <header class="top-area">
+    <header>
 
-        <div class="identity">
-
-            <a class="name" href="index.html">
-                Hanna Fiegenbaum
-            </a>
-
-            <p class="short-bio">
-                Ecological economist and sustainability practitioner working on
-                nature-related decision making, environmental economics and finance.
-            </p>
-
-        </div>
-
+        <a class="name" href="index.html">
+            Hanna Fiegenbaum
+        </a>
 
         <nav class="top-nav">
 
@@ -340,97 +344,703 @@
 
 
 
-    <!-- FOUR MAIN IMAGES -->
+    <!-- MAIN -->
 
-    <main class="visual-navigation">
+    <main>
 
-
-        <!-- ABOUT -->
-
-        <div class="section-card">
-
-            <a href="about.html"
-               class="section-link">
-                ABOUT
-            </a>
-
-            <a href="about.html"
-               class="photo-link">
-
-                <img
-                    src="img/IMG_5593.jpg"
-                    alt="About Hanna Fiegenbaum">
-
-            </a>
-
-        </div>
-
-
-
-        <!-- RESEARCH -->
-
-        <div class="section-card">
-
-            <a href="research.html"
-               class="section-link">
-                RESEARCH
-            </a>
-
-            <a href="research.html"
-               class="photo-link">
-
-                <img
-                    src="img/IMG_6230.jpg"
-                    alt="Research">
-
-            </a>
-
-        </div>
-
+        <h1>Publications &amp; Presentations</h1>
 
 
         <!-- PUBLICATIONS -->
 
-        <div class="section-card">
-
-            <a href="publications.html"
-               class="section-link">
-                PUBLICATIONS &amp; PRESENTATIONS
-            </a>
-
-            <a href="publications.html"
-               class="photo-link">
-
-                <img
-                    src="img/thompson_sampling_standard_vs_contextual.png"
-                    alt="Publications">
-
-            </a>
-
-        </div>
+        <section class="publication-section">
 
 
+            <div class="publication">
 
-        <!-- PROJECTS -->
+                <div class="year">
+                    2026
+                </div>
 
-        <div class="section-card">
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-note">Forthcoming in Sustainable Cities and Society: Advances.</span>
+                        <span class="publication-title">Life Cycle Assessment and Circularity in Practice: A Level(s) 2 Case Study of the GEFION Timber-Based Small Campus Building.</span>
+                        Foerster, Fiegenbaum, et al. (2026).
+                    </p>
+                </div>
 
-            <a href="projects.html"
-               class="section-link">
-                PROJECTS
-            </a>
+            </div>
 
-            <a href="projects.html"
-               class="photo-link">
 
-                <img
-                    src="img/IMG_5036.jpg"
-                    alt="Projects">
+            <div class="publication">
 
-            </a>
+                <div class="year">
+                    2026
+                </div>
 
-        </div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Decentralized Internet of Things-Networks in Environmental Data Pipelines - opportunities and challenges in a community-based urban green space restoration project in Nairobi, Kenya.</span>
+                        Fiegenbaum, H., Azegele, B. &amp; Seider, S.
+                        <span class="publication-note">Frontiers in Blockchain: Blockchain for Good.</span>
+                        (2026)
+                        <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full"
+                           target="_blank">Full article</a>
+                    </p>
+                </div>
 
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Contributing Author to Chapter 3 of the
+                        <span class="publication-title">IPBES Business &amp; Biodiversity Assessment report:</span>
+                        IPBES (2026). Methodological assessment of the impact and dependence of business on biodiversity and nature’s contributions to people of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services.
+                        Rueda X., Jones M., Polasky S., (eds.). IPBES secretariat, Bonn, Germany.
+                        DOI:
+                        <a href="https://doi.org/10.5281/zenodo.17185116"
+                           target="_blank">10.5281/zenodo.17185116</a>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2024
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">EuropaBON Essential Biodiversity Variables workflow templates.</span>
+                        <a href="https://zenodo.org/records/10971094"
+                           target="_blank">Zenodo record</a>,
+                        2024.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2016
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Hooks. Tools made by New Caledonian Crows.</span>
+                        +ULTRA. WISSEN SCHAFFT GESTALTUNG, 2016. -
+                        BERLIN, MARTIN-GROPIUS-BAU -
+                        Katalog hrsg. von Nikola Doll et al., Berlin 2016.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2016
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Jacob Berend Bakemas »Pendrecht-Alexanderpolder Grid, a selection of the grid presented at CIAM X«.</span>
+                        +ULTRA. WISSEN SCHAFFT GESTALTUNG, 2016. -
+                        BERLIN, MARTIN-GROPIUS-BAU -
+                        Katalog hrsg. von Nikola Doll et al., Berlin 2016.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- PREPRINTS & WORK IN PROGRESS -->
+
+        <section class="publication-section">
+
+            <h2>Preprints &amp; Work in progress</h2>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum (2026).
+                        <span class="publication-title">Nature credits as co-allocation and co-financing Instruments in environmental policy and nature positive business and finance.</span>
+                        <span class="publication-note">
+                            Preprint available under
+                            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6782218"
+                               target="_blank">SSRN</a>.
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum, H. &amp; Dimitrijevic, J. et al. (2026).
+                        <span class="publication-title">Integrating ecological and business values: Biodiversity impact avoidance in site- and project-related corporate decision making.</span>
+                        <span class="publication-note">Under review.</span>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2025
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum (2025).
+                        <span class="publication-title">Classifying climate benefits from timber use in the building sector, integrating environmental and social safeguards with a focus on biodiversity.</span>
+                        <a href="https://eartharxiv.org/repository/view/9791/"
+                           target="_blank">Preprint</a>,
+                        <span class="publication-note">update forthcoming.</span>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2024
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        Fiegenbaum (2024).
+                        <span class="publication-title">Complementing Carbon Credits from Forestry with Biodiversity Insurance and Resilience Value.</span>
+                        <a href="https://ideas.repec.org/p/osf/osfxxx/buvzy.html"
+                           target="_blank">Preprint</a>,
+                        <span class="publication-note">Preprint 2024.</span>
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- MEDIA & INTERVIEWS -->
+
+        <section class="publication-section">
+
+            <h2>Media & Interviews</h2>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">
+                            EU expert sets priorities for bloc-wide nature market regulation.
+                        </span>
+                        Interview with <span class="publication-note">Carbon Pulse / Nature &amp; Biodiversity Pulse</span>
+                        on nature credit market development and market policy in the EU.
+                        <a href="https://carbon-pulse.com/493890/"
+                           target="_blank">Read interview</a>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="publication">
+
+                <div class="year">
+                    2026
+                </div>
+
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">
+                            NGFS widens nature risk research as central banks grapple with biodiversity threats.
+                        </span>
+                        Claudia De Meulemeester (2026),
+                        <span class="publication-note">Green Central Banking</span>.
+                        Commentary contribution on the NGFS expansion of its work on nature-related financial risks
+                        and the modelling of interactions between climate and nature risks.
+                        <a href="https://greencentralbanking.com/2026/09/10/ngfs-widens-nature-risk-research-as-central-banks-grapple-with-biodiversity-threats/"
+                           target="_blank">Read article</a>
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- SELECTED TALKS, PRESENTATIONS & PANEL DISCUSSIONS -->
+
+        <section class="publication-section">
+
+            <h2>Selected Talks, Presentations &amp; Panel Discussions</h2>
+
+
+            <div class="publication">
+                <div class="year">2026</div>
+                <div class="publication-content">
+                    <p>
+                        COP 17 to the Convention of Biological Diversity in Yerevan, Armenia –
+                        Session organization and hosting at the Business and Finance Hub on
+                        <span class="publication-title">“From Boardroom to Biome: How Targets 14 &amp; 15 Drive Delivery of Targets 1 &amp; 3”</span>
+                        with global partners from IUCN IMEC, Flora and Fauna International, Wildlife Conservation Society,
+                        WSP Global, University of Sao Paolo, UNEP-WCMC, Milvus Consultancy – 22 October 2026.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2026</div>
+                <div class="publication-content">
+                    <p>
+                        COP 17 to the Convention of Biological Diversity in Yerevan, Armenia –
+                        Session organisation and hosting at the Dutch Pavilion on
+                        <span class="publication-title">“From Fragmented Instruments to Connected Infrastructure: Building Europe’s Nature Finance and Governance Landscape”</span>
+                        with partners from Sweden, Italy, the Netherlands, France, Germany, Austria, and others –
+                        21 October 2026.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2026</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">StanCon 2026, International Conference on Bayesian Inference and Probabilistic Programming.</span>
+                        Poster presentation on Bayesian causal model for shared investments in nature-based assets,
+                        together with Dr. Juan Camilo Orduz, Uppsala, Sweden – 17-21 August 2026.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2026</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">World Biodiversity Forum 2026.</span>
+                        Presentation on evaluating biodiversity offsetting markets,
+                        Session on Biodiversity Finance, Davos, Switzerland – 14-19 June 2026.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2026</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Nature Action Dialogues 2026.</span>
+                        Presentation with the IBAT Alliance and IUCN IMEC group on Avoidance of impacts on species
+                        and ecosystems in site-related business decision-making in a session led by the IBAT Alliance,
+                        Cambridge, UK – 12-14 May 2026.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">HypZert GmbH &amp; Bauwende Allianz.</span>
+                        Webinar on integration of circular design and residual value in real estate valuation and
+                        real estate finance with around 300 valuation experts, held together with partners from finance,
+                        circular economy and real estate, Germany – December 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">RIFS Conference 2025. Tough Conversations in Tough Times.</span>
+                        Panel on Agroecology and Business Engagement, Berlin, Germany – December 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Sustainable Finance Live, Focus on Resilient Infrastructure.</span>
+                        Panel on Accounting for Resilience, London, UK – November 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">IUCN World Conservation Congress.</span>
+                        Online-Facilitator for Motion 073 and 085 on Nature Positive Strategy for Business,
+                        Abu Dhabi, UAE – October 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">XXVI Annual BIOECON Conference, Integrating Biodiversity Conservation and Climate Change Solutions.</span>
+                        University of Cambridge, St. John’s College, Cambridge, UK,
+                        Presentation and Session Chair for Session on Biodiversity and Climate Change – September 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Funding the Commons – Exploring New Models &amp; Mechanisms for Public Goods Funding.</span>
+                        Berlin, Focus on Resilient Infrastructure,
+                        Panel on Dynamic Ecological Stewardship – June 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Stockholm Resilience Centre, Oxford Sustainable Finance Group, Stanford Natural Capital Project: FinBio Webinar.</span>
+                        Project presentation on Natural Capital valuation of forests for carbon, biodiversity and resilience value,
+                        Online workshop – March 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Sustainable Finance Lab Stockholm, Stockholm Resilience Centre, KTH Stockholm.</span>
+                        Roundtable on Biodiversity and Resource Efficiency in Real Estate,
+                        Workshop Presentation on LCA and LCIA for the built environment across multiple objectives –
+                        February 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2025</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Capitals Coalition.</span>
+                        Webinar presentation on applying Capitals Protocols, the Integrated Framework for Decision-Making,
+                        and the Governance for Valuation Framework to the Built Environment – February 2025.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2024</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Ecosystem Services Conference, Wageningen Congress Center.</span>
+                        Presentation on complementing carbon credits from forest-related activities with biodiversity insurance
+                        and resilience value – November 2024.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2024</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">World Biodiversity Forum, Davos.</span>
+                        As co-convener of a session on using Blockchain, AI, IoT and eDNA for biodiversity monitoring and
+                        conservation finance with Professor Kristy Deiner from ETH Zürich / Simplex DNA,
+                        Presentation on a decentralized data infrastructure for ecological data exchange – June 2024.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2024</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Women &amp; Climate, Berlin.</span>
+                        “Financing the Transition” Round Table Discussion – May 2024.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2024</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">IAIA, Dublin.</span>
+                        Presentation on AI, IoT, Blockchain-based and integrative data solutions for environmental monitoring:
+                        Innovative Data Sharing and Governance for a Just Transition, Dublin, Ireland – April 2024.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2024</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Impact Hub Stuttgart.</span>
+                        Digital Passport for Sustainable Buildings and Whole Life Dynamic Carbon Accounting,
+                        co-presenter at sustainable construction workshop, Stuttgart, Germany – February 2024.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Luxembourg Blockchain Week.</span>
+                        Panel discussion on digital MRV for sustainability, Luxembourg – October 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Tropentag Conference, Humboldt University and ZALF, Berlin.</span>
+                        Co-convener of workshop on digital infrastructure for impact reporting in rural and agricultural projects
+                        (with Ronald Steyer, KfW and Kayo Stelter, WeltWeit e.V.) – September 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Sustainable Industry 4.0 and IoT Community, Stuttgart.</span>
+                        Presentation on use of blockchain for MRV in PES schemes – September 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Funding the Commons by Protocol Labs, Berlin.</span>
+                        Panel discussion on environmental and social impact assessments – September 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Regenerative Finance Summit, Paris.</span>
+                        Panel discussion on Green FinTech applications within sustainable finance – June 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Regenerative Finance Summit, Munich.</span>
+                        Presentation on urban green space metric, digital MRV, and community-based restoration project –
+                        May 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2023</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Positive Blockchain, Berlin.</span>
+                        Presentation on technological advancements for MRV and environmental data management in urban green
+                        space project in Nairobi, Kenya – February 2023.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2022</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Regenerative Finance Meetups, Berlin.</span>
+                        Organizer and presenter – 2022.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2022</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">University of Hildesheim.</span>
+                        Workshop presentation with Prof. Andreas Hetzel on governance of community-based restoration projects –
+                        2022.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2022</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Leipzig University, Institute for Medical Informatics, Statistics, Epidemiology.</span>
+                        Yearly Colloquium presentation on “Functions in Artifact Ontology” – 2022.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2017</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Freie Universität Berlin.</span>
+                        Master Thesis presentation “Technical Artifacts and Functions” in colloquium with Prof. Barbara Vetter –
+                        2017.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2016</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Leipzig University.</span>
+                        Summer School with Robert Brandom (University of Pittsburgh) on Material Inference and Pragmatist
+                        Approaches in Semantic Explanations – 2016.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2016</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Humboldt University (with New School for Social Research, NY).</span>
+                        Workshop on Progress, Regress and Social Change,
+                        presentation on “Artifacts and Social Change” – 2016.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2014</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Humboldt University.</span>
+                        Workshop presentation on Social Ontology and Freedom with Philip Pettit,
+                        Princeton University – 2014.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2014</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Humboldt University.</span>
+                        Workshop presentation on Enactivism in Perception with Alva Noé,
+                        University of California Berkeley – 2014.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="publication">
+                <div class="year">2013</div>
+                <div class="publication-content">
+                    <p>
+                        <span class="publication-title">Humboldt University.</span>
+                        Workshop presentation on Embodied Cognition with Evan Thompson
+                        (UBC, Vancouver, Canada) on “Mind in Life” – 2013.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
 
     </main>
 
@@ -438,38 +1048,38 @@
 
     <!-- FOOTER -->
 
-   <footer>
+    <footer>
 
-    <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
-        Email
-    </a>
+        <a href="mailto:hanna.fiegenbaum@uni-leipzig.de">
+            Email
+        </a>
 
-    <a href="https://orcid.org/0000-0002-2462-5924"
-       target="_blank">
-        ORCID
-    </a>
+        <a href="https://orcid.org/0000-0002-2462-5924"
+           target="_blank">
+            ORCID
+        </a>
 
-    <a href="https://github.com/hannafiegenbaum"
-       target="_blank">
-        GitHub
-    </a>
+        <a href="https://github.com/hannafiegenbaum"
+           target="_blank">
+            GitHub
+        </a>
 
-    <a href="https://www.linkedin.com/in/hannafiegenbaum/"
-       target="_blank">
-        LinkedIn
-    </a>
+        <a href="https://www.linkedin.com/in/hannafiegenbaum/"
+           target="_blank">
+            LinkedIn
+        </a>
 
-    <a href="https://www.instagram.com/hannafiegenbaum/"
-       target="_blank">
-        Instagram
-    </a>
+        <a href="https://www.instagram.com/hannafiegenbaum/"
+           target="_blank">
+            Instagram
+        </a>
 
-    <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
-       target="_blank">
-        Bluesky
-    </a>
+        <a href="https://bsky.app/profile/hannafiegenbaum.bsky.social"
+           target="_blank">
+            Bluesky
+        </a>
 
-</footer>
+    </footer>
 
 
 </body>
