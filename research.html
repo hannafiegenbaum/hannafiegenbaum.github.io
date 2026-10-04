@@ -141,15 +141,21 @@
 
         .research-block {
             display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-            gap: 65px;
+            gap: 55px;
             align-items: start;
-
             margin-bottom: 90px;
         }
 
+        .research-block.image-right {
+            grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+        }
+
+        .research-block.image-left {
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+        }
+
         .research-text h2 {
-            margin: 0 0 20px;
+            margin: 0 0 10px;
 
             font-family:
                 "Times New Roman",
@@ -310,7 +316,9 @@
                 margin-bottom: 40px;
             }
 
-            .research-block {
+            .research-block,
+            .research-block.image-right,
+            .research-block.image-left {
                 grid-template-columns: 1fr;
                 gap: 28px;
                 margin-bottom: 65px;
@@ -326,7 +334,7 @@
 
             .research-text h2 {
                 font-size: 18px;
-                margin-bottom: 16px;
+                margin-bottom: 10px;
             }
 
             .research-text p {
@@ -396,21 +404,25 @@
                 <h2>Nature Finance and Sustainable Market Design</h2>
 
                 <p>
-                    Nature and biodiversity markets are structurally illiquid and incomplete due to social-ecological non-fungibility, 
-                    spatial and temporal interdependence, path-dependence, context-dependent value creation and incompleteness of 
-                    tradable claims. Nature markets derive and convert value into transactions from underlying social-ecological assets 
-                    whose regenerative capacity and biodiversity structure, functions and composition evolve over time. 
+                    Nature and biodiversity markets are structurally illiquid and incomplete due to social-ecological non-fungibility,
+                    spatial and temporal interdependence, path-dependence, context-dependent value creation and incompleteness of
+                    tradable claims. Nature markets derive and convert value into transactions from underlying social-ecological assets
+                    whose regenerative capacity and biodiversity structure, functions and composition evolve over time.
                     One of my interests is how these environmental markets – or hybrid market-like schemes and policies – can be designed most sustainably.
-                    This applies both to biodiversity offsetting markets designed for purposes of mandatory compensation and to voluntary contributions from 
-                    businesses through investments in the conservation of species or restoration of ecosystems. 
-                    Further, how to account for net benefits or biodiversity net gain through the use of impact evaluation methods is a related methodological interest.</p>
-<p>The role that thematic nature instruments such as nature credits play in the wider finance landscape is part of this research. 
-                    I am interested in their role as instruments making nature legible and investable as a distinct use-of-proceeds category in financing and 
-                    capital allocation decisions, and in combining revenues from nature with other revenue streams (Link to preprint on <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6782218" target="_blank">
-                        
-                   Nature credits as co-allocation and co-financing instruments in environmental policy and nature positive business and finance</a>).</p>
+                    This applies both to biodiversity offsetting markets designed for purposes of mandatory compensation and to voluntary contributions from
+                    businesses through investments in the conservation of species or restoration of ecosystems.
+                    Further, how to account for net benefits or biodiversity net gain through the use of impact evaluation methods is a related methodological interest.
+                </p>
 
-                    
+                <p>
+                    The role that thematic nature instruments such as nature credits play in the wider finance landscape is part of this research.
+                    I am interested in their role as instruments making nature legible and investable as a distinct use-of-proceeds category in financing and
+                    capital allocation decisions, and in combining revenues from nature with other revenue streams
+                    (Link to preprint on
+                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6782218"
+                       target="_blank">
+                        Nature credits as co-allocation and co-financing instruments in environmental policy and nature positive business and finance
+                    </a>).
                 </p>
 
             </div>
