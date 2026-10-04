@@ -113,14 +113,14 @@
         ===================================== */
 
         main {
-            max-width: 1120px;
+            max-width: 1220px;
             margin: 65px auto 0;
             padding: 0 45px;
             min-height: 450px;
         }
 
         h1 {
-            margin: 0;
+            margin: 0 0 55px;
 
             font-family:
                 "Times New Roman",
@@ -132,6 +132,121 @@
             font-weight: 700;
 
             color: var(--black);
+        }
+
+
+        /* =====================================
+           RESEARCH BLOCKS
+        ===================================== */
+
+        .research-block {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 65px;
+            align-items: start;
+
+            margin-bottom: 90px;
+        }
+
+        .research-text h2 {
+            margin: 0 0 20px;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+
+            color: var(--black);
+        }
+
+        .research-text p {
+            margin: 0 0 18px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            line-height: 1.65;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .research-text p:last-child {
+            margin-bottom: 0;
+        }
+
+
+        /* =====================================
+           LINKS IN RESEARCH TEXT
+        ===================================== */
+
+        .research-text a {
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: inherit;
+            font-weight: inherit;
+
+            color: var(--black);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .research-text a:hover {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           RESEARCH IMAGES
+        ===================================== */
+
+        .research-image {
+            width: 100%;
+        }
+
+        .research-image img {
+            display: block;
+            width: 100%;
+
+            aspect-ratio: 3 / 2;
+            object-fit: cover;
+
+            border: 1px solid var(--black);
+        }
+
+
+        /* =====================================
+           ALTERNATING LAYOUT
+        ===================================== */
+
+        .research-block.image-right .research-text {
+            order: 1;
+        }
+
+        .research-block.image-right .research-image {
+            order: 2;
+        }
+
+        .research-block.image-left .research-image {
+            order: 1;
+        }
+
+        .research-block.image-left .research-text {
+            order: 2;
         }
 
 
@@ -192,6 +307,31 @@
 
             h1 {
                 font-size: 20px;
+                margin-bottom: 40px;
+            }
+
+            .research-block {
+                grid-template-columns: 1fr;
+                gap: 28px;
+                margin-bottom: 65px;
+            }
+
+            .research-block .research-text {
+                order: 1;
+            }
+
+            .research-block .research-image {
+                order: 2;
+            }
+
+            .research-text h2 {
+                font-size: 18px;
+                margin-bottom: 16px;
+            }
+
+            .research-text p {
+                font-size: 14px;
+                line-height: 1.6;
             }
 
             footer {
@@ -242,6 +382,137 @@
     <main>
 
         <h1>Research</h1>
+
+
+        <!-- =====================================
+             BLOCK 1
+             TEXT LEFT / IMAGE RIGHT
+        ====================================== -->
+
+        <section class="research-block image-right">
+
+            <div class="research-text">
+
+                <h2>Nature Finance and Sustainable Market Design</h2>
+
+                <p>
+                    Nature and biodiversity markets are structurally illiquid and incomplete due to social-ecological non-fungibility, 
+                    spatial and temporal interdependence, path-dependence, context-dependent value creation and incompleteness of 
+                    tradable claims. Nature markets derive and convert value into transactions from underlying social-ecological assets 
+                    whose regenerative capacity and biodiversity structure, functions and composition evolve over time. 
+                    One of my interests is how these environmental markets – or hybrid market-like schemes and policies – can be designed most sustainably.
+                    This applies both to biodiversity offsetting markets designed for purposes of mandatory compensation and to voluntary contributions from 
+                    businesses through investments in the conservation of species or restoration of ecosystems. 
+                    Further, how to account for net benefits or biodiversity net gain through the use of impact evaluation methods is a related methodological interest.</p>
+<p>The role that thematic nature instruments such as nature credits play in the wider finance landscape is part of this research. 
+                    I am interested in their role as instruments making nature legible and investable as a distinct use-of-proceeds category in financing and 
+                    capital allocation decisions, and in combining revenues from nature with other revenue streams (Link to preprint on <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6782218" target="_blank">
+                        
+                   Nature credits as co-allocation and co-financing instruments in environmental policy and nature positive business and finance</a>).</p>
+
+                    
+                </p>
+
+            </div>
+
+            <div class="research-image">
+
+                <img src="img/IMG_5739.jpg"
+                     alt="Bild 1">
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             BLOCK 2
+             IMAGE LEFT / TEXT RIGHT
+        ====================================== -->
+
+        <section class="research-block image-left">
+
+            <div class="research-image">
+
+                <img src="img/BILD-2.jpg"
+                     alt="Bild 2">
+
+            </div>
+
+            <div class="research-text">
+
+                <h2>Titel 2</h2>
+
+                <p>
+                    Fließtext 2
+                    <a href="LINK-HIER-EINFÜGEN">
+                        Link 2
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             BLOCK 3
+             TEXT LEFT / IMAGE RIGHT
+        ====================================== -->
+
+        <section class="research-block image-right">
+
+            <div class="research-text">
+
+                <h2>Titel 3</h2>
+
+                <p>
+                    Fließtext 3
+                    <a href="LINK-HIER-EINFÜGEN">
+                        Link 3
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="research-image">
+
+                <img src="img/BILD-3.jpg"
+                     alt="Bild 3">
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             BLOCK 4
+             IMAGE LEFT / TEXT RIGHT
+        ====================================== -->
+
+        <section class="research-block image-left">
+
+            <div class="research-image">
+
+                <img src="img/BILD-4.jpg"
+                     alt="Bild 4">
+
+            </div>
+
+            <div class="research-text">
+
+                <h2>Titel 4</h2>
+
+                <p>
+                    Fließtext 4
+                    <a href="LINK-HIER-EINFÜGEN">
+                        Link 4
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
 
     </main>
 
