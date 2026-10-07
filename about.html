@@ -180,34 +180,48 @@
         }
 
 
-        /* -------------------------------------
-           LEFT COLUMN
-        ------------------------------------- */
+        /* =====================================
+           LEFT IMAGE POSITIONS
+        ===================================== */
 
         .portrait {
             margin-top: 0;
         }
 
+        /*
+           Agriculture appears much later,
+           alongside the "How did I get there?"
+           section rather than directly below
+           the portrait.
+        */
+
         .agriculture {
-            margin-top: 105px;
-        }
-
-        .wbf {
-            margin-top: 420px;
+            margin-top: 560px;
         }
 
 
-        /* -------------------------------------
-           RIGHT COLUMN
-        ------------------------------------- */
+        /* =====================================
+           RIGHT IMAGE POSITIONS
+        ===================================== */
+
+        /*
+           Professional panel image near the top,
+           but slightly lower than the portrait.
+        */
 
         .panel {
-            margin-top: 65px;
+            margin-top: 75px;
             margin-left: auto;
         }
 
+        /*
+           Forest image much further down,
+           leaving substantial space after
+           the panel image.
+        */
+
         .forest {
-            margin-top: 330px;
+            margin-top: 720px;
             margin-left: auto;
         }
 
@@ -345,19 +359,15 @@
             }
 
             .agriculture {
-                margin-top: 100px;
-            }
-
-            .wbf {
-                margin-top: 390px;
+                margin-top: 500px;
             }
 
             .panel {
-                margin-top: 60px;
+                margin-top: 70px;
             }
 
             .forest {
-                margin-top: 310px;
+                margin-top: 640px;
             }
 
             footer {
@@ -411,16 +421,16 @@
                 margin: 0 0 30px;
             }
 
-            .agriculture,
-            .wbf,
-            .panel,
-            .forest {
-                margin-top: 35px;
+            .agriculture {
+                margin: 45px 0 0;
             }
 
-            .panel,
+            .panel {
+                margin: 45px 0 0 auto;
+            }
+
             .forest {
-                margin-left: auto;
+                margin: 45px 0 0 auto;
             }
 
             .about-text {
@@ -512,17 +522,6 @@
                     <img
                         src="img/IMG_5741.jpg"
                         alt="Agricultural landscape">
-
-                </div>
-
-
-                <!-- WORLD BIODIVERSITY FORUM -->
-
-                <div class="side-image wbf">
-
-                    <img
-                        src="img/wbf.jpg"
-                        alt="World Biodiversity Forum">
 
                 </div>
 
@@ -637,6 +636,7 @@
                     for methodological range and depth, technical expertise and domain knowledge,
                     and applied work.
                 </p>
+
 
                 <p>
                     Nature finance, sustainable business and ecological economics
