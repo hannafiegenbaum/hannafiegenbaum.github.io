@@ -154,75 +154,38 @@
 
 
         /* =====================================
-           IMAGE COLUMNS
+           LEFT IMAGE COLUMN
         ===================================== */
 
         .left-images {
             width: 250px;
         }
 
-        .right-images {
-            width: 290px;
-        }
-
-        .side-image {
+        .portrait {
             width: 250px;
         }
 
-        .side-image img {
+        .portrait img {
             display: block;
             width: 100%;
-
             aspect-ratio: 4 / 5;
             object-fit: cover;
 
             border: 1px solid var(--black);
         }
 
-
-        /* =====================================
-           LEFT IMAGE POSITIONS
-        ===================================== */
-
-        .portrait {
-            margin-top: 0;
-        }
-
-        /*
-           Agriculture appears much later,
-           alongside the "How did I get there?"
-           section rather than directly below
-           the portrait.
-        */
-
-        .agriculture {
-            margin-top: 560px;
-        }
-
-
-        /* =====================================
-           RIGHT IMAGE POSITIONS
-        ===================================== */
-
-        /*
-           Professional panel image near the top,
-           but slightly lower than the portrait.
-        */
-
-        .panel {
-            margin-top: 75px;
-            margin-left: auto;
-        }
-
-        /*
-           Forest image much further down,
-           leaving substantial space after
-           the panel image.
-        */
-
         .forest {
-            margin-top: 720px;
-            margin-left: auto;
+            width: 250px;
+            margin-top: 760px;
+        }
+
+        .forest img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+
+            border: 1px solid var(--black);
         }
 
 
@@ -291,6 +254,75 @@
 
 
         /* =====================================
+           RIGHT COLUMN
+        ===================================== */
+
+        .right-images {
+            width: 290px;
+        }
+
+        .agriculture {
+            width: 250px;
+            margin-top: 330px;
+        }
+
+        .agriculture img {
+            display: block;
+
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+
+            border: 1px solid var(--black);
+        }
+
+
+        /* =====================================
+           EMBODIED COGNITION BOX
+        ===================================== */
+
+        .embodied-box {
+            width: 250px;
+            margin-top: 55px;
+            padding: 18px 18px 19px;
+
+            border: 1px solid var(--black);
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 13px;
+            line-height: 1.55;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .embodied-box h3 {
+            margin: 0 0 10px;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+
+            color: var(--black);
+        }
+
+        .embodied-box p {
+            margin: 0;
+        }
+
+
+        /* =====================================
            FOOTER
         ===================================== */
 
@@ -350,24 +382,29 @@
                 width: 180px;
             }
 
+            .portrait,
+            .forest {
+                width: 175px;
+            }
+
+            .forest {
+                margin-top: 720px;
+            }
+
             .right-images {
                 width: 205px;
             }
 
-            .side-image {
-                width: 175px;
-            }
-
             .agriculture {
-                margin-top: 500px;
+                width: 175px;
+                margin-top: 330px;
             }
 
-            .panel {
-                margin-top: 70px;
-            }
-
-            .forest {
-                margin-top: 640px;
+            .embodied-box {
+                width: 205px;
+                margin-top: 45px;
+                padding: 15px;
+                font-size: 12px;
             }
 
             footer {
@@ -413,24 +450,14 @@
                 width: 100%;
             }
 
-            .side-image {
-                width: 190px;
-            }
-
             .portrait {
+                width: 190px;
                 margin: 0 0 30px;
             }
 
-            .agriculture {
-                margin: 45px 0 0;
-            }
-
-            .panel {
-                margin: 45px 0 0 auto;
-            }
-
             .forest {
-                margin: 45px 0 0 auto;
+                width: 190px;
+                margin: 35px 0 0;
             }
 
             .about-text {
@@ -443,6 +470,20 @@
 
             .right-images {
                 order: 3;
+            }
+
+            .agriculture {
+                width: 190px;
+                margin: 0 0 0 auto;
+            }
+
+            .embodied-box {
+                width: 100%;
+                max-width: 360px;
+                margin: 35px 0 0;
+                padding: 18px;
+
+                font-size: 13px;
             }
 
             footer {
@@ -499,14 +540,13 @@
         <div class="about-layout">
 
 
-            <!-- LEFT IMAGE COLUMN -->
+            <!-- LEFT IMAGES -->
 
             <div class="left-images">
 
-
                 <!-- PORTRAIT -->
 
-                <div class="side-image portrait">
+                <div class="portrait">
 
                     <img
                         src="img/IMG_5593.jpg"
@@ -515,16 +555,15 @@
                 </div>
 
 
-                <!-- AGRICULTURE -->
+                <!-- FOREST -->
 
-                <div class="side-image agriculture">
+                <div class="forest">
 
                     <img
-                        src="img/IMG_5741.jpg"
-                        alt="Agricultural landscape">
+                        src="img/IMG_5747.jpg"
+                        alt="Forest landscape">
 
                 </div>
-
 
             </div>
 
@@ -693,17 +732,16 @@
                 </ul>
 
 
-
                 <!-- OTHER INTERESTS -->
 
                 <h2>What else am I interested in?</h2>
 
                 <p>
-                    I regularly go running and enjoy hiking. I enjoy going to art shows and have sometimes written reviews about
-                    them for the contemporary art magazine <i>Texte zur Kunst</i> (see <a href="https://www.textezurkunst.de/de/articles/nuancen-von-nein/" target="_blank">here on a performance by
-                    Norwegian artist Hanne Lippard</a> and <a href="https://www.textezurkunst.de/de/articles/hanna-fiegenbaum-alfred-dursel-two-factored-privacy/" target="_blank">here
-                    on animal paintings by Belgian painter Alfred d'Ursel</a>; both texts are in German). I took piano lessons for 12 years but no longer
-                    play regularly; however, I still listen to music a lot. From 2017 to 2023, I taught German classes on the side and very much enjoyed both teaching and learning
+                I regularly go running and enjoy hiking. I enjoy going to art shows and have sometimes written reviews about 
+                    them for the contemporary art magazine <i>Texte zur Kunst</i> (see <a href="https://www.textezurkunst.de/de/articles/nuancen-von-nein/" target="_blank">here on a performance by 
+                        Norwegian artist Hanne Lippard</a> and <a href="https://www.textezurkunst.de/de/articles/hanna-fiegenbaum-alfred-dursel-two-factored-privacy/" target="_blank">here 
+                            on animal paintings by Belgian painter Alfred d'Ursel</a>; both texts are in German). I took piano lessons for 12 years but no longer 
+                    play regularly; however, I still listen to music a lot. From 2017 to 2023, I taught German classes on the side and very much enjoyed both teaching and learning 
                     from my students about different languages, cultures and places around the world.
                 </p>
 
@@ -712,31 +750,25 @@
 
 
 
-            <!-- RIGHT IMAGE COLUMN -->
+            <!-- RIGHT COLUMN -->
 
             <div class="right-images">
 
 
-                <!-- PANEL -->
+                <!-- AGRICULTURE -->
 
-                <div class="side-image panel">
+                <div class="agriculture">
 
                     <img
-                        src="img/panel-sustainable-finance.jpg"
-                        alt="Panel discussion on sustainable finance and resilient infrastructure">
+                        src="img/IMG_5741.jpg"
+                        alt="Agricultural landscape">
 
                 </div>
 
 
-                <!-- FOREST -->
+                <!-- EMBODIED COGNITION BOX -->
 
-                <div class="side-image forest">
-
-                    <img
-                        src="img/IMG_5747.jpg"
-                        alt="Forest landscape">
-
-                </div>
+               
 
 
             </div>
