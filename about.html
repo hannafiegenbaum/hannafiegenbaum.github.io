@@ -154,38 +154,61 @@
 
 
         /* =====================================
-           LEFT IMAGE COLUMN
+           IMAGE COLUMNS
         ===================================== */
 
         .left-images {
             width: 250px;
         }
 
-        .portrait {
+        .right-images {
+            width: 290px;
+        }
+
+        .side-image {
             width: 250px;
         }
 
-        .portrait img {
+        .side-image img {
             display: block;
             width: 100%;
+
             aspect-ratio: 4 / 5;
             object-fit: cover;
 
             border: 1px solid var(--black);
+        }
+
+
+        /* -------------------------------------
+           LEFT COLUMN
+        ------------------------------------- */
+
+        .portrait {
+            margin-top: 0;
+        }
+
+        .agriculture {
+            margin-top: 105px;
+        }
+
+        .wbf {
+            margin-top: 420px;
+        }
+
+
+        /* -------------------------------------
+           RIGHT COLUMN
+        ------------------------------------- */
+
+        .panel {
+            margin-top: 65px;
+            margin-left: auto;
         }
 
         .forest {
-            width: 250px;
-            margin-top: 760px;
-        }
-
-        .forest img {
-            display: block;
-            width: 100%;
-            aspect-ratio: 4 / 5;
-            object-fit: cover;
-
-            border: 1px solid var(--black);
+            margin-top: 330px;
+            margin-left: auto;
         }
 
 
@@ -254,75 +277,6 @@
 
 
         /* =====================================
-           RIGHT COLUMN
-        ===================================== */
-
-        .right-images {
-            width: 290px;
-        }
-
-        .agriculture {
-            width: 250px;
-            margin-top: 330px;
-        }
-
-        .agriculture img {
-            display: block;
-
-            width: 100%;
-            aspect-ratio: 4 / 5;
-            object-fit: cover;
-
-            border: 1px solid var(--black);
-        }
-
-
-        /* =====================================
-           EMBODIED COGNITION BOX
-        ===================================== */
-
-        .embodied-box {
-            width: 250px;
-            margin-top: 55px;
-            padding: 18px 18px 19px;
-
-            border: 1px solid var(--black);
-
-            font-family:
-                "Avenir Next",
-                Avenir,
-                "Helvetica Neue",
-                Arial,
-                sans-serif;
-
-            font-size: 13px;
-            line-height: 1.55;
-            font-weight: 400;
-
-            color: var(--black);
-        }
-
-        .embodied-box h3 {
-            margin: 0 0 10px;
-
-            font-family:
-                "Times New Roman",
-                Times,
-                serif;
-
-            font-size: 16px;
-            line-height: 1.2;
-            font-weight: 700;
-
-            color: var(--black);
-        }
-
-        .embodied-box p {
-            margin: 0;
-        }
-
-
-        /* =====================================
            FOOTER
         ===================================== */
 
@@ -382,29 +336,28 @@
                 width: 180px;
             }
 
-            .portrait,
-            .forest {
-                width: 175px;
-            }
-
-            .forest {
-                margin-top: 720px;
-            }
-
             .right-images {
                 width: 205px;
             }
 
-            .agriculture {
+            .side-image {
                 width: 175px;
-                margin-top: 330px;
             }
 
-            .embodied-box {
-                width: 205px;
-                margin-top: 45px;
-                padding: 15px;
-                font-size: 12px;
+            .agriculture {
+                margin-top: 100px;
+            }
+
+            .wbf {
+                margin-top: 390px;
+            }
+
+            .panel {
+                margin-top: 60px;
+            }
+
+            .forest {
+                margin-top: 310px;
             }
 
             footer {
@@ -450,14 +403,24 @@
                 width: 100%;
             }
 
-            .portrait {
+            .side-image {
                 width: 190px;
+            }
+
+            .portrait {
                 margin: 0 0 30px;
             }
 
+            .agriculture,
+            .wbf,
+            .panel,
             .forest {
-                width: 190px;
-                margin: 35px 0 0;
+                margin-top: 35px;
+            }
+
+            .panel,
+            .forest {
+                margin-left: auto;
             }
 
             .about-text {
@@ -470,20 +433,6 @@
 
             .right-images {
                 order: 3;
-            }
-
-            .agriculture {
-                width: 190px;
-                margin: 0 0 0 auto;
-            }
-
-            .embodied-box {
-                width: 100%;
-                max-width: 360px;
-                margin: 35px 0 0;
-                padding: 18px;
-
-                font-size: 13px;
             }
 
             footer {
@@ -540,13 +489,14 @@
         <div class="about-layout">
 
 
-            <!-- LEFT IMAGES -->
+            <!-- LEFT IMAGE COLUMN -->
 
             <div class="left-images">
 
+
                 <!-- PORTRAIT -->
 
-                <div class="portrait">
+                <div class="side-image portrait">
 
                     <img
                         src="img/IMG_5593.jpg"
@@ -555,15 +505,27 @@
                 </div>
 
 
-                <!-- FOREST -->
+                <!-- AGRICULTURE -->
 
-                <div class="forest">
+                <div class="side-image agriculture">
 
                     <img
-                        src="img/IMG_5747.jpg"
-                        alt="Forest landscape">
+                        src="img/IMG_5741.jpg"
+                        alt="Agricultural landscape">
 
                 </div>
+
+
+                <!-- WORLD BIODIVERSITY FORUM -->
+
+                <div class="side-image wbf">
+
+                    <img
+                        src="img/wbf.jpg"
+                        alt="World Biodiversity Forum">
+
+                </div>
+
 
             </div>
 
@@ -676,7 +638,6 @@
                     and applied work.
                 </p>
 
-
                 <p>
                     Nature finance, sustainable business and ecological economics
                     are fields in which much of this methodological, technical and practical
@@ -732,16 +693,17 @@
                 </ul>
 
 
+
                 <!-- OTHER INTERESTS -->
 
                 <h2>What else am I interested in?</h2>
 
                 <p>
-                I regularly go running and enjoy hiking. I enjoy going to art shows and have sometimes written reviews about 
-                    them for the contemporary art magazine <i>Texte zur Kunst</i> (see <a href="https://www.textezurkunst.de/de/articles/nuancen-von-nein/" target="_blank">here on a performance by 
-                        Norwegian artist Hanne Lippard</a> and <a href="https://www.textezurkunst.de/de/articles/hanna-fiegenbaum-alfred-dursel-two-factored-privacy/" target="_blank">here 
-                            on animal paintings by Belgian painter Alfred d'Ursel</a>; both texts are in German). I took piano lessons for 12 years but no longer 
-                    play regularly; however, I still listen to music a lot. From 2017 to 2023, I taught German classes on the side and very much enjoyed both teaching and learning 
+                    I regularly go running and enjoy hiking. I enjoy going to art shows and have sometimes written reviews about
+                    them for the contemporary art magazine <i>Texte zur Kunst</i> (see <a href="https://www.textezurkunst.de/de/articles/nuancen-von-nein/" target="_blank">here on a performance by
+                    Norwegian artist Hanne Lippard</a> and <a href="https://www.textezurkunst.de/de/articles/hanna-fiegenbaum-alfred-dursel-two-factored-privacy/" target="_blank">here
+                    on animal paintings by Belgian painter Alfred d'Ursel</a>; both texts are in German). I took piano lessons for 12 years but no longer
+                    play regularly; however, I still listen to music a lot. From 2017 to 2023, I taught German classes on the side and very much enjoyed both teaching and learning
                     from my students about different languages, cultures and places around the world.
                 </p>
 
@@ -750,25 +712,31 @@
 
 
 
-            <!-- RIGHT COLUMN -->
+            <!-- RIGHT IMAGE COLUMN -->
 
             <div class="right-images">
 
 
-                <!-- AGRICULTURE -->
+                <!-- PANEL -->
 
-                <div class="agriculture">
+                <div class="side-image panel">
 
                     <img
-                        src="img/IMG_5741.jpg"
-                        alt="Agricultural landscape">
+                        src="img/panel-sustainable-finance.jpg"
+                        alt="Panel discussion on sustainable finance and resilient infrastructure">
 
                 </div>
 
 
-                <!-- EMBODIED COGNITION BOX -->
+                <!-- FOREST -->
 
-               
+                <div class="side-image forest">
+
+                    <img
+                        src="img/IMG_5747.jpg"
+                        alt="Forest landscape">
+
+                </div>
 
 
             </div>
