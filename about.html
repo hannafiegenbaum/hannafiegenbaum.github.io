@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
     <style>
 
@@ -60,6 +60,8 @@
 
         .name {
             display: block;
+            position: relative;
+            padding-left: 47px;
 
             font-family:
                 "Times New Roman",
@@ -76,6 +78,18 @@
 
         .name:hover {
             color: var(--green);
+        }
+
+        .name-logo {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+            display: block;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
         }
 
 
@@ -540,6 +554,10 @@
     <header>
 
         <a class="name" href="index.html">
+            <img
+                src="img/favicon.png"
+                alt=""
+                class="name-logo">
             Hanna Fiegenbaum
         </a>
 
@@ -692,9 +710,10 @@
                     at social-ecological systems through a systemic lens and learning about
                     various inferential approaches to drawing conclusions from
                     observations and from propositional knowledge. Professional roles
-                    in business development, research and development, the built environment, and technical
-                    fields have added experience in project design and implementation,
-                    management, technical expertise and team leadership over 15 years of work experience across sectors.
+                    in business development, research and development, natural resources management and conservation, 
+                    the built environment, supply chain management, data analysis and software development have added experience 
+                    in project design and implementation, management, technical expertise and team leadership over 15 years of work 
+                    experience across sectors.
                 </p>
 
                 <p>
