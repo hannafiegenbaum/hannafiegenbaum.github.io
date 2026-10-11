@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
     <style>
 
@@ -60,6 +60,8 @@
 
         .name {
             display: block;
+            position: relative;
+            padding-left: 47px;
 
             font-family:
                 "Times New Roman",
@@ -76,6 +78,18 @@
 
         .name:hover {
             color: var(--green);
+        }
+
+        .name-logo {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+            display: block;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
         }
 
 
@@ -368,6 +382,10 @@
     <header>
 
         <a class="name" href="index.html">
+            <img
+                src="img/favicon.png"
+                alt=""
+                class="name-logo">
             Hanna Fiegenbaum
         </a>
 
@@ -409,11 +427,11 @@
                     banking, local payments for ecosystem services, public conservation funding, municipal bonds and water-related financing mechanisms. These differences are partly rooted in the structure of 
                     financial systems and institutions more broadly.
                 </p>
+
                 <p>
-I am interested in what sustainable financial infrastructure for nature could look like in a particular region or context, taking account of existing conditions and opportunities for future development. 
+                    I am interested in what sustainable financial infrastructure for nature could look like in a particular region or context, taking account of existing conditions and opportunities for future development. 
                     Which financing instruments, vehicles and pathways are financially and economically viable, environmentally and socially sustainable, and capable of operating over the long term? 
                     How can they be connected, and which combinations hold potential for transformative change?
-                    
                 </p>
 
                 <p>
@@ -466,13 +484,12 @@ I am interested in what sustainable financial infrastructure for nature could lo
                     explicitly, and how multi-agent world models could support decision-makers in integrating and consolidating evidence and 
                     exploring suitable agreements, financing mechanisms and governance arrangements for conservation, sustainable management 
                     and restoration over time.
-                    
                 </p>
 
                 <p>
                     Together with <a href="https://juanitorduz.github.io/about/" target="_blank">Dr. Juan Camilo Orduz</a>, I am working on a
                     Bayesian model for forest investment, combining multiple agents with differing preferences,
-                  and sequential evaluation with Thompson sampling to compare alternative incentive and financing mechanisms over time
+                    and sequential evaluation with Thompson sampling to compare alternative incentive and financing mechanisms over time
                     (Find the poster abstract in the
                     <a href="https://www.stancon2026.org/program/"
                        target="_blank">
@@ -593,7 +610,6 @@ I am interested in what sustainable financial infrastructure for nature could lo
                     <a href="https://eartharxiv.org/repository/view/9791/" target="_blank">
                         Classifying Climate Benefits and Addressing Trade-offs of Timber Use in Buildings for Voluntary Carbon Markets and the EU Carbon Removal Certification Framework
                     </a>).
-
                 </p>
 
                 <p>
@@ -612,7 +628,9 @@ I am interested in what sustainable financial infrastructure for nature could lo
             </div>
 
         </section>
-          <!-- =====================================
+
+
+        <!-- =====================================
              BLOCK 6
              IMAGE LEFT / TEXT RIGHT
         ====================================== -->
@@ -628,24 +646,19 @@ I am interested in what sustainable financial infrastructure for nature could lo
 
             <div class="research-text">
 
-                <h2> Market Rules and Sustainable Finance for Social and Cultural Sustainability Objectives</h2>
+                <h2>Market Rules and Sustainable Finance for Social and Cultural Sustainability Objectives</h2>
 
                 <p>
-                  
-In a world characterised by widely differing and competing visions of the future, market rules and sustainable finance frameworks play an increasingly important role in defining the boundary conditions of decision spaces. 
+                    In a world characterised by widely differing and competing visions of the future, market rules and sustainable finance frameworks play an increasingly important role in defining the boundary conditions of decision spaces. 
                     They are essential for safeguarding and preserving not only environmental, but also social and cultural value, while supporting livelihoods, reducing poverty and inequalities, and preventing conditions that contribute to violent conflict.
-As resources are increasingly at risk of being allocated to and invested in future scenarios that are incompatible with maintaining sustainable living conditions 
+                    As resources are increasingly at risk of being allocated to and invested in future scenarios that are incompatible with maintaining sustainable living conditions 
                     over the long term and damaging to local livelihoods in the shorter term, different social, economic and cultural systems may need to make their own conditions of possibility explicit, 
                     evaluate them, and selectively preserve those that enable their continued existence and coexistence with others. 
-
                 </p>
-
-              
 
             </div>
 
         </section>
-
 
 
     </main>
