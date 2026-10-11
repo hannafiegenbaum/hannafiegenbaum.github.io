@@ -60,6 +60,8 @@
 
         .name {
             display: block;
+            position: relative;
+            padding-left: 47px;
 
             font-family:
                 "Times New Roman",
@@ -76,6 +78,18 @@
 
         .name:hover {
             color: var(--green);
+        }
+
+        .name-logo {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+            display: block;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
         }
 
 
@@ -220,6 +234,10 @@
     <header>
 
         <a class="name" href="index.html">
+            <img
+                src="img/favicon.png"
+                alt=""
+                class="name-logo">
             Hanna Fiegenbaum
         </a>
 
