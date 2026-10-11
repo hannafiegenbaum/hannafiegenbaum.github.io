@@ -59,7 +59,9 @@
         ===================================== */
 
         .name {
-            display: block;
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
 
             font-family:
                 "Times New Roman",
@@ -73,9 +75,18 @@
             color: var(--black);
             text-decoration: none;
         }
+
         .name:hover {
-    color: var(--green);
-}
+            color: var(--green);
+        }
+
+        .name-logo {
+            display: block;
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
 
 
         /* =====================================
@@ -230,7 +241,7 @@
         }
 
         footer a:hover {
-            color:var(--green);
+            color: var(--green);
         }
 
 
@@ -314,7 +325,11 @@
         <div class="identity">
 
             <a class="name" href="index.html">
-                Hanna Fiegenbaum
+                <img
+                    src="img/favicon.png"
+                    alt=""
+                    class="name-logo">
+                <span>Hanna Fiegenbaum</span>
             </a>
 
             <p class="short-bio">
