@@ -33,7 +33,7 @@ const projects = [
 
         year: "2025-ongoing",
 
-        cover: "img/project-biodiversity-impact-avoidance.jpg",
+        cover: "img/lisbonwetlands.JPG",
 
         description: [
             "This is a test project description."
@@ -56,19 +56,7 @@ const projects = [
     },
 
 
-    {
-        id: "bioarca",
-
-        title: "BioArca – Tapir Conservation and Rainforest Stewardship on the Osa Peninsula in Costa Rica",
-
-        year: "2025",
-
-        cover: "img/project-bioarca.jpg",
-
-        description: [
-            "This is a test project description."
-        ]
-    },
+    
 
 
     {
