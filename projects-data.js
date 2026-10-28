@@ -10,7 +10,7 @@ const projects = [
         description: [
             "This is a test project description."
         ]
-    }
+    },
     {
         id: "price-formation-nature-based-credit-markets",
 
