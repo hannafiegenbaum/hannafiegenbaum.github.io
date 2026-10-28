@@ -151,6 +151,172 @@
 
 
         /* =====================================
+           PROJECT GRID
+        ===================================== */
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+
+            margin-top: 45px;
+        }
+
+
+        /* =====================================
+           PROJECT CARD
+        ===================================== */
+
+        .project-card {
+            display: block;
+
+            padding: 14px 14px 18px;
+
+            border: 1px solid var(--black);
+
+            color: var(--black);
+            text-decoration: none;
+            background: transparent;
+
+            cursor: pointer;
+        }
+
+        .project-card-image {
+            display: block;
+
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+
+            border: 1px solid var(--black);
+        }
+
+        .project-card-title {
+            margin: 14px 2px 0;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 17px;
+            line-height: 1.3;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .project-card-year {
+            margin: 7px 2px 0;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 11px;
+            line-height: 1.3;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .project-card:hover .project-card-title {
+            color: var(--green);
+        }
+
+
+        /* =====================================
+           PROJECT DETAIL
+        ===================================== */
+
+        .project-detail {
+            display: none;
+        }
+
+        .project-detail.active {
+            display: block;
+        }
+
+        .project-back {
+            display: inline-block;
+            margin-bottom: 35px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 12px;
+            font-weight: 400;
+
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .project-back:hover {
+            color: var(--green);
+        }
+
+        .project-detail-title {
+            max-width: 780px;
+            margin: 0 0 8px;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 24px;
+            line-height: 1.25;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .project-detail-year {
+            margin: 0 0 30px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 12px;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .project-detail-description {
+            max-width: 680px;
+
+            font-family:
+                "Avenir Next",
+                Avenir,
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+
+            font-size: 14px;
+            line-height: 1.65;
+            font-weight: 400;
+
+            color: var(--black);
+        }
+
+        .project-detail-description p {
+            margin: 0 0 17px;
+        }
+
+
+        /* =====================================
            FOOTER
         ===================================== */
 
@@ -209,6 +375,14 @@
                 font-size: 20px;
             }
 
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project-card {
+                max-width: 360px;
+            }
+
             footer {
                 margin-top: 60px;
                 padding: 0 25px 35px;
@@ -258,7 +432,51 @@
 
     <main>
 
-        <h1>Selected Projects</h1>
+
+        <!-- PROJECT OVERVIEW -->
+
+        <div id="project-overview">
+
+            <h1>Selected Projects</h1>
+
+            <div
+                id="project-grid"
+                class="project-grid">
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT DETAIL -->
+
+        <div
+            id="project-detail"
+            class="project-detail">
+
+            <a
+                href="projects.html"
+                id="project-back"
+                class="project-back">
+                ← Selected Projects
+            </a>
+
+            <div
+                id="project-detail-title"
+                class="project-detail-title">
+            </div>
+
+            <div
+                id="project-detail-year"
+                class="project-detail-year">
+            </div>
+
+            <div
+                id="project-detail-description"
+                class="project-detail-description">
+            </div>
+
+        </div>
+
 
     </main>
 
@@ -297,6 +515,229 @@
         </a>
 
     </footer>
+
+
+    <!-- PROJECT DATA -->
+
+    <script src="projects-data.js"></script>
+
+
+    <!-- PROJECT LOGIC -->
+
+    <script>
+
+        const projectGrid =
+            document.getElementById("project-grid");
+
+        const projectOverview =
+            document.getElementById("project-overview");
+
+        const projectDetail =
+            document.getElementById("project-detail");
+
+        const detailTitle =
+            document.getElementById("project-detail-title");
+
+        const detailYear =
+            document.getElementById("project-detail-year");
+
+        const detailDescription =
+            document.getElementById("project-detail-description");
+
+        const projectBack =
+            document.getElementById("project-back");
+
+
+        /* =====================================
+           CREATE PROJECT CARDS
+        ===================================== */
+
+        function renderProjects() {
+
+            projectGrid.innerHTML = "";
+
+            projects.forEach(project => {
+
+                const card =
+                    document.createElement("a");
+
+                card.className = "project-card";
+                card.href = "#" + project.id;
+
+
+                const image =
+                    document.createElement("img");
+
+                image.className = "project-card-image";
+                image.src = project.cover;
+                image.alt = project.title;
+
+
+                const title =
+                    document.createElement("div");
+
+                title.className = "project-card-title";
+                title.textContent = project.title;
+
+
+                const year =
+                    document.createElement("div");
+
+                year.className = "project-card-year";
+                year.textContent = project.year;
+
+
+                card.appendChild(image);
+                card.appendChild(title);
+                card.appendChild(year);
+
+
+                card.addEventListener("click", function(event) {
+
+                    event.preventDefault();
+
+                    history.pushState(
+                        null,
+                        "",
+                        "#" + project.id
+                    );
+
+                    showProject(project.id);
+
+                });
+
+
+                projectGrid.appendChild(card);
+
+            });
+
+        }
+
+
+        /* =====================================
+           SHOW PROJECT
+        ===================================== */
+
+        function showProject(projectId) {
+
+            const project =
+                projects.find(
+                    project => project.id === projectId
+                );
+
+
+            if (!project) {
+                showOverview();
+                return;
+            }
+
+
+            projectOverview.style.display = "none";
+
+            projectDetail.classList.add("active");
+
+
+            detailTitle.textContent =
+                project.title;
+
+            detailYear.textContent =
+                project.year;
+
+            detailDescription.innerHTML = "";
+
+
+            project.description.forEach(paragraph => {
+
+                const p =
+                    document.createElement("p");
+
+                p.textContent = paragraph;
+
+                detailDescription.appendChild(p);
+
+            });
+
+
+            window.scrollTo(0, 0);
+
+        }
+
+
+        /* =====================================
+           SHOW OVERVIEW
+        ===================================== */
+
+        function showOverview() {
+
+            projectDetail.classList.remove("active");
+
+            projectOverview.style.display = "block";
+
+        }
+
+
+        /* =====================================
+           BACK LINK
+        ===================================== */
+
+        projectBack.addEventListener(
+            "click",
+            function(event) {
+
+                event.preventDefault();
+
+                history.pushState(
+                    null,
+                    "",
+                    window.location.pathname
+                );
+
+                showOverview();
+
+                window.scrollTo(0, 0);
+
+            }
+        );
+
+
+        /* =====================================
+           BROWSER BACK / FORWARD
+        ===================================== */
+
+        function routeFromURL() {
+
+            const projectId =
+                window.location.hash.substring(1);
+
+            if (projectId) {
+
+                showProject(projectId);
+
+            } else {
+
+                showOverview();
+
+            }
+
+        }
+
+
+        window.addEventListener(
+            "popstate",
+            routeFromURL
+        );
+
+
+        /* =====================================
+           INITIALISE
+        ===================================== */
+
+        renderProjects();
+
+        routeFromURL();
+
+
+    </script>
 
 
 </body>
