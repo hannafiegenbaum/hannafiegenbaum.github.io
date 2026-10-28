@@ -29,7 +29,7 @@ const projects = [
     {
         id: "biodiversity-impact-avoidance",
 
-        title: "Decision Support for Enhancing Biodiversity Impact Avoidance in Early-phase Project Design and Planning",
+        title: "Decision Support for Enhancing Biodiversity Impact Avoidance in Early-phase Project Design, Site Selection and Planning",
 
         year: "2025-ongoing",
 
