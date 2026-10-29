@@ -48,7 +48,7 @@ const projects = [
 
         year: "2024-2025",
 
-        cover: "img/project-residual-value.jpg",
+        cover: "img/IMG_5036.jpg",
 
         description: [
             "This is a test project description."
