@@ -42,15 +42,14 @@ const projects = [
         description: [
             `
             <h2>Biodiversity Impact Avoidance</h2>
-<p>Partner: <a href="https://www.impactmitigation.org/" target="_blank">
+<p>Partners: <a href="https://www.impactmitigation.org/" target="_blank">
                     Impact Mitigation and Ecological Compensation thematic group
-                </a> and Group members</p>
+                </a> working group members.</p>
+                <p>Outcomes: Academic publication and decision-making guidance.
+                </p>
             <p>
                 Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
-                IUCN
-                <a href="https://www.impactmitigation.org/" target="_blank">
-                    Impact Mitigation and Ecological Compensation thematic group
-                </a>.
+                IUCN Impact Mitigation and Ecological Compensation thematic group.
                 Avoidance of negative impacts on species and ecosystems is widely seen as the most effective stage of the mitigation hierarchy,
                 before reducing, restoring and compensating for impacts that have already occurred.
                 Increasingly, financial, institutional and social drivers are being developed that incentivize and enhance how the potential for avoiding impacts on species
