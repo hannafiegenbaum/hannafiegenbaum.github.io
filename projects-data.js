@@ -14,7 +14,7 @@ const projects = [
     {
         id: "price-formation-nature-based-credit-markets",
 
-        title: "Price Formation and Sustainable Market Development in Nature-Based Credit Markets",
+        title: "Price Formation and Sustainable Market Development in Nature-Based Credit Markets – Research & Report for the EC JRC",
 
         year: "2026",
 
@@ -29,7 +29,7 @@ const projects = [
     {
         id: "biodiversity-impact-avoidance",
 
-        title: "Decision Support for Enhancing Biodiversity Impact Avoidance in Early-phase Project Design, Site Selection and Planning",
+        title: "Decision Support for Enhancing Biodiversity Impact Avoidance in Early-phase Project Design, Site Selection and Planning – IUCN IMEC working group",
 
         year: "2025-ongoing",
 
