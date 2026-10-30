@@ -46,7 +46,7 @@ const projects = [
 
         title: "Residual Value Models in Asset Valuation",
 
-        year: "2024-2025",
+        year: "2024-2026",
 
         cover: "img/1719496243176.jpeg",
 
@@ -55,6 +55,19 @@ const projects = [
         ]
     },
 
+ {
+        id: "Bio-Arca",
+
+        title: "BioArca – Sustainable Finance Plan for Tapir conservation and rainforest stewardship in Costa Rica",
+
+        year: "2025",
+
+        cover: "img/Costrica-osa.jpeg",
+
+        description: [
+            "This is a test project description."
+        ]
+    },
 
     
 
