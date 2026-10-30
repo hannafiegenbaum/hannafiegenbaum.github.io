@@ -3,14 +3,18 @@ const projects = [
     {
         id: "commons-to-bankable-projects",
 
-        title: "From Commons Governance and Social-Ecological Systems to Nature-based Business Cases,  Investable Projects and Natural Capital Conversion",
-         year: "2026",
+        title: "From Commons Governance and Social-Ecological Systems to Nature-based Business Cases, Investable Projects and Natural Capital Conversion",
+
+        year: "2026",
+
         cover: "img/IMG_5547.JPG",
 
         description: [
             "This is a test project description."
         ]
     },
+
+
     {
         id: "price-formation-nature-based-credit-markets",
 
@@ -36,7 +40,25 @@ const projects = [
         cover: "img/lisbonwetlands.JPG",
 
         description: [
-            "This is a test project description."
+            `
+            <h2>Biodiversity Impact Avoidance</h2>
+<p>Partner: <a href="https://www.impactmitigation.org/" target="_blank">
+                    Impact Mitigation and Ecological Compensation thematic group
+                </a> and Group members</p>
+            <p>
+                Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
+                IUCN
+                <a href="https://www.impactmitigation.org/" target="_blank">
+                    Impact Mitigation and Ecological Compensation thematic group
+                </a>.
+                Avoidance of negative impacts on species and ecosystems is widely seen as the most effective stage of the mitigation hierarchy,
+                before reducing, restoring and compensating for impacts that have already occurred.
+                Increasingly, financial, institutional and social drivers are being developed that incentivize and enhance how the potential for avoiding impacts on species
+                and ecosystems in the first place, and for preserving ecological, economic and asset value, can be used and valued when planning and designing projects
+                and choosing their locations.
+                We work towards providing decision support to maximize and make use of planning optionality for the avoidance of negative impacts.
+            </p>
+            `
         ]
     },
 
@@ -55,10 +77,11 @@ const projects = [
         ]
     },
 
- {
+
+    {
         id: "Bio-Arca",
 
-        title: "BioArca – Sustainable Finance Plan for Tapir conservation and rainforest stewardship in Costa Rica",
+        title: "BioArca – Sustainable Finance Plan for Tapir Conservation and Rainforest Stewardship in Costa Rica",
 
         year: "2025",
 
@@ -68,8 +91,6 @@ const projects = [
             "This is a test project description."
         ]
     },
-
-    
 
 
     {
