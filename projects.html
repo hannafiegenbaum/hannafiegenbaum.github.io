@@ -311,8 +311,33 @@
             color: var(--black);
         }
 
+        .project-detail-description h2 {
+            margin: 0 0 12px;
+
+            font-family:
+                "Times New Roman",
+                Times,
+                serif;
+
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+
+            color: var(--black);
+        }
+
         .project-detail-description p {
             margin: 0 0 17px;
+        }
+
+        .project-detail-description a {
+            color: var(--black);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .project-detail-description a:hover {
+            color: var(--green);
         }
 
 
@@ -646,14 +671,14 @@
             detailDescription.innerHTML = "";
 
 
-            project.description.forEach(paragraph => {
+            project.description.forEach(block => {
 
-                const p =
-                    document.createElement("p");
+                const content =
+                    document.createElement("div");
 
-                p.textContent = paragraph;
+                content.innerHTML = block;
 
-                detailDescription.appendChild(p);
+                detailDescription.appendChild(content);
 
             });
 
