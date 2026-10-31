@@ -253,7 +253,7 @@ const projects = [
              `
             <h2>How can existing resources, methodologies and digital technologies be better leveraged to enable smallholder farmers to access payments for ecosystem services and environmental credit markets?</h2>
 <p>
-<strong>Project Type</strong>: Research & Development, Methodology Development. 
+<strong>Project Type</strong>: Research & Development, Facilitation, Capacity Building. 
 </p>
 <p>
 <strong>Partners</strong>: <a href="https://agrivero.ai/" target="_blank">Agrivero.ai</a>, <a href="https://silvi.earth/" target="_blank">Silvi.earth</a>, <a href="https://earthist.network/" target="_blank">Earthist Network</a>, <a href="https://planet2050.earth/blog/regenerative-coffee" target="_blank">Coffee Impact Collective</a>. 
