@@ -27,7 +27,7 @@ const projects = [
     </p>
 
     <p>
-        Developed with Juan Camilo Orduz (PyMC Labs), this research prototype combines a multi-agent base and their preferences, causal modelling and sequential Bayesian learning to compare cost-sharing, outcome-based payments and credit-based financing. 
+         <strong>Project Description</strong>: Developed with Juan Camilo Orduz (PyMC Labs), this research prototype combines a multi-agent base and their preferences, causal modelling and sequential Bayesian learning to compare cost-sharing, outcome-based payments and credit-based financing. 
         Using upstream reforestation to reduce sediment risks for hydropower as an illustrative case, it explores how financing mechanisms can adapt to changing ecological conditions. 
         The framework uses synthetic data to examine coordination, uncertainty and long-term asset performance.
     </p>
@@ -55,13 +55,15 @@ const projects = [
     <p>
        <strong> Project Type</strong>: Consultancy with the European Commission Joint Research Centre.
     </p>
-
+  <p>
+       <strong> Funding</strong>: Horizon Europe.  
+    </p>
     <p>
        <strong> Outcome</strong>: Research & Report.  
     </p>
 
     <p>
-        This research project for the European Commission’s Joint Research Centre examined how market design shapes price formation and development 
+       <strong>Project Description</strong>: This research project for the European Commission’s Joint Research Centre examined how market design shapes price formation and development 
         across five voluntary and mandatory nature credit markets. Combining a literature and policy review with comparative market analysis and exploratory hedonic pricing of 
         a Biodiversity compliance market, it assessed how metrics, trading rules, demand mechanisms and project financing requirements influence prices and allocation. 
         The resulting report provided results and recommendations to inform European nature credit policy.
@@ -90,7 +92,7 @@ const projects = [
                 <p><strong>Outcomes</strong>: Academic publication and decision-making guidance for businesses and financial institutions.
                 </p>
             <p>
-                Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
+               <strong>Project Description</strong>: Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
                 IUCN Impact Mitigation and Ecological Compensation thematic group.
                 Avoidance of negative impacts on species and ecosystems is widely seen as the most effective stage of the mitigation hierarchy,
                 before reducing, restoring and compensating for impacts that have already occurred.
@@ -145,7 +147,7 @@ const projects = [
     </p>
 
     <p>
-        Bioarca de Osa is a 57-hectare regenerative ecosystem sanctuary adjacent to Corcovado National Park in Costa Rica, 
+        <strong>Project Description</strong>: Bioarca de Osa is a 57-hectare regenerative ecosystem sanctuary adjacent to Corcovado National Park in Costa Rica, 
         protecting tropical rainforest, cloud forest, wetlands and freshwater ecosystems. 
         The project combines biodiversity conservation, ecological restoration and community-based stewardship, 
         integrating local and Indigenous knowledge into long-term land governance. 
@@ -189,7 +191,7 @@ const projects = [
                 <strong>Outcomes</strong>: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
                 </p>
             <p>
-         The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
+         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
  </p>
   <p>Complementary research with BLCK IoT and the Kamukunji Environmental Conservation Champions (KECC) community in Nairobi, Kenya, examined the application of decentralized Internet-of-Things (IoT) networks in community-led urban green space restoration. The study evaluated network reliability, operational costs, data traceability and opportunities for community participation, highlighting the potential of decentralized infrastructure for accessible environmental monitoring and inclusive data governance.
 
