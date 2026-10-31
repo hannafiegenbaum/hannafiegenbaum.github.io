@@ -15,7 +15,9 @@ const projects = [
     <p>
         <strong>How can investment mechanisms align individual incentives with shared ecological and economic outcomes?</strong>
     </p>
-
+ <p>
+        Project Type: Research & Development. 
+    </p>
     <p>
         Partner: Dr. Juan Camilo Orduz (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
     </p>
