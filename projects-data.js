@@ -45,7 +45,24 @@ const projects = [
         cover: "img/pricedispersion.jpg",
 
         description: [
-            "This is a test project description."
+            `
+   
+
+    <p>
+        Consultancy with the European Commission Joint Research Centre.
+    </p>
+
+    <p>
+        Outcome: Research & Report.  
+    </p>
+
+    <p>
+        This research project for the European Commission’s Joint Research Centre examined how market design shapes price formation and development 
+        across five voluntary and mandatory nature credit markets. Combining a literature and policy review with comparative market analysis and exploratory hedonic pricing of 
+        a Biodiversity compliance market, it assessed how metrics, trading rules, demand mechanisms and project financing requirements influence prices and allocation. 
+        The resulting report provided results and recommendations to inform European nature credit policy.
+    </p>
+    `
         ]
     },
 
