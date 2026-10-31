@@ -121,7 +121,7 @@ const projects = [
         <h2>How can circular construction principles and the residual value of reusable building materials be integrated into real estate valuation and financing?</h2>
     </p>
  <p>
-        <strong>Project Type</strong>: Stakeholder Initiative. 
+        <strong>Project Type</strong>: Multi-Stakeholder Initiative, Outreach & Stakeholder Dialogue. 
     </p>
     <p>
         <strong>Partners</strong>: Triodos Bank, Concular, WoodenValley, Züblin STRABAG, Steinbeis Centre for Circular Economy, andOffice Architekten.
@@ -204,7 +204,7 @@ const projects = [
               `
             <h2>How can decentralized digital infrastructure support natural capital valuation, environmental restoration and community-based governance?</h2>
 <p>
-<strong>Project Type</strong>: Ostrom – Digital Measurement, Reporting and Verification (DMRV) of Natural Capital; Community-Based Urban Green Space Restoration, Kamukunji Park, Nairobi, Kenya.
+<strong>Project Type</strong>: Technology Development and Community-based Urban Restoration. Ostrom – Digital Measurement, Reporting and Verification (DMRV) of Natural Capital; Community-Based Urban Green Space Restoration, Kamukunji Park, Nairobi, Kenya.
 
 </p>
 <p>
