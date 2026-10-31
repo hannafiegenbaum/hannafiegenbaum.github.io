@@ -49,7 +49,7 @@ const projects = [
    
 
     <p>
-        Consultancy with the European Commission Joint Research Centre.
+        Project Type: Consultancy with the European Commission Joint Research Centre.
     </p>
 
     <p>
