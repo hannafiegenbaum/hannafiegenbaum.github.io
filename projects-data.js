@@ -116,7 +116,29 @@ const projects = [
         cover: "img/1719496243176.jpeg",
 
         description: [
-            "This is a test project description."
+            `
+    <p>
+        <h2>How can circular construction principles and the residual value of reusable building materials be integrated into real estate valuation and financing?</h2>
+    </p>
+ <p>
+        <strong>Project Type</strong>: Stakeholder Initiative. 
+    </p>
+    <p>
+        <strong>Partners</strong>: Triodos Bank, Concular, WoodenValley, Züblin STRABAG, Steinbeis Centre for Circular Economy, andOffice Architekten.
+    <p>
+        <strong>Outcome</strong>: Webinar with Bauwende Allianz Germany and HypZert GmbH, Stakeholder Dialogue. 
+    </p>
+
+    <p>
+         <strong>Project Description</strong>: The stakeholder initiative examined how the residual value of reusable building materials 
+         and components could be incorporated into real estate valuation and financing to incentivize circular construction. 
+         Drawing on European case studies and perspectives from banks, developers and property valuers, and incorporating
+         recent sustainable finance policy and disclosure frameworks and regulation, the initiative's work explored 
+         valuation methodologies, financial risks, collateral requirements and regulatory barriers. 
+         Particular attention was given to adapting valuation standards and financing frameworks to recognize the economic value 
+         of material reuse, while supporting resource efficiency, emissions reduction and mitigation of vallue chain impacts on ecosystems.
+    </p>
+    `
         ]
     },
 
