@@ -79,10 +79,10 @@ const projects = [
         description: [
             `
             <h2>Biodiversity Impact Avoidance</h2>
-<p>Partners: <a href="https://www.impactmitigation.org/" target="_blank">
+<p>Project Type: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
                     Impact Mitigation and Ecological Compensation thematic group
-                </a> working group members.</p>
-                <p>Outcomes: Academic publication and decision-making guidance.
+                </a> working group.</p>
+                <p>Outcomes: Academic publication and decision-making guidance for businesses.
                 </p>
             <p>
                 Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
