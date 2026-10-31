@@ -169,15 +169,15 @@ const projects = [
     </p>
 
     <p>
-        <strong>Outcomes</strong>: Sustainable finance strategy for conservation. Advanced FONAFIFO onboarding and explored potential regional partnerships for sustainable financing of conservation stewardship.
+        <strong>Outcomes</strong>: Sustainable finance strategy for conservation. Advanced FONAFIFO onboarding and explored regional partnerships for sustainable financing of conservation stewardship.
     </p>
 
     <p>
         <strong>Project Description</strong>: Bioarca de Osa is a 57-hectare regenerative ecosystem sanctuary adjacent to Corcovado National Park in Costa Rica, 
         protecting tropical rainforest, cloud forest, wetlands and freshwater ecosystems. 
-        The project combines biodiversity conservation, ecological restoration and community-based stewardship, 
+        The project combines biodiversity conservation, with a focus on the Baird's tapir, ecological restoration and community-based stewardship, 
         integrating local and Indigenous knowledge into long-term land governance. 
-        The collaboration focused on exploring sustainable financing opportunities, 
+        The collaboration focused on mapping sustainable financing opportunities, 
         including Costa Rica’s <a href="https://www.fonafifo.go.cr/en/" target="_blank">FONAFIFO</a> payment for ecosystem services programme, 
         regional partnerships and alternative funding mechanisms to support long-term conservation and stewardship.
 </p>
