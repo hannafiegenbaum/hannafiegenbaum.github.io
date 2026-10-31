@@ -16,14 +16,14 @@ const projects = [
         <h2>How can investment mechanisms align individual incentives with shared ecological and economic outcomes?</h2>
     </p>
  <p>
-        Project Type: Research & Development. 
+        <strong>Project Type</strong>: Research & Development. 
     </p>
     <p>
-        Partner: Dr. Juan Camilo Orduz (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
+        <strong>Partner</strong>: Dr. Juan Camilo Orduz (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
     </p>
 
     <p>
-        Outcome: Research prototype. 
+        <strong>Outcome</strong>: Research prototype. 
     </p>
 
     <p>
@@ -53,11 +53,11 @@ const projects = [
     </p>
 
     <p>
-        Project Type: Consultancy with the European Commission Joint Research Centre.
+       <strong> Project Type</strong>: Consultancy with the European Commission Joint Research Centre.
     </p>
 
     <p>
-        Outcome: Research & Report.  
+       <strong> Outcome</strong>: Research & Report.  
     </p>
 
     <p>
@@ -83,10 +83,11 @@ const projects = [
         description: [
             `
             <h2>Biodiversity Impact Avoidance</h2>
-<p>Project Type: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
+<p>
+<strong>Project Type</strong>: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
                     Impact Mitigation and Ecological Compensation thematic group
                 </a> working group.</p>
-                <p>Outcomes: Academic publication and decision-making guidance for businesses and financial institutions.
+                <p><strong>Outcomes</strong>: Academic publication and decision-making guidance for businesses and financial institutions.
                 </p>
             <p>
                 Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
@@ -133,14 +134,14 @@ const projects = [
         <h2>How can innovative financing and community stewardship support the long-term protection of tropical rainforest ecosystems?</h2>
     </p>
  <p>
-        Project Type: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica (2025)
+        <strong>Project Type</strong>: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica (2025)
     </p>
     <p>
-        Partner: <a href"https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>
+       <strong> Partner</strong>: <a href"https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>
     </p>
 
     <p>
-        Outcome: Sustainable finance strategy for conservation. Advanced FONAFIFO onboarding and explored potential regional partnerships for sustainable financing of conservation stewardship.
+        <strong>Outcomes</strong>: Sustainable finance strategy for conservation. Advanced FONAFIFO onboarding and explored potential regional partnerships for sustainable financing of conservation stewardship.
     </p>
 
     <p>
@@ -174,14 +175,18 @@ const projects = [
         description: [
               `
             <h2>How can decentralized digital infrastructure support natural capital valuation, environmental restoration and community-based governance?</h2>
-<p>Project Type: Ostrom – Digital Measurement, Reporting and Verification (DMRV) of Natural Capital; Community-Based Urban Green Space Restoration, Kamukunji Park, Nairobi, Kenya.
+<p>
+<strong>Project Type</strong>: Ostrom – Digital Measurement, Reporting and Verification (DMRV) of Natural Capital; Community-Based Urban Green Space Restoration, Kamukunji Park, Nairobi, Kenya.
 
 </p>
-<p>Partners: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom Project</a>, <a href="https://blck-iot.com/" target="_blank">BLCK IoT</a>, <a href="https://www.publicspacenetwork.org/" target="_blank">Public Space Network</a> and Kamukunji Environmental Conservation Champions (KECC).
+<p>
+<strong>Partners</strong>: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom Project</a>, <a href="https://blck-iot.com/" target="_blank">BLCK IoT</a>, <a href="https://www.publicspacenetwork.org/" target="_blank">Public Space Network</a> and Kamukunji Environmental Conservation Champions (KECC).
 </p>
-<p>Funding: Filecoin Dev Grants – Green Grants Programme (Ostrom Project).
+<p>
+<strong>Funding</strong>: Filecoin Dev Grants – Green Grants Programme (Ostrom Project).
 </p>
-                <p>Outcomes: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
+                <p>
+                <strong>Outcomes</strong>: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
                 </p>
             <p>
          The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
@@ -190,9 +195,11 @@ const projects = [
 
 
             </p>
-            <p>Project Documentation: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom project Documentation</a>.
+            <p>
+            <strong>Project Documentation</strong>: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom project Documentation</a>.
 </p>
-<p>Publication: <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full" target="_blank">Frontiers in Blockchain Article (2026)</a>.
+<p>
+<strong>Publication</strong>: <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full" target="_blank">Frontiers in Blockchain Article (2026)</a>.
      </p>       
      
      <img
