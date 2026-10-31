@@ -86,7 +86,7 @@ const projects = [
 <p>Project Type: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
                     Impact Mitigation and Ecological Compensation thematic group
                 </a> working group.</p>
-                <p>Outcomes: Academic publication and decision-making guidance for businesses.
+                <p>Outcomes: Academic publication and decision-making guidance for businesses and financial institutions.
                 </p>
             <p>
                 Incentivizing avoidance of negative impacts on biodiversity when planning new developments is a topic we examine in a subgroup of the
@@ -128,7 +128,32 @@ const projects = [
         cover: "img/Costarica-osa.jpg",
 
         description: [
-            "This is a test project description."
+             `
+    <p>
+        <h2>How can innovative financing and community stewardship support the long-term protection of tropical rainforest ecosystems?</h2>
+    </p>
+ <p>
+        Project Type: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica (2025)
+    </p>
+    <p>
+        Partner:<a href"https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>)
+    </p>
+
+    <p>
+        Outcome: Sustainable finance strategy for conservation. Advanced FONAFIFO onboarding and explored potential regional partnerships for sustainable financing of conservation stewardship.
+    </p>
+
+    <p>
+        Bioarca de Osa is a 57-hectare regenerative ecosystem sanctuary adjacent to Corcovado National Park in Costa Rica, 
+        protecting tropical rainforest, cloud forest, wetlands and freshwater ecosystems. 
+        The project combines biodiversity conservation, ecological restoration and community-based stewardship, 
+        integrating local and Indigenous knowledge into long-term land governance. 
+        The collaboration focused on exploring sustainable financing opportunities, 
+        including Costa Rica’s FONAFIFO payment for ecosystem services programme, 
+        regional partnerships and alternative funding mechanisms to support long-term conservation and stewardship.
+</p>
+
+    `
         ]
     },
 
