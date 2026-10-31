@@ -165,7 +165,7 @@ const projects = [
 
         year: "2022-2023",
 
-        cover: "img/IMG_4697.JPG",
+        cover: "img/DSC_0664.JPEG",
 
         description: [
               `
