@@ -168,7 +168,29 @@ const projects = [
         cover: "img/IMG_4697.JPG",
 
         description: [
-            "This is a test project description."
+              `
+            <h2>How can decentralized digital infrastructure support natural capital valuation, environmental restoration and community-based governance?</h2>
+<p>Project Type: Ostrom – Digital Measurement, Reporting and Verification (DMRV) of Natural Capital; Community-Based Urban Green Space Restoration, Kamukunji Park, Nairobi, Kenya.
+
+</p>
+<p>Partners: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom Project</a>, <a href="https://blck-iot.com/" target="_blank">BLCK IoT</a>, <a href="https://www.publicspacenetwork.org/" target="_blank">Public Space Network</a> and Kamukunji Environmental Conservation Champions (KECC).
+</p>
+<p>Funding: Filecoin Dev Grants – Green Grants Programme (Ostrom Project).
+</p>
+                <p>Outcomes: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
+                </p>
+            <p>
+         The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
+ </p>
+  <p>Complementary research with BLCK IoT and the Kamukunji Environmental Conservation Champions (KECC) community in Nairobi, Kenya, examined the application of decentralized Internet-of-Things (IoT) networks in community-led urban green space restoration. The study evaluated network reliability, operational costs, data traceability and opportunities for community participation, highlighting the potential of decentralized infrastructure for accessible environmental monitoring and inclusive data governance.
+
+
+            </p>
+            <p>Project Documentation: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom project Documentation</a>.
+</p>
+<p>Publication: <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full" target="_blank">Frontiers in Blockchain Article (2026)</a>.
+     </p>       
+            `
         ]
     },
 
