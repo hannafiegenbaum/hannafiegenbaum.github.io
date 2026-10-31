@@ -9,7 +9,7 @@ const projects = [
 
         cover: "img/IMG_5547.JPG",
 
-        description: [
+      
             description: [
     `
     <p>
@@ -31,7 +31,7 @@ const projects = [
     </p>
     `
 ]
-        ]
+        
     },
 
 
