@@ -194,10 +194,12 @@ const projects = [
 </p>
 <p>Publication: <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full" target="_blank">Frontiers in Blockchain Article (2026)</a>.
      </p>       
+     
      <img
         src="img/DSC_0764.jpg"
         alt="urban agriculture"
         class="project-inline-image">
+        
             `
         ]
     },
