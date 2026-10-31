@@ -109,7 +109,7 @@ const projects = [
     {
         id: "residual-value-models",
 
-        title: "Residual Value Models in Asset Valuation",
+        title: "Residual Value Models in Asset Valuation – Stakeholder Initiative",
 
         year: "2024-2026",
 
