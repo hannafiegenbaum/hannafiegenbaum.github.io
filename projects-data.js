@@ -217,9 +217,21 @@ const projects = [
                 <strong>Outcomes</strong>: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
                 </p>
             <p>
-         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
+         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. 
+         Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project implemented approaches to recurring ecosystem assessments and transparent, 
+         community-based natural capital governance.
  </p>
-  <p>Complementary research with BLCK IoT and the Kamukunji Environmental Conservation Champions (KECC) community in Nairobi, Kenya, examined the application of decentralized Internet-of-Things (IoT) networks in community-led urban green space restoration. The study evaluated network reliability, operational costs, data traceability and opportunities for community participation, highlighting the potential of decentralized infrastructure for accessible environmental monitoring and inclusive data governance.
+  <p>Complementary work with BLCK IoT and the Kamukunji Environmental Conservation Champions (KECC) community in Nairobi, Kenya, 
+tested the application of decentralized Internet-of-Things (IoT) networks in community-led urban green space restoration. 
+The study evaluated network reliability, operational costs, data traceability and opportunities for community participation, 
+highlighting the potential of decentralized infrastructure for accessible environmental monitoring and inclusive data governance.
+
+
+            </p>
+            <p>Environmental time series data supported ongoing urban restoration efforts in the Kamukunji park,
+            an urban green space used for recreational purposes and urban agriculture. Further, monitoring supported
+            activities to plant trees and clean up the Nairobi river which neighbours the park. Community activities were
+            organized around participatory citizen science and environmental monitoring in the city. 
 
 
             </p>
@@ -267,14 +279,14 @@ const projects = [
             <p>
          <strong>Project Description</strong>: 
  The international partner initiative, active across North and South America, Africa, and Europe, 
- explored existing resources, methodologies, technologies and financing mechanisms that could 
+ provided an overview of existing resources, methodologies, technologies and financing mechanisms that can 
  support smallholder farmers in accessing payments for ecosystem services and environmental 
  credit markets, supporting transitions to regenerative agriculture and agroforestry under locally specific
  contexts and conditions. 
  Working with a small yet international collective of partners, the initiative investigated 
  how available guidance, tools, knowledge centres and technical assistance, 
  technological and financial infrastructure and monitoring 
- approaches could be better connected and made more accessible through aligning 
+ approaches can be better connected and made more accessible through aligning 
  knowledge architectures with financing requirements.  
  The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts 
  and facilitate participation by smallholder farmers in nature-based financing mechanisms.
