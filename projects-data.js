@@ -211,7 +211,7 @@ const projects = [
 <strong>Partners</strong>: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom Project</a>, <a href="https://blck-iot.com/" target="_blank">BLCK IoT</a>, <a href="https://www.publicspacenetwork.org/" target="_blank">Public Space Network</a> and Kamukunji Environmental Conservation Champions (KECC).
 </p>
 <p>
-<strong>Funding</strong>: Filecoin Dev Grants – Green Grants Programme (Ostrom Project).
+<strong>Funding</strong>: Filecoin Dev Grants – Green Grants Programme.
 </p>
                 <p>
                 <strong>Outcomes</strong>: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
@@ -278,7 +278,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
                 </p>
             <p>
          <strong>Project Description</strong>: 
- The international partner initiative, active across North and South America, Africa, and Europe, 
+ Our international partner initiative, active across North and South America, Africa, and Europe, 
  provided an overview of existing resources, methodologies, technologies and financing mechanisms that can 
  support smallholder farmers in accessing payments for ecosystem services and environmental 
  credit markets, supporting transitions to regenerative agriculture and agroforestry under locally specific
