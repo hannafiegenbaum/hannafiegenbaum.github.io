@@ -262,11 +262,19 @@ const projects = [
 <strong>Funding</strong>: Gitcoin funding.
 </p>
                 <p>
-                <strong>Outcomes</strong>: Research and overview of available resources. 
+                <strong>Outcomes</strong>: Research and overview of available tools and resources. 
                 </p>
             <p>
          <strong>Project Description</strong>: 
- The partner initiative explored existing resources, methodologies, technologies and financing mechanisms that could support smallholder farmers in accessing payments for ecosystem services and environmental credit markets. Working with a small collective of partners, the initiative investigated how available tools, data infrastructure and monitoring approaches could be better connected and made more accessible through digital technologies. The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts and facilitate participation by smallholder farmers in nature-based financing mechanisms.
+ The international partner initiative, active across North and South America, Africa, and Europe, 
+ explored existing resources, methodologies, technologies and financing mechanisms that could 
+ support smallholder farmers in accessing payments for ecosystem services and environmental 
+ credit markets, supporting transitions to regenerative agriculture and agroforestry. 
+ Working with a small yet international collective of partners, the initiative investigated 
+ how available guidance, tools, technological and financial infrastructure and monitoring 
+ approaches could be better connected and made more accessible through combining financial and technological architectures.  
+ The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts 
+ and facilitate participation by smallholder farmers in nature-based financing mechanisms.
 
             </p>
             
