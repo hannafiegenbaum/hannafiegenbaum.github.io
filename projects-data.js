@@ -136,7 +136,7 @@ const projects = [
          recent sustainable finance policy and disclosure frameworks and regulation, the initiative's work explored 
          valuation methodologies, financial risks, collateral requirements and regulatory barriers. 
          Particular attention was given to adapting valuation standards and financing frameworks to recognize the economic value 
-         of material reuse, while supporting resource efficiency, emissions reduction and mitigation of vallue chain impacts on ecosystems.
+         of material reuse, while supporting resource efficiency, emissions reduction and mitigation of value chain impacts on ecosystems.
     </p>
     `
         ]
@@ -239,14 +239,41 @@ const projects = [
     {
         id: "pes-small-holder-farmers",
 
-        title: "PES Schemes for Small-Holder Farmers",
+        title: "PES Schemes and Environmental credits for Small-Holder Farmers",
 
         year: "2022",
 
         cover: "img/IMG_5739.jpg",
 
         description: [
-            "This is a test project description."
+             `
+            <h2>How can existing resources, methodologies and digital technologies be better leveraged to enable smallholder farmers to access payments for ecosystem services and environmental credit markets?</h2>
+<p>
+<strong>Project Type</strong>: Research & Development, Methodology Development. 
+</p>
+<p>
+<strong>Partners</strong>: <a href="https://agrivero.ai/" target="_blank">Agrivero.ai</a>, <a href="https://silvi.earth/" target="_blank">Silvi.earth</a>, <a href="https://earthist.network/" target="_blank">Earthist Network</a>, <a href="https://planet2050.earth/blog/regenerative-coffee" target="_blank">Coffee Impact Collective</a>. 
+</p>
+<p>
+<strong>Funding</strong>: Gitcoin funding.
+</p>
+                <p>
+                <strong>Outcomes</strong>: Research and overview of available resources. 
+                </p>
+            <p>
+         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
+ </p>
+  <p>The project explored existing resources, methodologies, technologies and financing mechanisms that could support smallholder farmers in accessing payments for ecosystem services and environmental credit markets. Working with a small collective of partners, the initiative investigated how available tools, data infrastructure and monitoring approaches could be better connected and made more accessible through digital technologies. The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts and facilitate participation by smallholder farmers in nature-based financing mechanisms.
+
+            </p>
+            
+     
+     <img
+        src="img/DSC_0764.jpg"
+        alt="urban agriculture"
+        class="project-inline-image">
+        
+            `
         ]
     }
 
