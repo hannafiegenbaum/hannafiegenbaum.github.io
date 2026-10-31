@@ -162,7 +162,7 @@ const projects = [
         <h2>How can innovative financing and community stewardship support the long-term protection of tropical rainforest ecosystems?</h2>
     </p>
  <p>
-        <strong>Project Type</strong>: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica (2025)
+        <strong>Project Type</strong>: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica.
     </p>
     <p>
        <strong> Partner</strong>: <a href="https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>. 
