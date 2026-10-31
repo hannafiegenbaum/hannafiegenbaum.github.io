@@ -136,7 +136,7 @@ const projects = [
         Project Type: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica (2025)
     </p>
     <p>
-        Partner:<a href"https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>
+        Partner: <a href"https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>
     </p>
 
     <p>
@@ -149,7 +149,7 @@ const projects = [
         The project combines biodiversity conservation, ecological restoration and community-based stewardship, 
         integrating local and Indigenous knowledge into long-term land governance. 
         The collaboration focused on exploring sustainable financing opportunities, 
-        including Costa Rica’s <a href="https://www.fonafifo.go.cr/en/" target="_blank">FONAFIFO</aA payment for ecosystem services programme, 
+        including Costa Rica’s <a href="https://www.fonafifo.go.cr/en/" target="_blank">FONAFIFO</a> payment for ecosystem services programme, 
         regional partnerships and alternative funding mechanisms to support long-term conservation and stewardship.
 </p>
 
