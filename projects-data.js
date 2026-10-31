@@ -265,9 +265,8 @@ const projects = [
                 <strong>Outcomes</strong>: Research and overview of available resources. 
                 </p>
             <p>
-         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project explored approaches to recurring ecosystem assessments and transparent, community-based natural capital governance.
- </p>
-  <p>The project explored existing resources, methodologies, technologies and financing mechanisms that could support smallholder farmers in accessing payments for ecosystem services and environmental credit markets. Working with a small collective of partners, the initiative investigated how available tools, data infrastructure and monitoring approaches could be better connected and made more accessible through digital technologies. The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts and facilitate participation by smallholder farmers in nature-based financing mechanisms.
+         <strong>Project Description</strong>: 
+ The partner initiative explored existing resources, methodologies, technologies and financing mechanisms that could support smallholder farmers in accessing payments for ecosystem services and environmental credit markets. Working with a small collective of partners, the initiative investigated how available tools, data infrastructure and monitoring approaches could be better connected and made more accessible through digital technologies. The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts and facilitate participation by smallholder farmers in nature-based financing mechanisms.
 
             </p>
             
