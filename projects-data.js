@@ -253,13 +253,13 @@ const projects = [
              `
             <h2>How can existing resources, methodologies and digital technologies be better leveraged to enable smallholder farmers to access payments for ecosystem services and environmental credit markets?</h2>
 <p>
-<strong>Project Type</strong>: Research & Development, Facilitation, Capacity Building. 
+<strong>Project Type</strong>: Research & Development, Facilitation, Capacity Building, Knowledge Exchange and Collection of knowledge & resources. 
 </p>
 <p>
 <strong>Partners</strong>: <a href="https://agrivero.ai/" target="_blank">Agrivero.ai</a>, <a href="https://silvi.earth/" target="_blank">Silvi.earth</a>, <a href="https://earthist.network/" target="_blank">Earthist Network</a>, <a href="https://planet2050.earth/blog/regenerative-coffee" target="_blank">Coffee Impact Collective</a>. 
 </p>
 <p>
-<strong>Funding</strong>: Gitcoin funding.
+<strong>Funding</strong>: Gitcoin.
 </p>
                 <p>
                 <strong>Outcomes</strong>: Research and overview of available tools and resources. 
@@ -269,10 +269,13 @@ const projects = [
  The international partner initiative, active across North and South America, Africa, and Europe, 
  explored existing resources, methodologies, technologies and financing mechanisms that could 
  support smallholder farmers in accessing payments for ecosystem services and environmental 
- credit markets, supporting transitions to regenerative agriculture and agroforestry. 
+ credit markets, supporting transitions to regenerative agriculture and agroforestry under locally specific
+ contexts and conditions. 
  Working with a small yet international collective of partners, the initiative investigated 
- how available guidance, tools, technological and financial infrastructure and monitoring 
- approaches could be better connected and made more accessible through combining financial and technological architectures.  
+ how available guidance, tools, knowledge centres and technical assistance, 
+ technological and financial infrastructure and monitoring 
+ approaches could be better connected and made more accessible through aligning 
+ knowledge architectures with financing requirements.  
  The work aimed to reduce technical and financial barriers, avoid duplication of existing efforts 
  and facilitate participation by smallholder farmers in nature-based financing mechanisms.
 
