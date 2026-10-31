@@ -243,7 +243,7 @@ const projects = [
 
         year: "2022",
 
-        cover: "img/IMG_5739.jpg",
+        cover: "img/agroforestrycoffee.jpg",
 
         description: [
              `
@@ -269,8 +269,8 @@ const projects = [
             
      
      <img
-        src="img/DSC_0764.jpg"
-        alt="urban agriculture"
+        src="img/agroforestrycoffee.jpg"
+        alt="coffee agriculture"
         class="project-inline-image">
         
             `
