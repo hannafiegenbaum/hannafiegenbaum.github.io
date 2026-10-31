@@ -3,14 +3,34 @@ const projects = [
     {
         id: "commons-to-bankable-projects",
 
-        title: "From Commons Governance and Social-Ecological Systems to Mechanism Choice",
+        title: "Adaptive Financing for Nature-Based Real Assets: A Bayesian Proof of Concept",
 
         year: "2026",
 
         cover: "img/IMG_5547.JPG",
 
         description: [
-            "This is a test project description."
+            description: [
+    `
+    <p>
+        <strong>How can investment mechanisms align individual incentives with shared ecological and economic outcomes?</strong>
+    </p>
+
+    <p>
+        Partner: Dr. Juan Camilo Orduz (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
+    </p>
+
+    <p>
+        Outcome: Research prototype. 
+    </p>
+
+    <p>
+        Developed with Juan Camilo Orduz (PyMC Labs), this research prototype combines a multi-agent base and their preferences, causal modelling and sequential Bayesian learning to compare cost-sharing, outcome-based payments and credit-based financing. 
+        Using upstream reforestation to reduce sediment risks for hydropower as an illustrative case, it explores how financing mechanisms can adapt to changing ecological conditions. 
+        The framework uses synthetic data to examine coordination, uncertainty and long-term asset performance.
+    </p>
+    `
+]
         ]
     },
 
