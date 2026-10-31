@@ -13,7 +13,7 @@ const projects = [
             description: [
     `
     <p>
-        <strong>How can investment mechanisms align individual incentives with shared ecological and economic outcomes?</strong>
+        <h2>How can investment mechanisms align individual incentives with shared ecological and economic outcomes?</h2>
     </p>
  <p>
         Project Type: Research & Development. 
@@ -48,7 +48,9 @@ const projects = [
 
         description: [
             `
-   
+    <p>
+        <h2>How do institutional rules and agent behavior shape nature-credit market outcomes and prices?</h2>
+    </p>
 
     <p>
         Project Type: Consultancy with the European Commission Joint Research Centre.
