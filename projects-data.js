@@ -138,6 +138,10 @@ const projects = [
          Particular attention was given to adapting valuation standards and financing frameworks to recognize the economic value 
          of material reuse, while supporting resource efficiency, emissions reduction and mitigation of value chain impacts on ecosystems.
     </p>
+    <img
+        src="img/circularconstruction.png"
+        alt="residual value models"
+        class="project-inline-image">
     `
         ]
     },
@@ -161,7 +165,7 @@ const projects = [
         <strong>Project Type</strong>: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica (2025)
     </p>
     <p>
-       <strong> Partner</strong>: <a href"https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>
+       <strong> Partner</strong>: <a href="https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>. 
     </p>
 
     <p>
