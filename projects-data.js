@@ -152,6 +152,10 @@ const projects = [
         including Costa Rica’s <a href="https://www.fonafifo.go.cr/en/" target="_blank">FONAFIFO</a> payment for ecosystem services programme, 
         regional partnerships and alternative funding mechanisms to support long-term conservation and stewardship.
 </p>
+<img
+        src="img/Costarica-osa.jpg"
+        alt="rainforest"
+        class="project-inline-image">
 
     `
         ]
@@ -190,6 +194,10 @@ const projects = [
 </p>
 <p>Publication: <a href="https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2025.1626695/full" target="_blank">Frontiers in Blockchain Article (2026)</a>.
      </p>       
+     <img
+        src="img/DSC_0764.JPEG"
+        alt="urban agriculture"
+        class="project-inline-image">
             `
         ]
     },
