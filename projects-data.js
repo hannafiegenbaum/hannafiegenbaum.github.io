@@ -113,7 +113,7 @@ const projects = [
         src="img/mitigationhierarchy-NOborder.jpg"
         alt="Mitigation hierarchy"
         class="project-inline-image">
-        Picture: Mitigation Hierarchy
+        Picture: Mitigation Hierarchy.
             `
         ]
     },
