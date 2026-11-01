@@ -155,6 +155,7 @@ const projects = [
         src="img/circularconstruction.png"
         alt="residual value models"
         class="project-inline-image">
+        Picture: Three pillars of circular construction.
     `
         ]
     },
@@ -198,6 +199,7 @@ const projects = [
         src="img/Costarica-osa.jpg"
         alt="rainforest"
         class="project-inline-image">
+        Picture: On site, by BioArca. 
 
     `
         ]
@@ -259,7 +261,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
         src="img/DSC_0764.jpg"
         alt="urban agriculture"
         class="project-inline-image">
-        
+        Picture: On site, by Elzaphan Murage.
             `
         ]
     },
@@ -311,7 +313,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
         src="img/agroforestrycoffee.jpg"
         alt="coffee agriculture"
         class="project-inline-image">
-        
+        Picture: Coffee cultivation alongside banana plants and shade trees in a hilly agroforestry landscape, by Coffee Impact Collective.
             `
         ]
     }
