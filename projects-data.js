@@ -152,7 +152,7 @@ const projects = [
          of material reuse, while supporting resource efficiency, emissions reduction and mitigation of value chain impacts on ecosystems.
     </p>
     <img
-        src="img/circularconstruction.png"
+        src="img/circularconstruction.jpg"
         alt="residual value models"
         class="project-inline-image">
         Picture: Three pillars of circular construction.
