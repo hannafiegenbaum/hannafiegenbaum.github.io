@@ -19,7 +19,7 @@ const projects = [
         <strong>Project Type</strong>: Research & Development. 
     </p>
     <p>
-        <strong>Partner</strong>: Dr. Juan Camilo Orduz (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
+        <strong>Partner</strong>: <a href="https://juanitorduz.github.io/about/" target="_blank">Dr. Juan Camilo Orduz</a> (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
     </p>
 
     <p>
@@ -156,6 +156,9 @@ const projects = [
         alt="residual value models"
         class="project-inline-image">
         Picture: Three pillars of circular construction.
+        <p>Related publication in Sustainable Cities and Society: Advances (2026) on applying the EU Level(s) framework
+        for sustainable buildings and using one of its circularity indicators: <a href="sciencedirect.com/science/article/pii/S3051052X26000860?via%3Dihub" target="_blank">Full article.</a>
+        </p>
     `
         ]
     },
