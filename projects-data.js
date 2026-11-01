@@ -110,7 +110,7 @@ const projects = [
             </p>
             
              <img
-        src="img/mitigationhierarchy.jpg"
+        src="img/mitigationhierarchy-NOborder.jpg"
         alt="Mitigation hierarchy"
         class="project-inline-image">
         Picture: Mitigation Hierarchy
