@@ -3,7 +3,7 @@ const projects = [
     {
         id: "commons-to-bankable-projects",
 
-        title: "Adaptive Financing for Nature-Based Real Assets: A Bayesian Proof of Concept",
+        title: "Adaptive Financing for Ecosystem Restoration: A Bayesian Proof of Concept",
 
         year: "2026",
 
@@ -101,6 +101,11 @@ const projects = [
                 and choosing their locations.
                 We work towards providing decision support to maximize and make use of planning optionality for the avoidance of negative impacts.
             </p>
+            
+             <img
+        src="img/mitigationhierarchy.jpg"
+        alt="Mitigation hierarchy"
+        class="project-inline-image">
             `
         ]
     },
