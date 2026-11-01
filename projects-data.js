@@ -106,6 +106,7 @@ const projects = [
         src="img/mitigationhierarchy.jpg"
         alt="Mitigation hierarchy"
         class="project-inline-image">
+        Picture: Mitigation Hierarchy
             `
         ]
     },
