@@ -298,7 +298,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
  support smallholder farmers in accessing payments for ecosystem services and environmental 
  credit markets, supporting transitions to regenerative agriculture and agroforestry under locally specific
  contexts and conditions. 
- Working with a small yet international collective of partners, the initiative investigated 
+ Working with an international network of partners, the initiative investigated 
  how available guidance, tools, knowledge centres and technical assistance, 
  technological and financial infrastructure and monitoring 
  approaches can be better connected and made more accessible through aligning 
