@@ -68,6 +68,13 @@ const projects = [
         a Biodiversity compliance market, it assessed how metrics, trading rules, demand mechanisms and project financing requirements influence prices and allocation. 
         The resulting report provided results and recommendations to inform European nature credit policy.
     </p>
+
+     <img
+        src="img/pricedispersion.jpg"
+        alt="Price variation"
+        class="project-inline-image">
+        Picture: Price variation across habitat types in England’s Biodiversity Net Gain market. Boxplots show price distributions per BNG unit (£). 
+    The individual observations are coloured according to their reported supply level.
     `
         ]
     },
