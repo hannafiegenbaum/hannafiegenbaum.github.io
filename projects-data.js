@@ -187,7 +187,8 @@ const projects = [
     </p>
 
     <p>
-        <strong>Outcomes</strong>: Sustainable finance strategy for conservation. Advanced FONAFIFO onboarding and explored regional partnerships for sustainable financing of conservation stewardship.
+        <strong>Outcomes</strong>: Sustainable finance strategy for conservation. Initiated and advanced FONAFIFO onboarding 
+        and established regional partnerships for sustainable financing of conservation stewardship.
     </p>
 
     <p>
