@@ -156,7 +156,8 @@ const projects = [
         alt="residual value models"
         class="project-inline-image">
         Picture: Three pillars of circular construction.
-        <p>Related publication in Sustainable Cities and Society: Advances (2026) on applying the EU Level(s) framework
+        
+        <p><strong>Related publication</strong>: Sustainable Cities and Society: Advances (2026) on applying the EU Level(s) framework
         for sustainable buildings and using one of its circularity indicators: <a href="sciencedirect.com/science/article/pii/S3051052X26000860?via%3Dihub" target="_blank">Full article.</a>
         </p>
     `
