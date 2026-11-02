@@ -137,7 +137,9 @@ const projects = [
         <strong>Project Type</strong>: Multi-Stakeholder Initiative, Outreach & Stakeholder Dialogue. 
     </p>
     <p>
-        <strong>Partners</strong>: Triodos Bank, Concular, WoodenValley, Züblin STRABAG, Steinbeis Centre for Circular Economy, andOffice Architekten.
+        <strong>Partners</strong>: <a href="https://www.triodos.de/" target="_blank">Triodos Bank</a>, <a href="https://concular.de/" target="_blank">Concular</a>, 
+        <a href="https://woodenvalley.de/" target="_blank">WoodenValley gGmbH</a>, <a href="https://karriere.strabag.com/at/aktuelles/2022-10/co2-reduzierter-beton" target="_blank">Züblin STRABAG</a>, <a href="https://www.steinbeis.de/kompetenzen/expertensuche/detail/circular-economy/" 
+        target="_blank">Steinbeis Centre for Circular Economy</a>, <a href="https://andoffice.com/" target="_blank">andOffice Architekten</a>.
     <p>
         <strong>Outcome</strong>: Webinar with Bauwende Allianz Germany and HypZert GmbH, Stakeholder Dialogue. 
     </p>
