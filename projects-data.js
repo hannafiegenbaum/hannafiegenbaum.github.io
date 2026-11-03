@@ -40,7 +40,7 @@ const projects = [
     {
         id: "price-formation-nature-based-credit-markets",
 
-        title: "Price Formation and Sustainable Market Development in Nature-Based Credit Markets – Research & Report for the EC JRC",
+        title: "Price Formation and Sustainable Market Development in Nature-Based Credit Markets – Analysis & Report for the EC JRC",
 
         year: "2026",
 
