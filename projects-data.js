@@ -40,7 +40,7 @@ const projects = [
     {
         id: "price-formation-nature-based-credit-markets",
 
-        title: "Price Formation and Sustainable Market Development in Nature-Based Credit Markets – Analysis & Report for the EC JRC",
+        title: "Price Formation and Sustainable Market Development in Nature-Based Credit Markets – Research, Analysis & Report for the EC JRC",
 
         year: "2026",
 
@@ -59,7 +59,7 @@ const projects = [
        <strong> Funding</strong>: Horizon Europe.  
     </p>
     <p>
-       <strong> Outcome</strong>: Research & Report.  
+       <strong> Outcome</strong>: Research, Quantitative Analysis & Report.  
     </p>
 
     <p>
