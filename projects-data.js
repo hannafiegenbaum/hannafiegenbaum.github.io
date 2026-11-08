@@ -5,7 +5,7 @@ const projects = [
 
         title: "Adaptive Financing for Ecosystem Restoration: A Bayesian Proof of Concept",
 
-        year: "2026",
+        year: "2026-ongoing",
 
         cover: "img/IMG_5547.JPG",
 
@@ -21,7 +21,9 @@ const projects = [
     <p>
         <strong>Partner</strong>: <a href="https://juanitorduz.github.io/about/" target="_blank">Dr. Juan Camilo Orduz</a> (Mathematician and Principal Data Scientist at <a href="https://www.pymc-labs.com/" target="_blank">PyMC Labs</a>)
     </p>
-
+ <p>
+        <strong>Geography</strong>: Europe. 
+    </p>
     <p>
         <strong>Outcome</strong>: Research prototype. 
     </p>
@@ -54,6 +56,9 @@ const projects = [
 
     <p>
        <strong> Project Type</strong>: Consultancy with the European Commission Joint Research Centre.
+    </p>
+     <p>
+       <strong> Geography</strong>: European Union.
     </p>
   <p>
        <strong> Funding</strong>: Horizon Europe.  
@@ -96,6 +101,7 @@ const projects = [
 <strong>Project Type</strong>: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
                     Impact Mitigation and Ecological Compensation thematic group
                 </a> working group.</p>
+                <strong>Geography</strong>: International. </p>
                 <p><strong>Outcomes</strong>: Academic publication and decision-making guidance for businesses and financial institutions.
                 </p>
             <p>
@@ -140,6 +146,10 @@ const projects = [
         <strong>Partners</strong>: <a href="https://www.triodos.de/" target="_blank">Triodos Bank</a>, <a href="https://concular.de/" target="_blank">Concular</a>, 
         <a href="https://woodenvalley.de/" target="_blank">WoodenValley gGmbH</a>, <a href="https://karriere.strabag.com/at/aktuelles/2022-10/co2-reduzierter-beton" target="_blank">Züblin STRABAG</a>, <a href="https://www.steinbeis.de/kompetenzen/expertensuche/detail/circular-economy/" 
         target="_blank">Steinbeis Centre for Circular Economy</a>, <a href="https://andoffice.com/" target="_blank">andOffice Architekten</a>.
+    </p>
+     <p>
+        <strong>Geography</strong>: Germany. 
+    </p>
     <p>
         <strong>Outcome</strong>: Webinar with Bauwende Allianz Germany and HypZert GmbH, Stakeholder Dialogue. 
     </p>
@@ -187,6 +197,9 @@ const projects = [
     <p>
        <strong> Partner</strong>: <a href="https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>. 
     </p>
+    <p>
+<strong>Geography</strong>:Costa Rica.
+</p>
 
     <p>
         <strong>Outcomes</strong>: Sustainable finance strategy for conservation. Initiated and advanced FONAFIFO onboarding 
@@ -231,6 +244,9 @@ const projects = [
 </p>
 <p>
 <strong>Partners</strong>: <a href="https://github.com/filecoin-project/devgrants/issues/1062" target="_blank">Ostrom Project</a>, <a href="https://blck-iot.com/" target="_blank">BLCK IoT</a>, <a href="https://www.publicspacenetwork.org/" target="_blank">Public Space Network</a> and Kamukunji Environmental Conservation Champions (KECC).
+</p>
+<p>
+<strong>Geography</strong>:Nairobi, Kenya.
 </p>
 <p>
 <strong>Funding</strong>: Filecoin Dev Grants – Green Grants Programme.
@@ -279,7 +295,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
 
         title: "PES Schemes and Environmental credits for Small-Holder Farmers",
 
-        year: "2022",
+        year: "2021-2022",
 
         cover: "img/agroforestrycoffee.jpg",
 
@@ -292,6 +308,10 @@ highlighting the potential of decentralized infrastructure for accessible enviro
 <p>
 <strong>Partners</strong>: <a href="https://agrivero.ai/" target="_blank">Agrivero.ai</a>, <a href="https://silvi.earth/" target="_blank">Silvi.earth</a>, <a href="https://earthist.network/" target="_blank">Earthist Network</a>, <a href="https://planet2050.earth/blog/regenerative-coffee" target="_blank">Coffee Impact Collective</a>. 
 </p>
+<p>
+<strong>Geographies</strong>: South America, Western Asia, South-East Africa.  
+</p>
+<p>
 <p>
 <strong>Funding</strong>: Gitcoin.
 </p>
