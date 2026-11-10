@@ -309,7 +309,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
 <strong>Partners</strong>: <a href="https://agrivero.ai/" target="_blank">Agrivero.ai</a>, <a href="https://silvi.earth/" target="_blank">Silvi.earth</a>, <a href="https://earthist.network/" target="_blank">Earthist Network</a>, <a href="https://planet2050.earth/blog/regenerative-coffee" target="_blank">Coffee Impact Collective</a>. 
 </p>
 <p>
-<strong>Geographies</strong>: South America, Western Asia, South-East Africa.  
+<strong>Geographies</strong>: South America, Western Asia, Europe, South-East Africa.  
 </p>
 <p>
 <p>
