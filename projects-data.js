@@ -32,7 +32,7 @@ const projects = [
          <strong>Project Description</strong>: Developed with Juan Camilo Orduz (PyMC Labs), this prior-predictive model combines a multi-agent base and their preferences, causal modelling and sequential Bayesian learning to 
          compare performance of cost-sharing, outcome-based payments and credit-based financing instruments under stochastic forest growth conditions. 
         Using upstream reforestation to reduce sediment risks for hydropower as an illustrative case, it explores how financing mechanisms can adapt to changing ecological conditions. 
-        The framework uses synthetic data to examine coordination, uncertainty and long-term asset performance.
+        The framework uses synthetic data to examine coordination, uncertainty, mechanism and long-term asset performance.
     </p>
     `
 ]
@@ -69,10 +69,11 @@ const projects = [
     </p>
 
     <p>
-       <strong>Project Description</strong>: This research project for the European Commission’s Joint Research Centre examined how market design shapes price formation and development 
-        across five voluntary and mandatory nature credit markets. Combining a literature and policy review with comparative market analysis and exploratory hedonic pricing of 
-        a Biodiversity compliance market, it assessed how metrics, trading rules, demand mechanisms and project financing requirements influence prices and allocation. 
-        The resulting report provided results and recommendations to inform European nature credit policy.
+       <strong>Project Description</strong>: This research report delivering policy support for the European Commission’s Joint Research Centre examined how market and institutional design 
+       as well as actor behavior shapes price formation and development across five voluntary and mandatory nature credit markets. 
+       Combining a literature and policy review with comparative market analysis and exploratory hedonic pricing of 
+        a biodiversity compliance market, it assessed how metrics, trading rules, demand mechanisms and project financing requirements influence prices and allocation. 
+        The resulting report provided results and recommendations to inform the European Commission's Policy on the Nature Credit Roadmap. 
     </p>
 
      <img
@@ -131,11 +132,11 @@ const projects = [
 
     year: "2023-2026",
 
-    cover: "img/.jpg",
+    cover: "img/GEFION_02_.png",
 
     description: [
         `
-        <h2>Sustainable real estate development</h2>
+        <h2>Sustainable real estate</h2>
 
         <p>
             <strong>Project Type</strong>: Sustainable Real Estate.
@@ -152,12 +153,13 @@ const projects = [
         </p>
 
         <p>
-            <strong>Outcomes</strong>: Implementation of circularity and timber-based construction principles, and peer-reviewed publication on applying LCA and circularity in practice,
+            <strong>Outcomes</strong>: Implementation of circularity and timber-based construction in real estate projects, digital workflows to support life cycle assessment and 
+            of buildings, and peer-reviewed publication on applying LCA and circularity in practice,
             including assessment of the European Union's <a href="https://green-forum.ec.europa.eu/green-business/levels_en" target="_blank">EU Level(s) Framework for Sustainable Buildings</a>.
         </p>
 
         <p>
-            <strong>Project Description</strong>: ...
+            <strong>Project Description</strong>: 
         </p>
         `
     ]
