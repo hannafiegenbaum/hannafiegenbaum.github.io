@@ -13,7 +13,7 @@ const projects = [
             description: [
     `
     <p>
-        <h2>How can investment mechanisms align individual incentives with shared ecological and economic outcomes?</h2>
+        <h2>Aligning investment mechanisms with individual incentives and shared ecological and economic outcomes in adaptive project finance</h2>
     </p>
  <p>
         <strong>Project Type</strong>: Research & Development. 
@@ -51,7 +51,7 @@ const projects = [
         description: [
             `
     <p>
-        <h2>How do institutional rules and agent behavior shape nature-credit market outcomes and prices?</h2>
+        <h2>Price Formation and Sustainable Market Development in Nature-Based Credit Markets</h2>
     </p>
 
     <p>
@@ -96,7 +96,7 @@ const projects = [
 
         description: [
             `
-            <h2>Biodiversity Impact Avoidance</h2>
+            <h2>Biodiversity impact avoidance in early-phase project design, location choices and planning</h2>
 <p>
 <strong>Project Type</strong>: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
                     Impact Mitigation and Ecological Compensation thematic group
@@ -123,7 +123,44 @@ const projects = [
             `
         ]
     },
+{
+    id: "sustainable-real-estate-circular-timber-construction",
 
+    title: "Sustainable Real Estate through Circular and Timber-Based Construction",
+
+    year: "2023-2026",
+
+    cover: "img/.jpg",
+
+    description: [
+        `
+        <h2>Sustainable real estate development</h2>
+
+        <p>
+            <strong>Project Type</strong>: Sustainable Real Estate.
+        </p>
+          <p>
+        <strong>Partners</strong>: 
+        <a href="https://woodenvalley.de/" target="_blank">WoodenValley gGmbH</a>, <a href="https://andoffice.com/" target="_blank">andOffice Architekten</a>,
+       <a href="https://www.hs-esslingen.de/en/" target="_blank">Esslingen University</a>,   <a href="https://irees.de/en/home-en/" target="_blank">IREES – Institute for Resource Efficiency and Energy Strategies</a>, 
+       <a href="https://netsyno.com/en/home-page/" target="_blank">Netsyno Software GmbH</a>, <a href="https://mlr.baden-wuerttemberg.de/de/startseite">Ministerium fuer Laendlichen Raum, Landwirtschaft und Heimat, Baden-Wuerttemberg</a>,  .
+    </p>
+
+        <p>
+            <strong>Geography</strong>: Baden-Wuerttemberg, Germany and Europe.
+        </p>
+
+        <p>
+            <strong>Outcomes</strong>: Implementation of circularity and timber-based construction principles, and peer-reviewed publication on applying LCA and circularity in practice,
+            including assessment of the European Union's <a href="https://green-forum.ec.europa.eu/green-business/levels_en" target="_blank">EU Level(s) Framework for Sustainable Buildings</a>.
+        </p>
+
+        <p>
+            <strong>Project Description</strong>: ...
+        </p>
+        `
+    ]
+}
 
     {
         id: "residual-value-models",
