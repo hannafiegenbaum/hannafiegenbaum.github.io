@@ -161,7 +161,7 @@ const projects = [
         </p>
         `
     ]
-}
+},
 
     {
         id: "residual-value-models",
