@@ -100,7 +100,7 @@ const projects = [
             `
             <h2>Biodiversity impact avoidance in early-phase project design, location choices and planning</h2>
 <p>
-<strong>Project Type</strong>: IUCN <a href="https://www.impactmitigation.org/" target="_blank">
+<strong>Project Type</strong>: <a href="https://www.impactmitigation.org/" target="_blank">IUCN 
                     Impact Mitigation and Ecological Compensation thematic group
                 </a> working group.</p>
                 <strong>Geography</strong>: International. </p>
