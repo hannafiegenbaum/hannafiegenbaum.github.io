@@ -29,7 +29,8 @@ const projects = [
     </p>
 
     <p>
-         <strong>Project Description</strong>: Developed with Juan Camilo Orduz (PyMC Labs), this research prototype combines a multi-agent base and their preferences, causal modelling and sequential Bayesian learning to compare cost-sharing, outcome-based payments and credit-based financing. 
+         <strong>Project Description</strong>: Developed with Juan Camilo Orduz (PyMC Labs), this prior-predictive model combines a multi-agent base and their preferences, causal modelling and sequential Bayesian learning to 
+         compare performance of cost-sharing, outcome-based payments and credit-based financing instruments under stochastic forest growth conditions. 
         Using upstream reforestation to reduce sediment risks for hydropower as an illustrative case, it explores how financing mechanisms can adapt to changing ecological conditions. 
         The framework uses synthetic data to examine coordination, uncertainty and long-term asset performance.
     </p>
