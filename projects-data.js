@@ -130,7 +130,7 @@ const projects = [
 
     title: "Sustainable Real Estate through Circular and Timber-Based Construction",
 
-    year: "2023-2026",
+    year: "2024-2026",
 
     cover: "img/GEFION_02_.png",
 
