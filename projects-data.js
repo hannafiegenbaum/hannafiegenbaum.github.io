@@ -154,7 +154,7 @@ const projects = [
 
         <p>
             <strong>Outcomes</strong>: Implementation of circularity and timber-based construction in real estate projects, digital workflows to support life cycle assessment and 
-            of buildings, and peer-reviewed publication on applying LCA and circularity in practice,
+            and ESG reporting for buildings, peer-reviewed publication on applying LCA and circularity in practice,
             including assessment of the European Union's <a href="https://green-forum.ec.europa.eu/green-business/levels_en" target="_blank">EU Level(s) Framework for Sustainable Buildings</a>.
         </p>
 
@@ -229,7 +229,7 @@ const projects = [
         description: [
              `
     <p>
-        <h2>How can innovative financing and community stewardship support the long-term protection of tropical rainforest ecosystems?</h2>
+        <h2>Supporting IPLC stewardship for the long-term protection of tropical rainforest ecosystems and the Baird's Tapir</h2>
     </p>
  <p>
         <strong>Project Type</strong>: Conservation of Tapir population and rainforest stewardship at BioArca de Osa, Osa Peninsula, Costa Rica.
@@ -250,10 +250,10 @@ const projects = [
         <strong>Project Description</strong>: Bioarca de Osa is a 57-hectare regenerative ecosystem sanctuary adjacent to Corcovado National Park in Costa Rica, 
         protecting tropical rainforest, cloud forest, wetlands and freshwater ecosystems. 
         The project combines biodiversity conservation, with a focus on the Baird's tapir, ecological restoration and community-based stewardship, 
-        integrating local and Indigenous knowledge into long-term land governance. 
-        The collaboration focused on mapping sustainable financing opportunities, 
-        including Costa Rica’s <a href="https://www.fonafifo.go.cr/en/" target="_blank">FONAFIFO</a> payment for ecosystem services programme, 
-        regional partnerships and alternative funding mechanisms to support long-term conservation and stewardship.
+        integrating local and Indigenous knowledge and IPLC stewardship into long-term land governance. 
+        The collaboration focused on mapping and advancing sustainable financing opportunities, 
+        including onboarding into Costa Rica’s <a href="https://www.fonafifo.go.cr/en/" target="_blank">FONAFIFO</a> payment for ecosystem services programme, 
+        regional partnerships and alternative funding mechanisms to support long-term conservation of species and ecosystems, participation by local initiatives and IPLC stewardship.
 </p>
 <img
         src="img/Costarica-osa.jpg"
@@ -277,7 +277,7 @@ const projects = [
 
         description: [
               `
-            <h2>How can decentralized digital infrastructure support natural capital valuation, environmental restoration and community-based governance?</h2>
+            <h2>Decentralized digital infrastructure for natural capital valuation, environmental restoration and community-based governance</h2>
 <p>
 <strong>Project Type</strong>: Technology Development and Community-based Urban Restoration. Ostrom – Digital Measurement, Reporting and Verification (DMRV) of Natural Capital; Community-Based Urban Green Space Restoration, Kamukunji Park, Nairobi, Kenya.
 
@@ -341,7 +341,7 @@ highlighting the potential of decentralized infrastructure for accessible enviro
 
         description: [
              `
-            <h2>How can existing resources, methodologies and digital technologies be better leveraged to enable smallholder farmers to access payments for ecosystem services and environmental credit markets?</h2>
+            <h2>Knowledge and financial-technological architectures to enhance smallholder farmers' access to payments for ecosystem services and environmental credit markets</h2>
 <p>
 <strong>Project Type</strong>: Research & Development, Facilitation, Capacity Building, Knowledge Exchange and Collection of knowledge & resources. 
 </p>
