@@ -159,7 +159,10 @@ const projects = [
         </p>
 
         <p>
-            <strong>Project Description</strong>: 
+            <strong>Project Description</strong>: Within the built environment consultancy <a href="https://woodenvalley.de/" target="_blank">WoodenValley gGmbH</a>, 
+            we developed circular and timber-based designs for building projects to reduce carbon emissions, biodiversity impact on-site and in the
+            value chain, reduce pollution, and enhance energy and water efficiency of buildings together with partners – architects, engineers, financial institutions,
+            environmental and energy consultants, public stakeholders and construction firms. 
         </p>
         `
     ]
@@ -238,7 +241,7 @@ const projects = [
        <strong> Partner</strong>: <a href="https://bioarca.org/" target="_blank">BioArca conservation and stewardship</a>. 
     </p>
     <p>
-<strong>Geography</strong>:Costa Rica.
+<strong>Geography</strong>:Costa Rica, Osa Península.
 </p>
 
     <p>
