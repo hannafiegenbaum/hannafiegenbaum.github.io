@@ -136,7 +136,7 @@ const projects = [
 
     description: [
         `
-        <h2>Sustainable real estate</h2>
+        <h2>Circular and Timber-based Construction in Real Estate</h2>
 
         <p>
             <strong>Project Type</strong>: Sustainable Real Estate.
