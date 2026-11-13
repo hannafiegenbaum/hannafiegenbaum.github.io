@@ -194,7 +194,9 @@ const projects = [
         <strong>Geography</strong>: Germany. 
     </p>
     <p>
-        <strong>Outcome</strong>: Webinar with Bauwende Allianz Germany and HypZert GmbH, Stakeholder Dialogue. 
+        <strong>Outcome</strong>: Webinar with <a href="https://bauwende-allianz.org/" target="_blank">Bauwende Allianz</a> Germany, a stakeholder initiative
+        advancing sustainable transformation of the architecture, engineering and construction field, including real estate and infrastructure, 
+        and <a href="https://www.hypzert.de/en" target="_blank">HypZert GmbH</a>, Stakeholder Dialogue. 
     </p>
 
     <p>
