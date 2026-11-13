@@ -196,7 +196,8 @@ const projects = [
     <p>
         <strong>Outcome</strong>: Webinar with <a href="https://bauwende-allianz.org/" target="_blank">Bauwende Allianz</a> Germany, a stakeholder initiative
         advancing sustainable transformation of the architecture, engineering and construction field, including real estate and infrastructure, 
-        and <a href="https://www.hypzert.de/en" target="_blank">HypZert GmbH</a>, Stakeholder Dialogue. 
+        and <a href="https://www.hypzert.de/en" target="_blank">HypZert GmbH</a>, a real estate valuation and certification body, 
+        Stakeholder Dialogue. 
     </p>
 
     <p>
