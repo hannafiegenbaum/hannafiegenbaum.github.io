@@ -175,7 +175,7 @@ const projects = [
 
         year: "2024-2026",
 
-        cover: "img/circularconstruction.jpg",
+        cover: "img/1719496243176.jpeg",
 
         description: [
             `
@@ -274,7 +274,7 @@ const projects = [
     {
         id: "nairobi-urban-green-space-restoration",
 
-        title: "Community-Based Urban Green Space Restoration in Nairobi, Kenya, and Decentralized MRV Systems",
+        title: "Natural Capital Accounting for Community-Based Urban Green Space Restoration in Nairobi, Kenya, and Decentralized MRV Systems",
 
         year: "2022-2023",
 
@@ -300,7 +300,7 @@ const projects = [
                 <strong>Outcomes</strong>: Development of open-source methodologies and tools for natural capital monitoring and valuation; peer-reviewed publication in Frontiers in Blockchain (2026).
                 </p>
             <p>
-         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital and ecosystem services. 
+         <strong>Project Description</strong>: The Ostrom project focused on developing digital methods and tools for measuring, reporting, verifying and valuing natural capital, including biodiversity and ecosystem services. 
          Combining geospatial data, environmental sensors, economic valuation methods and decentralized data infrastructure, the project implemented approaches to recurring ecosystem assessments and transparent, 
          community-based natural capital governance.
  </p>
